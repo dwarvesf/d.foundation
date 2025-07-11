@@ -23,27 +23,27 @@
               "pages": [
                 [
                   "Go",
-                  "services/go"
+                  "/services/go"
                 ],
                 [
                   "Elixir",
-                  "services/elixir"
+                  "/services/elixir"
                 ],
                 "Node.js",
                 [
                   "React",
-                  "services/react"
+                  "/services/react"
                 ],
                 [
                   "TypeScript",
-                  "services/typescript"
+                  "/services/typescript"
                 ],
                 "Docker",
                 "Kubernetes",
                 "GCP/AWS",
                 [
                   "Swift",
-                  "services/swift"
+                  "/services/swift"
                 ],
                 "React Native",
                 "Blockchain",
@@ -55,11 +55,11 @@
               "pages": [
                 [
                   "Body Leasing",
-                  "services/body-leasing"
+                  "/services/body-leasing"
                 ],
                 [
                   "Development Center",
-                  "services/odc"
+                  "/services/odc"
                 ],
                 "Build-Operate-Transfer"
               ]
@@ -81,14 +81,14 @@
                 "Web Development",
                 [
                   "Mobile Development",
-                  "services/mobile"
+                  "/services/mobile"
                 ],
                 "Tooling Development",
                 "API Integration",
                 "Managed Services",
                 [
                   "Level Up",
-                  "services/level-up"
+                  "/services/level-up"
                 ]
               ]
             },
@@ -98,19 +98,19 @@
               "pages": [
                 [
                   "Ideate",
-                  "startup/ideate"
+                  "/startup/ideate"
                 ],
                 [
                   "Validation",
-                  "startup/validation"
+                  "/startup/validation"
                 ],
                 [
                   "MVP Development",
-                  "startup/mvp"
+                  "/startup/mvp"
                 ],
                 [
                   "Scale Up",
-                  "startup/scale"
+                  "/startup/scale"
                 ]
               ]
             }
@@ -118,11 +118,11 @@
         },
         {
           "tab": "Work",
-          "href": "work"
+          "href": "/work"
         },
         {
           "tab": "Manifesto",
-          "href": "manifesto"
+          "href": "/manifesto"
         },
         {
           "tab": "Memo",
@@ -134,7 +134,7 @@
             "button",
             "primary"
           ],
-          "href": "contact"
+          "href": "/contact"
         }
       ]
     }
@@ -180,15 +180,15 @@
       },
       {
         "title": "Foundation",
-        "href": "#",
+        "href": "/#",
         "tabs": [
           {
             "tab": "Services",
-            "href": "#services"
+            "href": "/#services"
           },
           {
             "tab": "Our Work",
-            "href": "work"
+            "href": "/work"
           },
           {
             "tab": "Playbook",
@@ -196,15 +196,15 @@
           },
           {
             "tab": "Open Source",
-            "href": "opensource"
+            "href": "/opensource"
           },
           {
             "tab": "About us",
-            "href": "about"
+            "href": "/about"
           },
           {
             "tab": "Hire us",
-            "href": "contact",
+            "href": "/contact",
             "type": ["link", "primary"]
           }
         ]
@@ -256,15 +256,15 @@
         "tabs": [
           {
             "tab": "5 Years",
-            "href": "five"
+            "href": "/five"
           },
           {
             "tab": "Our Story",
-            "href": "about"
+            "href": "/about"
           },
           {
             "tab": "Alumni",
-            "href": "alumni"
+            "href": "/alumni"
           },
           {
             "tab": "Privacy Policy",
@@ -273,11 +273,11 @@
           {
             "tab": "Partnership",
             "tag": "new",
-            "href": "partner"
+            "href": "/partner"
           },
           {
             "tab": "CSR",
-            "href": "csr"
+            "href": "/csr"
           }
         ]
       }
