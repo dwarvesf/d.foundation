@@ -282,5 +282,21 @@
         ]
       }
     ]
+  },
+  "404": {
+    "description": "Trying to look for a hidden gem?",
+    "image": "/images/404.png",
+    "buttons": [
+      {
+        "text": "Back to Home",
+        "href": "/",
+        "type": "link"
+      },
+      {
+        "text": "Join our alumni network",
+        "href": "https://www.reddit.com/r/dwarvesf",
+        "type": "outline"
+      }
+    ]
   }
 }
