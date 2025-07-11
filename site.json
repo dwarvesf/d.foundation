@@ -137,6 +137,43 @@
           "href": "/contact"
         }
       ]
+    },
+    "mobile-navigation-footer": {
+      "email": "team@dwarves.foundation",
+      "socials": {
+        "facebook": [
+          "https://www.facebook.com/dwarvesf",
+          "facebook-icon"
+        ],
+        "linkedin": [
+          "https://linkedin.com/company/dwarvesf",
+          "linkedin-icon"
+        ],
+        "x": [
+          "https://twitter.com/dwarvesf",
+          "x-icon"
+        ],
+        "github": [
+          "https://github.com/dwarvesf",
+          "github-icon"
+        ],
+        "discord": [
+          "https://discord.gg/VCeYSNzm",
+          "discord-icon"
+        ],
+        "instagram": [
+          "https://www.instagram.com/dwarves.foundation/",
+          "instagram-icon"
+        ],
+        "behance": [
+          "https://www.behance.net/dwarvesf",
+          "behance-icon"
+        ],
+        "dribbble": [
+          "https://dribbble.com/dwarvesf",
+          "dribbble-icon"
+        ]
+      }
     }
   },
   "footer": {
@@ -144,7 +181,11 @@
       "text": "Dwarves, LLC © 2015 - 2025 All rights reserved.",
       "email": "team@dwarves.foundation",
       "socials": {
-        "telegram": ["https://t.me/dwarvesfoundation", "telegram-icon", "@dwarvesf"]
+        "telegram": [
+          "https://t.me/dwarvesfoundation",
+          "telegram-icon",
+          "@dwarvesf"
+        ]
       }
     },
     "column-sections": [
@@ -168,14 +209,38 @@
           }
         ],
         "socials": {
-          "facebook": ["https://www.facebook.com/dwarvesf", "facebook-icon"],
-          "linkedin": ["https://linkedin.com/company/dwarvesf", "linkedin-icon"],
-          "x": ["https://twitter.com/dwarvesf", "x-icon"],
-          "github": ["https://github.com/dwarvesf", "github-icon"],
-          "discord": ["https://discord.gg/VCeYSNzm", "discord-icon"],
-          "instagram": ["https://www.instagram.com/dwarves.foundation/", "instagram-icon"],
-          "behance": ["https://www.behance.net/dwarvesf", "behance-icon"],
-          "dribbble": ["https://dribbble.com/dwarvesf", "dribbble-icon"]
+          "facebook": [
+            "https://www.facebook.com/dwarvesf",
+            "facebook-icon"
+          ],
+          "linkedin": [
+            "https://linkedin.com/company/dwarvesf",
+            "linkedin-icon"
+          ],
+          "x": [
+            "https://twitter.com/dwarvesf",
+            "x-icon"
+          ],
+          "github": [
+            "https://github.com/dwarvesf",
+            "github-icon"
+          ],
+          "discord": [
+            "https://discord.gg/VCeYSNzm",
+            "discord-icon"
+          ],
+          "instagram": [
+            "https://www.instagram.com/dwarves.foundation/",
+            "instagram-icon"
+          ],
+          "behance": [
+            "https://www.behance.net/dwarvesf",
+            "behance-icon"
+          ],
+          "dribbble": [
+            "https://dribbble.com/dwarvesf",
+            "dribbble-icon"
+          ]
         }
       },
       {
@@ -205,7 +270,10 @@
           {
             "tab": "Hire us",
             "href": "/contact",
-            "type": ["link", "primary"]
+            "type": [
+              "link",
+              "primary"
+            ]
           }
         ]
       },
@@ -246,7 +314,10 @@
           {
             "tab": "Join us",
             "href": "https://dwarves.careers/",
-            "type": ["link", "primary"]
+            "type": [
+              "link",
+              "primary"
+            ]
           }
         ]
       },
