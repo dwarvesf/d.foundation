@@ -25,9 +25,9 @@ jobs:
       - name: Checkout this repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1  # Fetch all history for all branches and tags
+          fetch-depth: 1
 
-      - name: Remove existing files
+      - name: Move all root files content to under content directory
         run: |
           # Copy all files to .tmp-content
           mkdir -p .tmp-content
@@ -60,7 +60,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: |
-            .next/cache
+            app/.next/cache
           # Generate a new cache whenever packages or source files change.
           key: ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
           # If source files changed but packages didn't, rebuild from a prior cache.
