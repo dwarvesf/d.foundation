@@ -194,17 +194,17 @@
         "content": [
           {
             "type": "text",
-            "title": "CA",
+            "title": "CA:",
             "text": "8 Leavey Court, Toronto"
           },
           {
             "type": "text",
-            "title": "US",
+            "title": "US:",
             "text": "2035 Sunset Lake, Delaware"
           },
           {
             "type": "text",
-            "title": "VN",
+            "title": "VN:",
             "text": "200 Ba Thang Hai, Ho Chi Minh"
           }
         ],
