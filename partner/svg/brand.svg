@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="48px" viewBox="0 0 68 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="28.1695986%" y1="24.8412002%" x2="155.65304%" y2="90.7901921%" id="linearGradient-1">
+            <stop stop-color="#F57B94" offset="0%"></stop>
+            <stop stop-color="#E3486A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-12.0388617%" y1="1.21379425%" x2="155.65304%" y2="90.7901921%" id="linearGradient-2">
+            <stop stop-color="#FBA4B5" offset="0%"></stop>
+            <stop stop-color="#E3486A" stop-opacity="0.719089674" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Partner" transform="translate(-834.000000, -1864.000000)">
+            <g id="Group-4" transform="translate(740.000000, 1597.000000)">
+                <g id="Group-3" transform="translate(94.000000, 267.000000)">
+                    <path d="M45.9264695,43.9155947 L27.4053895,7.2880472 C25.1259242,2.77954018 20.4718743,0.124602885 15.585122,0.014659163 C15.4849071,0.0114015712 15.38724,0 15.287025,0 L3.38607604,0 C1.51596331,0 0,1.45370033 0,3.2470046 L0,3.39278184 C0,10.3925322 5.81841158,16.0762154 13.0695571,16.2700421 L25.2567132,40.3705205 C28.6563777,47.0933755 37.096514,49.9014196 44.1064643,46.6413847 L45.109463,46.1747346 C45.9850698,45.7667213 46.3519584,44.755239 45.9264695,43.9155947" id="Fill-1" fill="url(#linearGradient-1)"></path>
+                    <path d="M67.0730515,2.08078068 L65.3984442,1.30012182 C58.7084984,-1.81925067 50.655283,0.866966282 47.4112616,7.29985631 L40.6296959,20.7488872 L50.057209,39.4455446 L67.8348536,4.19190412 C68.2310246,3.40716658 67.8899952,2.46172915 67.0730515,2.08078068" id="Fill-4" fill="url(#linearGradient-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

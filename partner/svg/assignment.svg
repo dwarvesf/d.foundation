@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="59px" viewBox="0 0 74 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-assignment</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-12.0388617%" y1="1.21379425%" x2="155.65304%" y2="90.7901921%" id="linearGradient-1">
+            <stop stop-color="#F57B94" offset="0%"></stop>
+            <stop stop-color="#E3486A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-12.0388617%" y1="1.21379425%" x2="270.409236%" y2="172.339899%" id="linearGradient-2">
+            <stop stop-color="#F6B4C2" offset="0%"></stop>
+            <stop stop-color="#F6708E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Partner" transform="translate(-984.000000, -1649.000000)">
+            <g id="Group-4" transform="translate(740.000000, 1597.000000)">
+                <g id="ic-assignment" transform="translate(244.000000, 52.000000)">
+                    <rect id="Rectangle-15-Copy" fill="url(#linearGradient-1)" x="0" y="38.505383" width="20.4923077" height="20.3262874" rx="2"></rect>
+                    <rect id="Rectangle-15-Copy-2" fill="url(#linearGradient-2)" x="27.5254701" y="38.505383" width="20.5437959" height="20.3773585" rx="2"></rect>
+                    <rect id="Rectangle-15-Copy-3" fill="url(#linearGradient-1)" x="53.4317949" y="38.505383" width="20.5437959" height="20.3773585" rx="2"></rect>
+                    <path d="M9.71487179,38.505383 L9.71487179,32.5660377 C9.71487179,31.4614682 10.6103023,30.5660377 11.7148718,30.5660377 L61.1466667,30.5660377 C62.2512362,30.5660377 63.1466667,31.4614682 63.1466667,32.5660377 L63.1466667,38.1674954" id="Path-7" stroke="#E98699" stroke-dasharray="2"></path>
+                    <path d="M36.8355556,19.6384116 L36.8355556,37.9245283" id="Line-6" stroke="#E98699" stroke-linecap="square" stroke-dasharray="2"></path>
+                    <rect id="Rectangle-15" fill="url(#linearGradient-1)" x="26.7158974" y="0" width="20.5437959" height="20.3773585" rx="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
