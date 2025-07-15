@@ -14,10 +14,11 @@ description: "Welcome to the home of your new documentation"
   className="dwarves-container"
 >
 <Section>
-<Row gap="2xl">
+<Row gap="2xl" className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-auto">
 <Image
   src="./images/home/team-learning.png"
   alt="team-learning"
+  className="hidden lg:block"
 />
 <Image
   src="./images/home/team-working.png"
@@ -26,6 +27,7 @@ description: "Welcome to the home of your new documentation"
 <Image
   src="./images/home/working.png"
   alt="working"
+  className="hidden lg:block"
 />
 </Row>
 </Section>
@@ -176,11 +178,12 @@ description: "Welcome to the home of your new documentation"
       'chotot-logo.png',
       'mudah-logo.png',
     ].map((logo, index) => (
-      <Center className="h-full lg:h-40 max-h-[160px] px-12" key={index}>
+      <Center className="h-full lg:h-40 max-h-[80px] lg:max-h-[160px] px-12 min-w-[200px]" key={index}>
         <Image
           src={`./images/home/${logo}`}
           alt={logo.replace('.png', '')}
-          className="w-auto"
+          className="w-auto h-full object-contain relative"
+          containerClassName="h-full w-full flex items-center justify-center"
         />
       </Center>
     ))}
