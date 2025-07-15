@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="79px" viewBox="0 0 90 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-practices</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-12.0388617%" y1="1.21379425%" x2="155.65304%" y2="90.7901921%" id="linearGradient-1">
+            <stop stop-color="#F57B94" offset="0%"></stop>
+            <stop stop-color="#E3486A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-12.0388617%" y1="1.21379425%" x2="155.65304%" y2="90.7901921%" id="linearGradient-2">
+            <stop stop-color="#F6B4C2" offset="0%"></stop>
+            <stop stop-color="#F6708E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tech" transform="translate(-234.000000, -1514.000000)">
+            <g id="Tech-index" transform="translate(137.000000, 854.000000)">
+                <g id="Technology" transform="translate(2.000000, 209.000000)">
+                    <g id="Group-17" transform="translate(0.000000, 399.000000)">
+                        <g id="ic-practices" transform="translate(95.000000, 52.000000)">
+                            <rect id="Rectangle-15-Copy" fill="url(#linearGradient-1)" x="0" y="54.8621554" width="24" height="23.9398496" rx="2"></rect>
+                            <rect id="Rectangle-15" fill="url(#linearGradient-1)" x="33" y="0" width="24" height="23.9398496" rx="2"></rect>
+                            <rect id="Rectangle-15-Copy-2" fill="url(#linearGradient-2)" x="34" y="54.8621554" width="24" height="23.9398496" rx="2"></rect>
+                            <rect id="Rectangle-15-Copy-3" fill="url(#linearGradient-1)" x="66" y="54.8621554" width="24" height="23.9398496" rx="2"></rect>
+                            <path d="M12,55.8596491 L12,41.8997494 C12,40.7951799 12.8954305,39.8997494 14,39.8997494 L76,39.8997494 C77.1045695,39.8997494 78,40.7951799 78,41.8997494 L78,55.1804179" id="Path-7" stroke="#E98699"></path>
+                            <path d="M45.5,24.3945894 L45.5,54.5875148" id="Line-6" stroke="#E98699" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

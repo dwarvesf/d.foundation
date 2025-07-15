@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="44px" viewBox="0 0 56 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-communication</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-12.0388617%" y1="1.21379425%" x2="155.65304%" y2="90.7901921%" id="linearGradient-1">
+            <stop stop-color="#F57B94" offset="0%"></stop>
+            <stop stop-color="#E3486A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-12.0388617%" y1="1.21379425%" x2="155.65304%" y2="90.7901921%" id="linearGradient-2">
+            <stop stop-color="#F6B4C2" offset="0%"></stop>
+            <stop stop-color="#F6708E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tech" transform="translate(-529.000000, -1698.000000)">
+            <g id="Tech-index" transform="translate(137.000000, 854.000000)">
+                <g id="Technology" transform="translate(2.000000, 209.000000)">
+                    <g id="Communication" transform="translate(279.000000, 599.000000)">
+                        <g id="ic-communication" transform="translate(111.000000, 36.000000)">
+                            <path d="M22,0 C34.15625,0 44,6.95746528 44,15.5555556 C44,24.1536458 34.15625,31.1111111 22,31.1111111 C20.09375,31.1111111 18.25,30.9288194 16.5,30.625 C13.90625,32.4175347 10.96875,33.7239583 7.8125,34.5138889 C6.96875,34.7265625 6.0625,34.8784722 5.125,35 C4.5625,35 4.125,34.6354167 4.03125,34.1189236 C3.90625,33.5416667 4.3125,33.1770833 4.65625,32.7821181 C5.875,31.4453125 7.25,30.2604167 8.3125,27.7387153 C3.25,24.8828125 0,20.4774306 0,15.5555556 C0,6.95746528 9.84375,0 22,0 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                            <g id="Group-15" transform="translate(12.000000, 8.000000)" fill="url(#linearGradient-2)" opacity="0.766852679">
+                                <path d="M21.6071429,0 C33.546317,0 43.2142857,7.01462703 43.2142857,15.6833582 C43.2142857,24.3520895 33.546317,31.3667165 21.6071429,31.3667165 C19.734933,31.3667165 17.9241071,31.1829271 16.2053571,30.8766115 C13.6579241,32.6838735 10.7728795,34.0010306 7.67299107,34.7974511 C6.84430804,35.011872 5.95424107,35.1650298 5.03348214,35.2875561 L4.94140625,35.2875561 C4.48102679,35.2875561 4.05133929,34.9199773 3.95926339,34.3992408 C3.83649554,33.8172412 4.23549107,33.4496625 4.57310268,33.0514522 C5.77008929,31.7036636 7.12053571,30.5090328 8.1640625,27.9666134 C3.19196429,25.0872469 0,20.6456708 0,15.6833582 C0,7.01462703 9.66796875,0 21.6071429,0 Z" id="comments-o---FontAwesome" transform="translate(21.607143, 17.643778) scale(-1, 1) translate(-21.607143, -17.643778) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

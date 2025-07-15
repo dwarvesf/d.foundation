@@ -1,0 +1,49 @@
+
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="-12.0388617%" y1="1.21379425%" x2="281.470071%" y2="203.526786%" id="linearGradient-1">
+            <stop stop-color="#F6B4C2" offset="0%"></stop>
+            <stop stop-color="#F6708E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-12.0388617%" y1="27.8433158%" x2="281.470071%" y2="119.725539%" id="linearGradient-2">
+            <stop stop-color="#F6B4C2" offset="0%"></stop>
+            <stop stop-color="#F6708E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-12.0388617%" y1="1.21379425%" x2="155.65304%" y2="90.7901921%" id="linearGradient-3">
+            <stop stop-color="#FBA4B5" offset="0%"></stop>
+            <stop stop-color="#E3486A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-12.0388617%" y1="27.8433158%" x2="155.65304%" y2="68.5252243%" id="linearGradient-4">
+            <stop stop-color="#FBA4B5" offset="0%"></stop>
+            <stop stop-color="#E3486A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-us" transform="translate(-688.000000, -1168.000000)">
+            <g id="Padding-Group-9">
+                <g transform="translate(0.000000, 880.000000)">
+                    <g id="Stacked-Group" transform="translate(140.000000, 83.000000)">
+                        <g id="Stacked-Group-6">
+                            <g id="We-stand-for" transform="translate(0.000000, 165.000000)">
+                                <g id="Teamwork" transform="translate(400.000000, 0.000000)">
+                                    <g id="Group-7" transform="translate(148.000000, 40.000000)">
+                                        <g id="Group-3-Copy" transform="translate(11.428571, 0.000000)" opacity="0.75">
+                                            <g id="Group-6">
+                                                <circle id="Oval-2" fill="url(#linearGradient-1)" cx="25.7142857" cy="13.1428571" r="13.1428571"></circle>
+                                                <path d="M17.7142857,28.5714286 L34.8571429,28.5714286 C44.6404727,28.5714286 52.5714286,36.5023844 52.5714286,46.2857143 L52.5714286,62 C52.5714286,63.1045695 51.6759981,64 50.5714286,64 L2,64 C0.8954305,64 1.3527075e-16,63.1045695 0,62 L0,46.2857143 C-1.19811236e-15,36.5023844 7.93095586,28.5714286 17.7142857,28.5714286 Z" id="Rectangle-7" fill="url(#linearGradient-2)"></path>
+                                            </g>
+                                        </g>
+                                        <g id="Group-3">
+                                            <circle id="Oval-2" fill="url(#linearGradient-3)" cx="25.7142857" cy="13.1428571" r="13.1428571"></circle>
+                                            <path d="M17.7142857,28.5714286 L34.8571429,28.5714286 C44.6404727,28.5714286 52.5714286,36.5023844 52.5714286,46.2857143 L52.5714286,62 C52.5714286,63.1045695 51.6759981,64 50.5714286,64 L2,64 C0.8954305,64 1.3527075e-16,63.1045695 0,62 L0,46.2857143 C-1.19811236e-15,36.5023844 7.93095586,28.5714286 17.7142857,28.5714286 Z" id="Rectangle-7" fill="url(#linearGradient-4)"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

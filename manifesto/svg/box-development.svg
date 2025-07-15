@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="55px" viewBox="0 0 79 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-Dev</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-12.0388617%" y1="1.21379425%" x2="155.65304%" y2="90.7901921%" id="linearGradient-1">
+            <stop stop-color="#F6B4C2" offset="0%"></stop>
+            <stop stop-color="#F6708E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-12.0388617%" y1="1.21379425%" x2="155.65304%" y2="90.7901921%" id="linearGradient-2">
+            <stop stop-color="#FBA4B5" offset="0%"></stop>
+            <stop stop-color="#E3486A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tech" transform="translate(-238.000000, -1135.000000)">
+            <g id="Tech-index" transform="translate(137.000000, 854.000000)">
+                <g id="Technology" transform="translate(2.000000, 209.000000)">
+                    <g id="Dev">
+                        <g id="ic-Dev" transform="translate(99.000000, 72.448363)">
+                            <rect id="Rectangle-15" fill="url(#linearGradient-1)" opacity="0.8" x="7.97979798" y="7.88116758" width="71.020202" height="45.710772" rx="1.6"></rect>
+                            <rect id="Rectangle-15" fill="url(#linearGradient-2)" opacity="0.95" x="0" y="0" width="71.020202" height="45.710772" rx="1.6"></rect>
+                            <g id="Group-336" transform="translate(19.556059, 12.755816)" fill="#FFFFFF">
+                                <polygon id="Fill-327" points="9.97627617 20.5699314 13.3602353 21.9797007 22.2547699 1.41103938 18.8721044 0"></polygon>
+                                <polygon id="Fill-330" points="6.74900853 3.78960357 0 10.9905037 6.74900853 18.1900971 9.20887031 15.5650548 4.92094798 10.9905037 9.20887031 6.4146459"></polygon>
+                                <polygon id="Fill-333" points="24.7149588 3.78960357 22.2547699 6.4146459 26.5420379 10.9905037 22.2547699 15.5650548 24.7149588 18.1900971 31.4636402 10.9905037"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

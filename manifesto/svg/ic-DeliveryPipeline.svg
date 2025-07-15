@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="80px" viewBox="0 0 80 80" version="1.1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+  <title>ic-DeliveryPipline</title>
+  <desc>Created with Sketch.</desc>
+  <defs>
+    <linearGradient x1="-12.0388617%" y1="1.21379425%"
+    x2="155.65304%" y2="90.7901921%" id="linearGradient-1">
+      <stop stop-color="#F57B94" offset="0%"></stop>
+      <stop stop-color="#E3486A" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient x1="-12.0388617%" y1="1.21379425%"
+    x2="155.65304%" y2="90.7901921%" id="linearGradient-2">
+      <stop stop-color="#F6B4C2" offset="0%"></stop>
+      <stop stop-color="#F6708E" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none"
+  fill-rule="evenodd">
+    <g id="Tech" transform="translate(-861.000000, -2941.000000)">
+      <g id="Agile-dwarves"
+      transform="translate(0.000000, 2731.000000)">
+        <g id="Delivery-pipeline"
+        transform="translate(721.000000, 151.000000)">
+          <g id="ic-DeliveryPipline"
+          transform="translate(140.000000, 59.000000)">
+            <g id="pie-chart" fill-rule="nonzero">
+              <path d="M42.2167695,0.0169899939 L42.2167695,19.6535021 C52.369615,20.3304881 60.4281516,28.8215642 60.4281516,39.1906882 C60.4281516,44.1256279 58.5901029,48.6279763 55.5826232,52.078252 L69.3946557,65.9551562 C75.9286394,58.9435164 79.9403468,49.5310598 79.9403468,39.1906882 C79.9403468,18.0107004 63.1338427,0.709658975 42.2167695,0.0169899939 Z"
+              id="Shape" fill="url(#linearGradient-1)"></path>
+              <path d="M40.5,59.6374118 C35.6138239,59.6374118 31.1559646,57.7662673 27.7397822,54.7046351 L14,68.7666903 C20.9436496,75.4170003 30.2618048,79.5022663 40.5,79.5022663 C50.7381952,79.5022663 60.0576444,75.4183245 67,68.7666903 L53.2602178,54.7046351 C49.8440354,57.7662673 45.3861761,59.6374118 40.5,59.6374118 Z"
+              id="Shape" fill="url(#linearGradient-2)"></path>
+              <path d="M19.5121951,39.1906882 C19.5121951,28.8215642 27.5707317,20.3304881 37.7235772,19.6535021 L37.7235772,0.0169899939 C16.8065041,0.709658975 0,18.0107004 0,39.1906882 C0,49.5310598 4.01170732,58.9435164 10.5456911,65.9551562 L24.3577236,52.078252 C21.3502439,48.6292832 19.5121951,44.1269349 19.5121951,39.1906882 Z"
+              id="Shape" fill="url(#linearGradient-2)"></path>
+            </g>
+            <path d="M40,53 C47.1797017,53 53,47.1797017 53,40 C53,32.8202983 47.1797017,27 40,27 C32.8202983,27 27,32.8202983 27,40 C27,47.1797017 32.8202983,53 40,53 Z"
+            id="Oval-10" stroke="#E98699" stroke-width="2"
+            stroke-dasharray="2"></path>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

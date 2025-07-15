@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="52px" viewBox="0 0 56 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-12.0388617%" y1="1.21379425%" x2="155.65304%" y2="90.7901921%" id="linearGradient-1">
+            <stop stop-color="#F57B94" offset="0%"></stop>
+            <stop stop-color="#E3486A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.6">
+        <g id="Tech" transform="translate(-529.000000, -1494.000000)" fill="url(#linearGradient-1)">
+            <g id="Tech-index" transform="translate(137.000000, 854.000000)">
+                <g id="Technology" transform="translate(2.000000, 209.000000)">
+                    <g id="Design" transform="translate(279.000000, 400.000000)">
+                        <g id="Group-19">
+                            <g id="Group-12" transform="translate(111.000000, 31.000000)">
+                                <ellipse id="Oval-11" cx="17.5" cy="17.4558081" rx="17.5" ry="17.4558081"></ellipse>
+                                <ellipse id="Oval-11-Copy" cx="38.5" cy="17.4558081" rx="17.5" ry="17.4558081"></ellipse>
+                                <ellipse id="Oval-11-Copy-2" cx="29.5" cy="34.4128788" rx="17.5" ry="17.4558081"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

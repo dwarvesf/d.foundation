@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="87px" viewBox="0 0 88 87" version="1.1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+  <title>ic-Continuos</title>
+  <desc>Created with Sketch.</desc>
+  <defs>
+    <linearGradient x1="-12.0388617%" y1="1.21379425%"
+    x2="155.65304%" y2="90.7901921%" id="linearGradient-1">
+      <stop stop-color="#F57B94" offset="0%"></stop>
+      <stop stop-color="#E3486A" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none"
+  fill-rule="evenodd">
+    <g id="Tech" transform="translate(-134.000000, -2938.000000)">
+      <g id="Agile-dwarves"
+      transform="translate(0.000000, 2731.000000)">
+        <g id="Continuous-improvement"
+        transform="translate(1.000000, 152.000000)">
+          <g id="Group-14">
+            <g id="ic-Continuos"
+            transform="translate(137.000000, 59.000000)">
+              <circle id="Oval-9" stroke="#E98699" stroke-width="4"
+              cx="41" cy="40" r="35"></circle>
+              <path d="M41,60 C52.045695,60 61,51.045695 61,40 C61,28.954305 52.045695,20 41,20 C29.954305,20 21,28.954305 21,40 C21,51.045695 29.954305,60 41,60 Z"
+              id="Oval-9" fill="url(#linearGradient-1)"></path>
+              <circle id="Oval-9" stroke="#F8F8F8" stroke-width="4"
+              fill="#E03E5E" cx="5" cy="39" r="7"></circle>
+              <circle id="Oval-9-Copy" stroke="#F8F8F8"
+              stroke-width="4" fill="#E98699" cx="41" cy="5" r="7">
+              </circle>
+              <circle id="Oval-9-Copy-3" stroke="#F8F8F8"
+              stroke-width="4" fill="#E98699" cx="41" cy="74"
+              r="7"></circle>
+              <circle id="Oval-9-Copy-2" stroke="#F8F8F8"
+              stroke-width="4" fill="#E98699" cx="75" cy="41"
+              r="7"></circle>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

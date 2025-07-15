@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="48px" viewBox="0 0 56 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-12.0388617%" y1="1.21379425%" x2="155.65304%" y2="90.7901921%" id="linearGradient-1">
+            <stop stop-color="#F6B4C2" offset="0%"></stop>
+            <stop stop-color="#F6708E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-12.0388617%" y1="1.21379425%" x2="155.65304%" y2="90.7901921%" id="linearGradient-2">
+            <stop stop-color="#FBA4B5" offset="0%"></stop>
+            <stop stop-color="#E3486A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="155.65304%" y1="90.7901921%" x2="-12.0388617%" y2="1.21379425%" id="linearGradient-3">
+            <stop stop-color="#F57B94" offset="0%"></stop>
+            <stop stop-color="#E3486A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tech" transform="translate(-529.000000, -1097.000000)">
+            <g id="Tech-index" transform="translate(137.000000, 854.000000)">
+                <g id="Technology" transform="translate(2.000000, 209.000000)">
+                    <g id="Group-16" transform="translate(279.000000, 0.000000)">
+                        <g id="Group-8" transform="translate(111.000000, 25.000000)">
+                            <polygon id="Rectangle-5-Copy-2" fill="url(#linearGradient-1)" opacity="0.3" transform="translate(14.013612, 34.947516) rotate(-45.000000) translate(-14.013612, -34.947516) " points="4.12374257 25.0692 16.7770643 31.6030396 23.9034819 44.8258321 10.830619 38.7003016"></polygon>
+                            <polygon id="Rectangle-5-Copy-7" fill="url(#linearGradient-1)" opacity="0.3" transform="translate(27.653191, 14.203261) rotate(-45.000000) translate(-27.653191, -14.203261) " points="17.6389453 4.23917114 30.9916869 11.443504 37.6674358 24.1673515 24.3458217 17.8702727"></polygon>
+                            <polygon id="Rectangle-5-Copy-5" fill="#FDE0E6" opacity="0.972265625" transform="translate(41.384848, 35.004433) rotate(-45.000000) translate(-41.384848, -35.004433) " points="31.2342992 24.9899902 44.3536127 31.3722975 51.5353977 45.0188762 37.9758371 39.0025997"></polygon>
+                            <g id="Group-4" transform="translate(0.109091, 34.626168)" stroke="#E98699" stroke-width="0.525">
+                                <path d="M0.2625,0.679977002 L0.2625,16.6494628 L13.9490415,21.3664576 L13.9490415,5.08915329 L0.2625,0.679977002 Z" id="Rectangle-6-Copy" fill="url(#linearGradient-2)" opacity="0.666183036"></path>
+                                <path d="M14.1388636,0.368121795 L14.1388636,16.6494628 L27.8254051,21.3664576 L27.8254051,5.08511669 L14.1388636,0.368121795 Z" id="Rectangle-6-Copy-2" fill="url(#linearGradient-3)" transform="translate(20.982134, 10.867290) scale(-1, 1) translate(-20.982134, -10.867290) "></path>
+                            </g>
+                            <g id="Group-4-Copy-3" transform="translate(13.600000, 13.909106)" stroke="#E98699" stroke-width="0.525">
+                                <path d="M0.2625,0.679977002 L0.2625,16.6494628 L13.9490415,21.3664576 L13.9490415,5.08915329 L0.2625,0.679977002 Z" id="Rectangle-6-Copy" fill="url(#linearGradient-2)" opacity="0.666183036"></path>
+                                <path d="M14.1388636,0.368121795 L14.1388636,16.6494628 L27.8254051,21.3664576 L27.8254051,5.08511669 L14.1388636,0.368121795 Z" id="Rectangle-6-Copy-2" fill="url(#linearGradient-3)" transform="translate(20.982134, 10.867290) scale(-1, 1) translate(-20.982134, -10.867290) "></path>
+                            </g>
+                            <g id="Group-4-Copy" transform="translate(27.733333, 34.844620)" stroke="#E98699" stroke-width="0.525">
+                                <path d="M0.2625,0.368121795 L0.2625,16.6494628 L13.9490415,21.3664576 L13.9490415,5.08511669 L0.2625,0.368121795 Z" id="Rectangle-6-Copy" fill="url(#linearGradient-3)" opacity="0.702008929"></path>
+                                <path d="M14.1388636,0.368121795 L14.1388636,16.6494628 L27.8254051,21.3664576 L27.8254051,5.08511669 L14.1388636,0.368121795 Z" id="Rectangle-6-Copy-2" fill="url(#linearGradient-2)" transform="translate(20.982134, 10.867290) scale(-1, 1) translate(-20.982134, -10.867290) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

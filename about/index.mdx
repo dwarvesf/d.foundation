@@ -1,0 +1,825 @@
+---
+title: "About"
+description: "Learn about Dwarves Foundation - A software development firm helping startups and enterprises build world-class products since 2013"
+template: "about"
+---
+
+<Dwarves
+  subtitle="Our Story"
+  title="Software innovation firm"
+  description="Our vision is to build Dwarves Foundation one of the top software innovation firms that make impacts to the modern world."
+  companyName="Dwarves"
+  pronunciation="/dwɔːvz/"
+  companyDescription="Dwarves are the small and misshapen creatures. They are wisdom, natural good at crafting and well known for being the best blacksmiths throughout the nine worlds. The dwarf is an example of a creature who has the ability that surpasses the known world, presaging the rise of a universe beyond this physical realm. Aspiring to create a positive breakthrough that can be able to rewrite the new world, we chose the name Dwarves Foundation as the commitment to the vision that we follow."
+  imageSrc="./img/dwarves.jpg"
+  imageAlt="Dwarves"
+/>
+
+<WhatWeValue
+  title="Core Values"
+  values={[
+    {
+      title: "Craftsmanship",
+      content: "We work toward perfection in every single piece that we produce. We are proud of the well-crafted software that we develop together.",
+      icon: "./svg/hammer.svg"
+    },
+    {
+      title: "Teamwork",
+      content: "Teamwork is all about trust and collaboration. Having someone in the team mean we can rely on this person.",
+      icon: "./svg/teamwork.svg"
+    },
+    {
+      title: "Sustainable",
+      content: "We think long-term. We believe in working sustainably and balanced so that we are a happy bunch of sane workers.",
+      icon: "./svg/circular.svg"
+    }
+  ]}
+  stats={[
+    { value: "8", title: "Years" },
+    { value: "100+", title: "Members" },
+    { value: "30", title: "Clients" },
+    { value: "18", title: "Open sources" }
+  ]}
+  description="Our woodland is a sum of great technology, engineering culture, and smart people. The numbers speak it for themselves."
+  imageSrc="./img/dwarves-team.jpg"
+  imageAlt="Dwarves Team"
+/>
+
+<WhatWeStandFor
+  title="From our founder"
+  quote="Innovation happens. There are many startups found and raise fund every day. They focus on making significant positive changes, impact millions of people, lead to breakthroughs and support the foundation of economic growth.
+
+  Building an innovation startup requires lots of different things, and it is tough. Most of them have to deal with business development, legal, fundraising, team recruitment, and product development at the same time. Tech startups need to move fast and break things.
+
+  At some points, growing a startup needs a strong and experienced team behind. The software team that can help to design the system, design the database, produce the well-crafted software, keep the system stable, avoid the technical debt and deliver values is one of the critical pieces to solve the puzzle.
+
+  Another motivation for Dwarves Foundation was the lack of respect that service firms receive. Most software companies out there focus on digital transformation and consultancy. The nature of the business with a tight deadline and budget force them to do tricks. They hit and run. The codebase and software they produced are full of crap, and it damages our pride.
+
+  This is where Dwarves Foundation comes in. Despite the fact that service firms scale linearly, their ultimate size is capped and small, they don’t have life-changing exits for their founders, we start Dwarves Foundation as we want to build things right.
+
+  This is what we do here. It takes many forms, and we’re always working towards better software craftsmanship.
+  "
+  author="Han Ngo"
+  authorTitle="Founder & CEO"
+  authorImageSrc="./img/ceo-dwarves.jpg"
+  authorImageAlt="CEO Dwarves"
+  teamImageSrc="./img/year-end-party.jpeg"
+  teamImageAlt="Year End Party"
+/>
+
+
+<Team
+  title="Our team"
+  description="We are product guys and startup veterans. We provide support across the board."
+  team={(() => {
+    const team = [
+      // {
+      //   full_name: 'Dung Ho',
+      //   username: 'Hồ Tuấn Dũng',
+      //   role: 'Data Engineer',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     { type: 'linkedin', link: '#' },
+      //     { type: 'github', link: '#' },
+      //   ],
+      //   avatar: './team/Dung_Ho.jpg',
+      // },
+      // {
+      //   full_name: 'Bach Phuong',
+      //   username: 'Phương Xuân Bách',
+      //   role: 'Data Analyst',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     { type: 'linkedin', link: '#' },
+      //     { type: 'github', link: '#' },
+      //   ],
+      //   avatar: './team/Bach_Phuong.jpg',
+      // },
+      {
+        full_name: 'Hung Pham',
+        username: 'Phạm Thế Hùng',
+        role: 'iOS Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: '#' },
+          { type: 'github', link: '#' },
+        ],
+        avatar: './team/Hung_Pham.jpg',
+      },
+      {
+        full_name: 'Nam Nguyen',
+        username: 'Nguyễn Hải Nam',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/namnhce/' },
+          { type: 'github', link: 'https://github.com/namnhce' },
+        ],
+        avatar: './team/Nam_Nguyen.jpg',
+      },
+      {
+        full_name: 'Tay Nguyen',
+        username: 'Nguyễn Văn Lê Tây',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/nguyenvanletay/' },
+          { type: 'github', link: 'https://github.com/taynguyen' },
+        ],
+        avatar: './team/Tay_Nguyen.jpg',
+      },
+      // {
+      //   full_name: 'Thang Nguyen',
+      //   username: 'Nguyễn Toàn Thắng',
+      //   role: 'Backend Engineer',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     { type: 'linkedin', link: '#' },
+      //     { type: 'github', link: 'https://github.com/thangnt294' },
+      //   ],
+      //   avatar: './team/Thang_Nguyen.jpg',
+      // },
+      {
+        full_name: 'Cuong Mai',
+        username: 'Mai Vũ Cường',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/cuong-mai-184997155/',
+          },
+          { type: 'github', link: 'https://github.com/R-Jim' },
+        ],
+        avatar: './team/Cuong_Mai.jpg',
+      },
+      {
+        full_name: 'Bien Vo',
+        username: 'Võ Hải Biên',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/bien-vo-43759a136/',
+          },
+          { type: 'github', link: 'https://github.com/vhbien000' },
+        ],
+        avatar: './team/Bien_Vo.jpg',
+      },
+      // {
+      //   full_name: 'Hoang Nguyen',
+      //   username: 'Nguyễn Ngọc Huy Hoàng',
+      //   role: 'Backend Engineer',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     { type: 'linkedin', link: '#' },
+      //     { type: 'github', link: '#' },
+      //   ],
+      //   avatar: './team/Hoang_Nguyen.jpg',
+      // },
+      {
+        full_name: 'Phat Nguyen',
+        username: 'Nguyễn Tấn Phát',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/fuatto/' },
+          { type: 'github', link: 'https://github.com/fuatto' },
+        ],
+        avatar: './team/Phat_Nguyen.jpg',
+      },
+      // {
+      //   full_name: 'Dung Le',
+      //   username: 'Lê Phước Dũng',
+      //   role: 'Frontend Engineer',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     { type: 'linkedin', link: '#' },
+      //     { type: 'github', link: '#' },
+      //   ],
+      //   avatar: './team/Dung_Le.jpg',
+      // },
+      {
+        full_name: 'Hai Huynh',
+        username: 'Huỳnh Thanh Hải',
+        role: 'Frontend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/hthai2201/' },
+          { type: 'github', link: 'https://github.com/hthai2201' },
+        ],
+        avatar: './team/Hai_Huynh.jpg',
+      },
+      {
+        full_name: 'Tuan Pham',
+        username: 'Phạm Minh Tuấn',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: '#' },
+          { type: 'github', link: 'https://github.com/Tuanpm31' },
+        ],
+        avatar: './team/Tuan_Pham.jpg',
+      },
+      {
+        full_name: 'Chinh Le',
+        username: 'Lê Đức Chính',
+        role: 'Frontend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/chinh-ld/' },
+          { type: 'github', link: 'https://github.com/chinhld12' },
+        ],
+        avatar: './team/Chinh_Le.jpg',
+      },
+      {
+        full_name: 'Phuc Le',
+        username: 'Lê Điền Phúc',
+        role: 'iOS Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: '#' },
+          { type: 'github', link: '#' },
+        ],
+        avatar: './team/Phuc_Le.jpg',
+      },
+      {
+        full_name: 'Dao Tuan',
+        username: 'Tuấn Đào',
+        role: 'Frontend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/dao-tuan/' },
+          { type: 'github', link: 'https://github.com/tuanddd' },
+        ],
+        avatar: './team/Dao_Tuan.jpg',
+      },
+      {
+        full_name: 'Minh Luu',
+        username: 'Lưu Quang minh',
+        role: 'Full-stack Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/minhluuquang/' },
+          { type: 'github', link: 'https://github.com/minhluuquang' },
+        ],
+        avatar: './team/Minh_Luu.jpg',
+      },
+      {
+        full_name: 'Hieu Vu',
+        username: 'Vũ Đình Hiếu',
+        role: 'Full-stack Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/vdhieu/' },
+          { type: 'github', link: 'https://github.com/vdhieu' },
+        ],
+        avatar: './team/Hieu_Vu.jpg',
+      },
+      {
+        full_name: 'Khang Le',
+        username: 'Lê Nguyễn An Khang',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: '#' },
+          { type: 'github', link: 'https://github.com/Novixous' },
+        ],
+        avatar: './team/Khang_Le.jpg',
+      },
+      {
+        full_name: 'Khoi Ngo',
+        username: 'Ngô Trọng Khôi',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/trkhoi/' },
+          { type: 'github', link: 'https://github.com/trkhoi' },
+        ],
+        avatar: './team/Khoi_Ngo.jpg',
+      },
+      {
+        full_name: 'Hien Le',
+        username: 'Lê Duy Hiển',
+        role: 'Frontend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/hien-le-duy/' },
+          { type: 'github', link: 'https://github.com/leduyhien152' },
+        ],
+        avatar: './team/Hien_Le.jpg',
+      },
+      // {
+      //   full_name: 'Tuan Tran',
+      //   username: 'Trần Anh Tuấn',
+      //   role: 'QC Automation',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     { type: 'linkedin', link: '#' },
+      //     { type: 'github', link: '#' },
+      //   ],
+      //   avatar: './team/Tuan_Tran.jpg',
+      // },
+      {
+        full_name: 'Anh Nguyen',
+        username: 'Nguyễn Hoàng Anh',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/anhnh12/' },
+          { type: 'github', link: '#' },
+        ],
+        avatar: './team/Anh_Nguyen.jpg',
+      },
+      // {
+      //   full_name: 'Ngan Le',
+      //   username: 'Lê Kim Ngân',
+      //   role: 'QC Automation',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     {
+      //       type: 'linkedin',
+      //       link: 'https://www.linkedin.com/in/l%C3%AA-kim-ng%C3%A2n-17a6711b6/',
+      //     },
+      //     { type: 'github', link: '#' },
+      //   ],
+      //   avatar: './team/Ngan_Le.jpg',
+      // },
+      // {
+      //   full_name: 'Truong Nguyen',
+      //   username: 'Nguyễn Xuân Trường',
+      //   role: 'Android Engineer',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     { type: 'linkedin', link: '#' },
+      //     { type: 'github', link: '#' },
+      //   ],
+      //   avatar: './team/Truong_Nguyen.jpg',
+      // },
+      {
+        full_name: 'Hao Ngo',
+        username: 'Ngô Văn Hào',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/haongo138/' },
+          { type: 'github', link: 'https://github.com/haongo138' },
+        ],
+        avatar: './team/Hao_Ngo.jpg',
+      },
+      {
+        full_name: 'Thinh Le',
+        username: 'Lê Quang Thịnh',
+        role: 'Frontend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/lqthinh07/' },
+          { type: 'github', link: 'https://github.com/lqt93' },
+        ],
+        avatar: './team/Thinh_Le.jpg',
+      },
+      {
+        full_name: 'Hung Nguyen',
+        username: 'Nguyễn Thành Hưng',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/hungnguyen1905/' },
+          { type: 'github', link: '#' },
+        ],
+        avatar: './team/Hung_Nguyen.jpg',
+      },
+      {
+        full_name: 'Toan Ho',
+        username: 'Hồ Quang Toàn',
+        role: 'Frontend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/toanhq/' },
+          { type: 'github', link: 'https://github.com/toanbku' },
+        ],
+        avatar: './team/Toan_Ho.jpg',
+      },
+      {
+        full_name: 'Lap Nguyen',
+        username: 'Nguyễn Ngô Lập',
+        role: 'Frontend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/ngo-lap-nguyen/' },
+          { type: 'github', link: 'https://github.com/ngolapnguyen' },
+        ],
+        avatar: './team/Lap_Nguyen.jpg',
+      },
+      {
+        full_name: 'Nghia Nguyen',
+        username: 'Nguyễn Hiếu Nghĩa',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/nguyen-hieu-nghia-8603301b5/',
+          },
+          { type: 'github', link: 'https://github.com/mickwan1234' },
+        ],
+        avatar: './team/Nghia_Nguyen.jpg',
+      },
+      {
+        full_name: 'Lam Huynh',
+        username: 'Huỳnh Quang Lâm',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/lamhq/' },
+          { type: 'github', link: '#' },
+        ],
+        avatar: './team/Lam_Huynh.jpg',
+      },
+      {
+        full_name: 'Dat Doan',
+        username: 'Đoàn Tấn Đạt',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: '#' },
+          { type: 'github', link: 'https://github.com/datdoan92' },
+        ],
+        avatar: './team/Dat_Doan.jpg',
+      },
+      // {
+      //   full_name: 'Ngoc Mai',
+      //   username: 'Mai Tuấn Ngọc',
+      //   role: 'Frontend Engineer',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     { type: 'linkedin', link: '#' },
+      //     { type: 'github', link: '#' },
+      //   ],
+      //   avatar: './team/Ngoc_Mai.jpg',
+      // },
+      {
+        full_name: 'Nam Tran',
+        username: 'Trần Hoàng Nam',
+        role: 'Frontend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/namtrhg/' },
+          { type: 'github', link: 'https://github.com/namtrhg' },
+        ],
+        avatar: './team/Nam_Tran.jpg',
+      },
+      // {
+      //   full_name: 'Hung Vong',
+      //   username: 'Vòng Tiểu Hùng',
+      //   role: 'Frontend Engineer',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     { type: 'linkedin', link: '#' },
+      //     { type: 'github', link: '#' },
+      //   ],
+      //   avatar: './team/Hung_Vong.jpg',
+      // },
+      {
+        full_name: 'Khoi Nguyen',
+        username: 'Nguyễn Khôi',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/khoi-nguyen-a31a6a1b6/',
+          },
+          { type: 'github', link: 'https://github.com/mirageruler' },
+        ],
+        avatar: './team/Khoi_Nguyen.jpg',
+      },
+      // {
+      //   full_name: 'Hoang Ho',
+      //   username: 'Hồ Minh Hoàng',
+      //   role: 'Full-stack Engineer',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     { type: 'linkedin', link: '#' },
+      //     { type: 'github', link: '#' },
+      //   ],
+      //   avatar: './team/Hoang_Ho.jpg',
+      // },
+      {
+        full_name: 'Phat Ha',
+        username: 'Hà Gia Phát',
+        role: 'Frontend Engineer',
+        department: ['Engineering'],
+        socials: [
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/phat-ha-gia-a78699109/',
+          },
+          { type: 'github', link: 'https://github.com/yyyyaaa' },
+        ],
+        avatar: './team/Phat_Ha.jpg',
+      },
+      {
+        full_name: 'Tai Pham',
+        username: 'Phạm Ngọc Tài',
+        role: 'Frontend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/tai-pham-harry/' },
+          { type: 'github', link: 'https://github.com/taipham1803' },
+        ],
+        avatar: './team/Tai_Pham.jpg',
+      },
+      // {
+      //   full_name: 'Cat Nguyen',
+      //   username: 'Nguyễn Hoàng Cát',
+      //   role: 'Backend Engineer',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     {
+      //       type: 'linkedin',
+      //       link: 'https://www.linkedin.com/in/cat-nguyen-35517a239/',
+      //     },
+      //     { type: 'github', link: 'https://github.com/catngh' },
+      //   ],
+      //   avatar: './team/Cat_Nguyen.jpg',
+      // },
+      // {
+      //   full_name: 'Nam Nguyen',
+      //   username: 'Nguyễn Đình Nam',
+      //   role: 'Frontend Engineer',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     {
+      //       type: 'linkedin',
+      //       link: 'https://www.linkedin.com/in/nguyendinhnam0320/',
+      //     },
+      //     { type: 'github', link: 'https://github.com/nguyend-nam' },
+      //   ],
+      //   avatar: './team/Dinh_Nam_Nguyen.jpg',
+      // },
+      // {
+      //   full_name: 'Dat Pham',
+      //   username: 'Phạm Văn Đạt',
+      //   role: 'Backend Engineer',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     { type: 'linkedin', link: '#' },
+      //     { type: 'github', link: 'https://github.com/datphamcode295' },
+      //   ],
+      //   avatar: './team/Dat_Pham.jpg',
+      // },
+      {
+        full_name: 'Nguyen Nguyen',
+        username: 'Nguyễn Hữu Nguyên',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/nhn/' },
+          { type: 'github', link: 'https://github.com/nguyennh4522' },
+        ],
+        avatar: './team/Nguyen_Nguyen.jpg',
+      },
+      // {
+      //   full_name: 'Vy Tran',
+      //   username: 'Trần Khắc Vỹ',
+      //   role: 'Frontend Engineer',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     { type: 'linkedin', link: 'https://www.linkedin.com/in/trankhacvy/' },
+      //     { type: 'github', link: 'https://github.com/trankhacvy' },
+      //   ],
+      //   avatar: './team/Vy_Tran.jpg',
+      // },
+      {
+        full_name: 'Nhut Huynh',
+        username: 'Huỳnh Minh Nhựt',
+        role: 'QC Automation',
+        department: ['Engineering'],
+        socials: [
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/minh-nhut-huynh-5b4156179/',
+          },
+          { type: 'github', link: '#' },
+        ],
+        avatar: './team/Nhut_Huynh.jpg',
+      },
+      {
+        full_name: 'Quang Le',
+        username: 'Lê Minh Quang',
+        role: 'DevOps Principal',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/mytruong1372/' },
+          { type: 'github', link: 'https://github.com/lmquang' },
+        ],
+        avatar: './team/Quang_Le.jpg',
+      },
+      // {
+      //   full_name: 'Tom Nguyen',
+      //   username: 'Tom Xuân Anh',
+      //   role: 'Full-stack Engineer',
+      //   department: ['Leadership', 'Communication'],
+      //   socials: [
+      //     { type: 'linkedin', link: 'https://www.linkedin.com/in/nguyenxuananh/' },
+      //     { type: 'github', link: 'https://github.com/monotykamary' },
+      //   ],
+      //   avatar: './team/Tom_Nguyen.jpg',
+      // },
+      {
+        full_name: 'Hieu Phan',
+        username: 'Phan Quang Hiếu',
+        role: 'Backend Engineer',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/hieupq/' },
+          { type: 'github', link: 'https://github.com/hieuphq' },
+        ],
+        avatar: './team/Hieu_Phan.jpg',
+      },
+      {
+        full_name: 'An Tran',
+        username: 'Trần Tiến An',
+        role: 'Frontend Engineer',
+        department: ['Engineering'],
+        socials: [
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/an-tran-243384121/',
+          },
+          { type: 'github', link: '#' },
+        ],
+        avatar: './team/An_Tran.jpg',
+      },
+      {
+        full_name: 'Thanh Pham',
+        username: 'Phạm Ngọc Thành',
+        role: 'Blockchain Engineer',
+        department: ['Leadership'],
+        socials: [
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/pham-ngoc-thanh-99626249/',
+          },
+          { type: 'github', link: '#' },
+        ],
+        avatar: './team/Thanh_Pham.jpg',
+      },
+      {
+        full_name: 'Huy Tieu',
+        username: 'Tiêu Quang Huy',
+        role: 'Project Manager',
+        department: ['Leadership'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/htieu/' },
+          { type: 'github', link: 'https://github.com/huytieu' },
+        ],
+        avatar: './team/Huy_Tieu.jpg',
+      },
+      {
+        full_name: 'Thanh Pham',
+        username: 'Phạm Đức Thành',
+        role: 'Head of Engineering',
+        department: ['Leadership'],
+        socials: [
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/thanh-pham-466326108/',
+          },
+          { type: 'github', link: 'https://github.com/zlatanpham' },
+        ],
+        avatar: './team/Thanh_Pham_2.jpg',
+      },
+      {
+        full_name: 'Binh Le',
+        username: 'Lê Viết Thanh Bình',
+        role: 'QC Automation',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/binhle91/' },
+          { type: 'github', link: 'https://github.com/binhle59' },
+        ],
+        avatar: './team/Binh_Le.jpg',
+      },
+      {
+        full_name: 'Minh Tran',
+        username: 'Trần Hữu Minh',
+        role: 'Frontend Lead',
+        department: ['Engineering'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/tranhuuminh/' },
+          { type: 'github', link: 'https://github.com/thminhVN' },
+        ],
+        avatar: './team/Minh_Tran.jpg',
+      },
+      // {
+      //   full_name: 'Ngoc Truong',
+      //   username: 'Trương Hồng Ngọc',
+      //   role: 'Head of Businees; Head of Operations',
+      //   department: ['Leadership', 'Design', 'Communication'],
+      //   socials: [
+      //     { type: 'linkedin', link: 'https://www.linkedin.com/in/ngoctr/' },
+      //     { type: 'github', link: '#' },
+      //   ],
+      //   avatar: './team/Ngoc_Truong.jpg',
+      // },
+      {
+        full_name: 'Huy Nguyen',
+        username: 'Nguyễn Hoàng Huy',
+        role: 'Backend Lead',
+        department: ['Leadership'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/huynguyenh/' },
+          { type: 'github', link: 'https://github.com/huynguyenh' },
+        ],
+        avatar: './team/Huy_Nguyen.jpg',
+      },
+      // {
+      //   full_name: 'Han Ngo',
+      //   username: 'Ngô Ngọc Trường Hân',
+      //   role: 'CEO',
+      //   department: ['Leadership'],
+      //   socials: [
+      //     { type: 'linkedin', link: 'https://www.linkedin.com/in/nntruonghan/' },
+      //     { type: 'github', link: 'https://github.com/tieubao' },
+      //   ],
+      //   avatar: './team/Han_Ngo.jpg',
+      // },
+      // {
+      //   full_name: 'Giang Than',
+      //   username: 'Thân Hồng Thanh Giang',
+      //   role: 'Account Manager',
+      //   department: ['Engineering'],
+      //   socials: [
+      //     { type: 'linkedin', link: 'https://www.linkedin.com/in/giang-than/' },
+      //     { type: 'github', link: '#' },
+      //   ],
+      //   avatar: './team/Giang_Than.jpg',
+      // },
+      {
+        full_name: 'My Truong',
+        username: 'Trương Xuân Mỹ',
+        role: 'Marketing Executive',
+        department: ['Communication'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/mytruong1372/' },
+          { type: 'github', link: '#' },
+        ],
+        avatar: './team/My_Truong.jpg',
+      },
+      {
+        full_name: 'Nam Bui',
+        username: 'Bùi Tiến Thành Nam',
+        role: 'Product Designer',
+        department: ['Design', 'Communication'],
+        socials: [
+          { type: 'linkedin', link: 'https://www.linkedin.com/in/nam-btt/' },
+          { type: 'github', link: '#' },
+        ],
+        avatar: './team/Nam_Bui.jpg',
+      },
+      {
+        full_name: 'Anh Tran',
+        username: 'Trần Thị Ngọc Ánh',
+        role: 'UI Designer',
+        department: ['Design'],
+        socials: [
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/thanh-pham-466326108/',
+          },
+          { type: 'github', link: '#' },
+        ],
+        avatar: './team/Anh_Tran.jpg',
+      },
+    ]
+    const logos = {
+      'All': './svg/leader.svg',
+      'Engineering': './svg/developer.svg',
+      'Leadership': './svg/leader.svg',
+      'Design': './svg/designer.svg',
+      'Communication': './svg/community.svg'
+    }
+    return team.reduce((acc, member) => {
+      const department = member.department || []
+      if (!department.length) {
+        return acc
+      }
+      for (const dep of department) {
+        if (!acc[dep]) {
+          acc[dep] = {
+            logo: logos[dep],
+            members: []
+          }
+        }
+        acc[dep].members.push(member)
+      }
+      return acc
+    }, { 'All': {
+        logo: logos['All'],
+        members: team
+      } })
+  })()}
+/>
