@@ -1,0 +1,106 @@
+---
+title: 'Attrace'
+description: "Blockchain revolution for affiliate marketing."
+template: work-detail
+hero-image: /work/attrace/assets/attrace-landingpage.webp
+metadata:
+  industry: Affiliate Marketing
+  location: Netherlands
+  business context: Affiliate marketing is facing trust problems and transparency issues
+  solution: In-house blockchain solution to securely persist the agreement between parties
+  outcome: MVP launched and gained lots of traction from stakeholders and advertisers
+  our-service: Staff Augmentation
+hero-mdx-content: "
+[Attrace](https://attrace.com/) is a decentralized affiliate marketing network that bridges publishers (like e-commerce websites) and advertisers (like merchant) based in the Netherlands. The platform is capable of registering and auditing any action between parties. The progress has never been more transparent and accurate.
+
+The approach of Attrace makes a regulating middleman obsolete. The mechanism of affiliate marketing is based on sales achieved. Attrace targets every customer size from big merchants to tiny blogs, as it solves all tracking and trust issues between parties. Attrace's blockchain technology enables payment to be processed much more quickly - a lifesaver for a steadier cash flow.
+
+> <Paragraph className=\"not-italic\">\"After 3 months, they left us with great development and improvement, in terms of work result and team synchronization. A worthy evidence for Attrace’s investments and we hope nothing more than to keep going with them in long-term, provide opportunities for these devs to grow with Attrace.\"</Paragraph>
+  <HStack className=\"items-center mt-4\">
+    <Image src=\"work/attrace/assets/erwin-werring_l1xhfg.webp\" className=\"rounded-full h-12 w-12\" />
+    <Stack gap=\"xs\">
+      <Paragraph className=\"not-italic text-md font-semibold\">Erwin</Paragraph>
+      *CEO & Founder of Attrace*
+    </Stack>
+  </HStack>
+
+"
+links:
+  previous:
+    title: 'beCorp'
+    url: /work/becorp
+  next:
+    title: 'Dental Marketplace'
+    url: /work/dental-marketplace
+---
+
+### [Challenge](https://dwarves.foundation/work/attrace#challenge)
+
+As a merchandiser, it is a challenge operating a business using the affiliate as a marketing method. SME finds it hard to have confidence for affiliate agencies due to its flimsy credibility and expensive entry cost. Those issues can be diagnosed as a 3T symptom: Trust - Tracking - Transparency.
+
+![](/work/attrace/assets/attrace-challenges.webp)
+
+They struggle to track the cash flow, unable to get the real report on the number of clicks per product, or how many of that turned into real purchases. This wall between merchants and publishers creates a loophole for fraud affiliate agencies to take advantage.
+
+On top of that, affiliate marketing is very easy to engage in. This highlights the importance of the platform's approach to User Experience - precious customers converted might leave if they couldn't find what they seek for. Indicating that Attrace is facing both challenges at the same time.
+
+> Attrace is a solution that removes the role of middleman, assure transparent information between parties while reduce the entry cost to absolute minimum.
+
+### [Solution](https://dwarves.foundation/work/attrace#solution)
+
+In it's simplest form, the solution is a mechanism that leverages blockchain network to track and store the agreement between parties through a [smart contract](https://en.wikipedia.org/wiki/Smart_contract) that linked to individual user interactions (eg. clicks).
+
+By going with this route, the implemetation must be seamless and cause zero interuption in user experience, while still maintains the current currency in commission payment.
+
+> Our unique approach requires no understanding in blockchain comprehension from users, under the form of a game-changer with groundbreaking value.
+
+#### [Technical Diagnosis](https://dwarves.foundation/work/attrace#technical-diagnosis)
+
+Blockchain based system is hard to get right, and building it from scratch might be the most challenging work we ever face in terms of technology. Especially when it doesn't base on any of those convenient OSS Blockchain frameworks such as Hyperledger or Ethereum, and we have good reasons doing so.
+
+Due to the facts that our approach was to log a transaction upon user interactions, using Ethereum would be a bummer since ETH's transaction performance is unacceptably slow while the cost for using an ETH chain is already far from reasonable.
+
+> The backbone of blockchain is the elimination of middleman by a robust transaction records that ensure security and transparency.
+
+The consensus protocol of blockchain generates an irrebuttable agreement for different devices on the same public blockchain network, as well as prevents the system from being exploited, and every node gets the same level of transparency. Meanwhile, these nodes remain private to make sure user data is secured confidentially.
+
+Though we stepped in at the early stage of the blockchain hype train, having well-equipped knowledge of this technology, it took us great efforts of "trial and fail" along the way.
+
+#### [Implemetation](https://dwarves.foundation/work/attrace#implemetation)
+
+Attrace contains 3 main components
+
+*   Public Nodes: the Core Network
+*   Account Nodes: also known as Private Nodes
+*   [Attrace.com](https://attrace.com/): for user entry point, sales, marketing and customer service
+
+![](/work/attrace/assets/attrace-example.webp)
+
+**The Public Node** can be seen as the backbone of the network. It's the most challenging piece where all the PoS consensus, electing, producing and validating happens. The Dwarves spent a lot of time with Roel, the CTO, to draft the first version of consensus protocol design and build the very first blocks.
+
+Gradually, we participated deeper than just the core network. We started to own our work in the **Account Node**. This node aims to store the user's private data and listen to the public blockchain. Not only to keep it synchronized with the public network, their privacy must be up to the highest level. Account node was made to prevent public producers from seeing user's data, complying with a GDPR standard for data privacy.
+
+Lightweights are also a crucial factor. It usually takes end users up to 10 minutes to bootstrap their own Account Node before using Attrace. That's why we plan to have it simple and best minimize the bootstrapping time for the whole thing.
+
+[Attrace.com](https://attrace.com/) is the environment where end-users set up their agreement based on their needs, without any specific template or any static required metrics. This requires a dynamic, backward compatible backend and a UI that can simplify complex functions into a click-based system to make this environment work flawlessly.
+
+#### [Tech Stacks](https://dwarves.foundation/work/attrace#tech-stacks)
+
+| Back-end | Golang |
+| --- | --- |
+| Front-end | React |
+| Infrastructure | k8s, AWS, Prometheus |
+
+#### [Engagement](https://dwarves.foundation/work/attrace#engagement)
+
+We initially deployed 1 Backend for Attrace while it was just a good idea. After the 1st month, we moved forward to shape the product; 2 more engineers were added to the team. It took the protocol 6 months to finish itself, giving us a significant understanding of the system, by involving in the early stage and actively contributed to the process.
+
+> It's not about daily standups nor the process we follow, it's about having the same objective to work towards. More than the high quality work, it's a steady partnership where trust matters.
+
+The process was standardized and agreed to keep everyone on the same page. We are confident that new people can jump in at any point in the project and still able to catch-up and aware of what's next to fill in the big picture. Aside from development, our Account Manager also actively build up the partnership and discuss directly with Attrace's CEO for any company-level plan.
+
+### [Outcome](https://dwarves.foundation/work/attrace#outcome)
+
+The massive contribution rewards us with an MVP version after 9 months. The MVP rolled out with tons of positive feedback, approached by advertisers and publisher firms. This proved the product idea and enabled Attrace to take further steps in the development cycle.
+
+The partnership gradually went south as they plan to build up a full team in Vietnam with high trust and expectation. Apart from a robust Backend crew, Attrace plans to build up their Front-end and Design in Vietnam to expand their team size, which means our prioritized backlog list is still a long way ahead.
