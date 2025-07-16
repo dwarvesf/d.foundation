@@ -15,7 +15,7 @@ form-options:
       description: Includes a number of core features and custom user interface assist with a business activity. Such apps usually require the use of extensive databases, advanced UI, and commerce integration.
 ---
 
-<HStack>
+<Flex className="flex-col md:flex-row">
   <Project colored background="dark" href="/work/dental-marketplace" image="/images/services/mobile-development/dental-marketplace.png" imageAlt="Dentistry Marketplace logo">
     #### Dental Marketplace
     
@@ -26,4 +26,22 @@ form-options:
     
     **IoT · Vietnam**
   </Project>
-</HStack>
+</Flex>
+
+<ContentBoxes
+  title="Mobile Development Services"
+  leftColumnContent={`
+  Although Elixir is quite a young language, it has the time to develop an active user community where even highly qualified engineering are willing to build, help and share their knowledge. Moreover, there is a lot of resources and tutorials available for developers to their hands on Elixir.
+  `}
+  rightColumnContent={
+    <div>
+  Although Elixir is quite a young language, it has the time to develop an active 
+  <ColumnsList>
+      <ListItem>Languages and Frameworks</ListItem>
+      <ListItem>Techniques</ListItem>
+      <ListItem>Tools</ListItem>
+      <ListItem>Platforms</ListItem>
+    </ColumnsList>
+  </div>
+  }
+/>
