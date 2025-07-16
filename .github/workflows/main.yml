@@ -81,6 +81,7 @@ jobs:
           REPO_CONTENT: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NEXT_PUBLIC_PAGES_BASE_PATH: ${{ steps.setup_pages.outputs.base_path }}
+          NEXT_PUBLIC_GOOGLE_MAPS_API_KEY: ${{ secrets.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
