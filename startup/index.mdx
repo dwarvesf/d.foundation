@@ -1,0 +1,178 @@
+---
+title: "For Startups"
+---
+
+<Hero
+  title="Work with the veterans"
+  subtitle="Startups"
+  ctaText="Let's talk"
+  ctaLink="#contact"
+  description="We have been working with dozens of startups and also invested to a few.
+  Bootstrapping a new venture is hard but fortunately we know the game–that’s
+  why we’re here to help."
+/>
+
+<Section>
+  <div className="row flex flex-wrap">
+    <div className="w-full lg:w-1/3">
+      <H3 className="text-heading text-3xl mb-6">Technological Startups</H3>
+    </div>
+    <Column className="w-full lg:w-2/3 text-xl">
+      There is a tendency to establish technological startups, especially in developed countries and small tech hubs. Product quality plays an essential role in the success of start-ups, thus product success greatly depends on the quality of the product engineering team.
+      Unfortunately, building an experienced engineering team has always been a big challenge for any start-ups, because:
+      <div className="row flex flex-wrap text-xl">
+        <div className="col w-full md:w-1/2">
+          <div className="mb-6 space-y-2">
+            **Financial burden**
+
+            With tight finance, it’s hard for founders to recruit qualified engineers.
+          </div>
+          <div className="mb-6 space-y-2">
+            **Skilled engineer**
+
+            Skilled engineers are at a shortage over the world, while so many companies desire them.
+          </div>
+        </div>
+        <div className="col w-full md:w-1/2 space-y-2">
+          **Non-tech founders**
+
+          When it comes to non-technical background founders, they have no experience in building a quality product.
+          Rebuilding many times will make the financial status exhausted or occupying the market slower.
+        </div>
+      </div>
+    </Column>
+  </div>
+</Section>
+
+<Section>
+  <Column gap="2xl" className="items-center">
+    <H3 className="text-heading text-3xl">
+      How it works
+    </H3>
+    <Paragraph className="text-xl whitespace-pre-line">
+      We walk startups and founders out of the fog,
+      through stages which are hard to get right all alone.
+    </Paragraph>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      {[
+        {
+          title: "Ideate",
+          description: "We bring your ambitious, nurtured ideas our of the fog and help turning it into reality.",
+          icon: "./svg/ideate.svg",
+          href: "/startup/ideate"
+        },
+        {
+          title: "Validation",
+          description: "We help founders to start putting together a financial model to fully understand the revenue stream.",
+          icon: "./svg/validation.svg",
+          href: "/startup/validation"
+        },
+        {
+          title: "MVP",
+          description: "Begin setting up business operations and product development at the minimal level.",
+          icon: "./svg/mvp.svg",
+          href: "/startup/mvp"
+        },
+        {
+          title: "Scale Up",
+          description: "We provide fully dedicated and cost-efficient solution to scale the development teams.",
+          icon: "./svg/scale.svg",
+          href: "/startup/scale"
+        }
+      ].map((item, index) => (
+        <Column key={index} className="h-full p-6 bg-alto/60 justify-between">
+            <Column gap="sm" className="items-center">
+              <svg width="48" height="48">
+                <use href={item.icon}></use>
+              </svg>
+                <H4 className="text-heading text-xl">{item.title}</H4>
+                <Paragraph className="text-lg text-center max-w-[35em]">{item.description}</Paragraph>
+            </Column>
+            <Button
+              href={item.href}
+              variant="link"
+              className="text-primary"
+            >
+              View more
+              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Button>
+        </Column>
+      ))}
+    </div>
+  </Column>
+</Section>
+
+<Section>
+  <Column gap="2xl" className="items-center">
+    <H3 className="text-heading text-3xl">
+      What you get
+    </H3>
+    <Column>
+      {[
+        [
+          "De-risk & Get to market fast",
+          "We walk entrepreneur through many practical workshops to fully understand the idea from a bird - view with all the bits and pieces that involve around it.",
+        ],
+
+        [
+          "Validation Framework",
+          "Applying the Lean Startup methodology, the startup will get to know about the product strategy, marketing funnel, customer discovery, early traction & adopter, operation setup and financial model.",
+        ],
+
+        [
+          "Keep cost under control",
+          "We utilize lean and agile techniques to ensure we get your business to market as efficiently as possible. Time-efficient while ensure the result delivery.",
+        ],
+
+        [
+          "Right from beginning",
+          "It’s better to set everything right from the start. The right team, tools, and tests for the job. Robust, scalable codebase and slick design for a superior user experience.",
+        ],
+
+        [
+          "Ready to scale",
+          "Business needs change over time so why can’t your workforce? Scale the number of developers up or down to suit your current needs without compromising your long term goals or success.",
+        ],
+      ].map((item, index) => {
+        const isEven = index % 2 === 0;
+        return (
+          <Flex key={index} className="my-12">
+            {!isEven && <div className="hidden md:block w-1/2"></div>}
+            <Column key={index} className="w-full md:w-1/2 space-y-2">
+              <H3 className="text-heading text-3xl">{item[0]}</H3>
+              <Paragraph className="text-xl">{item[1]}</Paragraph>
+            </Column>
+            {isEven && <div className="hidden md:block w-1/2"></div>}
+          </Flex>
+        )
+      })}
+    </Column>
+  </Column>
+</Section>
+
+<Hero
+  title="Getting started"
+  description="Time to learn more about you and your idea. We’ll set up a call to find out
+  whether we’re suited to work together moving forward."
+  titleClassName="text-heading text-3xl md:text-3xl lg:text-3xl"
+  >
+  <div className="grid grid-cols-1 gap-12 xl:grid-cols-2">
+    <ContactForm />
+    <div className="hidden xl:block">
+      <ContactImageGrid
+        className="xl:pl-16"
+        images={[{
+          src: '../contact/img/contact-illu.png',
+          alt: 'Contact illustration',
+          width: 560,
+          height: 648,
+          },
+        ]}
+      />
+    </div>
+  </div>
+</Hero>
+
