@@ -2,7 +2,7 @@
 title: 'Aharooms'
 description: "As a technical partner and a venture builder, the Dwarves contribute to the product design stage to maximize Aharooms's revenue streams at critical moments when the pandemic hits."
 template: work-detail
-hero-image: /work/aharooms/assets/aharooms-landingpage.webp
+hero-image: assets/aharooms-landingpage.webp
 metadata:
   industry: Hospitality
   location: Vietnam
@@ -26,9 +26,9 @@ links:
     url: /work/naru
 ---
 
-## [The Challenges](https://dwarves.foundation/work/aharooms#the-challenges)
+## The Challenges
 
-![](/work/aharooms/assets/aha-challenges.webp)
+![](assets/aha-challenges.webp)
 
 - The affordable hotel segment(2-3 stars) is a potential market but still developing spontaneously, management and operation are running with a lack of uniformity in service standards.
 - In addition, the business still running in a traditional way, relying on direct visitors, instead of applying technology in building a platform for operations management, promotion applications, and brand identity ... are also the reasons why many popular hotels are in a situation where room-filling cannot be guaranteed.
@@ -37,14 +37,14 @@ links:
 
 - When the Covid-19 hit, many industries were affected and tourism and hospitality were the most severely affected. Aharooms team has faced a tough challenge in order to maintain the current business. Services diversity is the only way to find new clients. Any services that could help Aharooms boosting and optimizing revenue for Hotel Owners is a shot they have to take.
 
-## [The Solution](https://dwarves.foundation/work/aharooms#the-solution)
+## The Solution
 
 - Aharooms aims for the goal of optimizing revenue for 2-3 star Hotels with multiple sale channels, property management, and extra services.
 - Better understanding and localization are advantages for a Vietnamese product for Vietnamese people.
 
-![](/work/aharooms/assets/aharooms-solution.webp)
+![](assets/aharooms-solution.webp)
 
-### [1. Solution Design](https://dwarves.foundation/work/aharooms#1-solution-design)
+### 1. Solution Design
 
 Aharooms platform provides a full package of services: From hotel management, booking channel management comes to direct booking, extra services, and customer services with a goal to help business owners solve the problem of room-filling.
 
@@ -56,14 +56,14 @@ Aharooms platform provides a full package of services: From hotel management, bo
   - Hourly booking and Nighttime booking: optimizing room-filling of Hotel, customized for the Vietnamese market.
   - Group Booking: optimize the booking volume of Corporate partners, including company trips, business trips...
 
-![](/work/aharooms/assets/aharooms-solution-design.webp)
+![](assets/aharooms-solution-design.webp)
 
 **Management Systems:** a core value of Aharooms platform when applying technology in building a platform for hotel operations management, budgeting, and promotion applications.
 
 - The Property Management System (PMS): Manages Hotel Inventory, manages the booking via different channels, and with detailed room services management. This is a challenge module that takes Dwarves months to understand the operation process at budget hotels, build up the personas and come up with a Solution that standardizes mostly all the hotel's management and operation process.
 - The Revenue Management System (RMS): The budgeting system helps to optimize the rate plan for hotels. With years in the Hospitality domain, Aharooms has great insights into Hotel operations and pricing. RMS provides Aharooms the ability to act as a Business Development division of hoteliers.
 
-![](/work/aharooms/assets/aharooms-managment-system.webp)
+![](assets/aharooms-managment-system.webp)
 
 **Extra services:** improve the checkin-checkout process, manage 3rd party services.
 
@@ -73,7 +73,7 @@ Aharooms platform provides a full package of services: From hotel management, bo
 
 **Cancellation report**: an overview of canceled booking across hotels and areas by room types and market segment. It indicates the cancellation trends by factors: room rate, room type, lead time, customer segment, and area. Based on the analysis, strategies can be devised to minimize the number of cancellations and increase the occupancy rate.
 
-### [2. System Design](https://dwarves.foundation/work/aharooms#2-system-design)
+### 2. System Design
 
 | System         | Tech Stacks               |
 | -------------- | ------------------------- |
@@ -81,11 +81,11 @@ Aharooms platform provides a full package of services: From hotel management, bo
 | Infrastructure | k8s, AWS, Prometheus      |
 | Back-end       | Golang, Elixir            |
 
-### [**Architecture**](https://dwarves.foundation/work/aharooms#architecture)
+### Architecture
 
 We took over Aharooms's system when it had been in development for almost 2 years. Like every other startup's story, Aharooms's vision was to build an MVP(Minimum Viable Product) product for testing the market in no time causing developers unable to balance new feature development with technical debt. The system then encountered a series of problems with design, architecture, and database. It took a while for us to analyze and find the optimal solution for the problems and reflects the end result in the high-level architecture below:
 
-![](/work/aharooms/assets/aharooms-architecture.webp)
+![](assets/aharooms-architecture.webp)
 
 List of main components
 
@@ -100,7 +100,7 @@ List of main components
 - [Staah CMS](https://www.staah.com/):An Online Hotel Booking System & Hotel Channel Manager. We use Staah to manage hotel inventory distribution in OTA channels.
 - [Sendgrid](https://sendgrid.com/): provide API to interact with transactional email. We use SendGrid to sign up & confirmation email.
 
-#### [Cloud Infrastructure](https://dwarves.foundation/work/aharooms#cloud-infrastructure)
+#### Cloud Infrastructure
 
 We deploy our system to Google Cloud and keep them there. The overall Aharooms cloud infra is as below.
 
@@ -109,9 +109,9 @@ We deploy our system to Google Cloud and keep them there. The overall Aharooms c
 - **Google Cloud**: Aharooms nodes are placed in the region of Singapore. The GCP gives us freedom and risk-free in a major cloud security issue.
 - **Netlify**: For both front-page websites and admin dashboards, we deploy our React.js sites to Netlify. Netlify is a modern PaaS for a front-end developer to deploy their web apps. Using Netlify helps deal with the bottle-neck situation when the traffic suddenly goes north.
 
-![](/work/aharooms/assets/aharooms-tech-stack.webp)
+![](assets/aharooms-tech-stack.webp)
 
-### [**Deployment**](https://dwarves.foundation/work/aharooms#deployment)
+### Deployment
 
 We divided our dev environment into 4 separate ones. This set helps developers develop the best technical solutions and resolve issues quickly, and users will only ever notice a new release. We use docker and docker-compose to set up our environments.
 
@@ -120,7 +120,7 @@ We divided our dev environment into 4 separate ones. This set helps developers d
 - Staging is set up precisely like production. No changes to the production environment happen before having been rehearsed here first. Any mysterious production issues can be debugged here.
 - Production: The big iron. Logged, monitored, cleaned up periodically, squared away, and secured.
 
-![](/work/aharooms/assets/aharooms-deployment.webp)
+![](assets/aharooms-deployment.webp)
 
 For the deployment process, we apply a few practices to make the collaboration more effective.
 
@@ -128,13 +128,13 @@ For the deployment process, we apply a few practices to make the collaboration m
 - **Early Pull Request and Code Review**: Pull Requests are a great way to start a feature conversation. It gives us a chance to think through the solution without the overhead of changing code every time we change our mind about how something should be organized. The team can also comment on the feature as it evolves, instead of providing all their feedback at the very end.
 - **Release by tag**: Using gitflow, when the code is merged to master or when a new tag is pushed, it will trigger the deployment process. The system will run through automated steps, including build, verify, and deploy.
 
-### [3. The Product Roadmap](https://dwarves.foundation/work/aharooms#3-the-product-roadmap)
+### The Product Roadmap
 
 We have accomplished the first two milestones with PMS and RMS products.
 
 As Covid-19 hit, we have quickly amended the product roadmap so that the next milestones would mainly focus on expanding sales channels, increasing the product's inventory (Hourly and Nighttime booking, Corporate partner bookings...)
 
-## [The Outcome](https://dwarves.foundation/work/aharooms#the-outcome)
+## The Outcome
 
 Moving forward, together with the **[Aharooms](https://aharooms.com/)** team, we managed to release the RMS and PMS module. The collaboration brought great impacts on our partnership. As a result, **Aharooms** has made its way to the market and created significant achievements, which enables**Aharooms**to lay its name on the map of the hospitality industry in Vietnam.
 
