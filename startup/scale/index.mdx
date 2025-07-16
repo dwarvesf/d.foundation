@@ -1,0 +1,131 @@
+---
+title: "Reaching Solution-Product fit"
+---
+
+<Hero
+  title="Reaching Solution-Product fit"
+  subtitle={
+    <Flex className="gap-0">
+    Startups
+      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path></svg>
+    Scale up
+    </Flex>
+  }
+  description="For rapidly scaling startups, access to top talent and increased development capacity can make all the differences to the success of your software business."
+  ctaText="Let’s talks"
+  ctaLink="#contact"
+/>
+
+<Section className="py-12">
+  <Column gap="2xl">
+    # How it works
+    <Column className="text-xl max-w-paragraph gap-2">
+      When it comes to later stages of development or when we reach product-market fit milestone, we’ll need more people in the development team to help get things done and move the product forward.
+      
+      Scale Up provides fully dedicated and cost-efficient solution to scale the development teams.
+    </Column>
+  </Column>
+</Section>
+
+<Section>
+  <Column gap="2xl">
+    <Column>
+      {[
+        [
+          "High-level service",
+          "We guarantee our availability and SLA performance. You can retain full control over service quality and appropriate resource spending.",
+        ],
+        [
+          "Fully vetted engineers",
+          "Growing a startup needs a strong and experienced team behind. We verify their previous experience, technical ability and communication skills on your behalf.",
+        ],
+        [
+          "No HR headaches",
+          "Leave recruitment fees, office space, employee contracts and the admin to us. You can wholeheartedly focus on growth. Tech startups need to move fast, break things and acquire the market share.",
+        ],
+        [
+          "Ready to scale",
+          "Business needs change over time so why can’t your workforce? Scale the number of developers up or down to suit your current needs without compromising your long term goals or success.",
+        ],
+      ].map((item, index) => {
+        const isEven = index % 2 === 0;
+        return (
+          <Flex key={index} className="my-12">
+            {!isEven && <div className="hidden md:block w-1/2"></div>}
+            <Column key={index} className="w-full md:w-1/2 space-y-2">
+              <H3 className="text-heading text-3xl">{item[0]}</H3>
+              <Paragraph className="text-xl">{item[1]}</Paragraph>
+            </Column>
+            {isEven && <div className="hidden md:block w-1/2"></div>}
+          </Flex>
+        )
+      })}
+    </Column>
+  </Column>
+</Section>
+
+<Section className="bg-alabaster">
+    <Center className="mb-12">
+      # Success stories from our clients
+    </Center>
+
+<Flex className="flex-col sm:flex-row">
+<Project href="/work/reapit" image="./img/reapit.png" imageAlt="reapit landing logo">
+<Paragraph className="!text-xl max-w-paragraph">
+  We provide consulting and offshore development service (ODC) to help Reapit Cloud team build and release [App Marketplace](https://youtu.be/y-Fhlg2jrYo?t=212) as a Progressive Web App. We also actively contribute to Reapit’s [open-source packages](https://github.com/reapit/foundations/tree/master/packages) such as Reapit Elements and built several small functional apps like GeoDiary, Lifetime Legal, AML Checklist to enrich the marketplace.
+</Paragraph>
+</Project>
+<Project href="/work/mudah" image="./img/mudah.png" imageAlt="mudah landing logo">
+  <Paragraph className="!text-xl max-w-paragraph">
+    [Mudah](https://www.mudah.my/) remains one of our longest, tried-and-true collaborations. We have continuously worked with Mudah on various scopes of work and committed different engagement models. Recently, we took care of the migration from the legacy PHP system to microservices in Go.
+
+    We also collaborated with Mudah’s engineers to re-build the mobile website in React while optimizing page load performance as well as SEO.
+  </Paragraph>
+</Project>
+</Flex>
+
+</Section>
+
+<Section className="py-12">
+  <Column gap="2xl">
+    <Center className="mb-12">
+      # What you get
+    </Center>
+    
+    <Container fullWidth className="text-xl grid grid-cols-2 md:grid-cols-3 gap-6 **:mb-8 **:text-center **:px-4">
+      No recruitment fees so the customers can invest for growth. They only pay for the development resource and not the hiring process that comes with it.
+      
+      A broad range of specialists is readily available. We manage and supply individuals representing multiple languages, frameworks and technologies.
+      
+      Benefit from a dedicated team. That means 100% of their time, focus and expertise. The development resource is focused solely on the project.
+      
+      Forget about technical debt. Training is handled directly by us to ensure the development resource always delivers exceptional code quality.
+      
+      Our rigorous standards and processes ensure IP protection. Working with us does not compromise security or privacy for the customer.
+      
+      The development resource should be seen as an extension to customer team. That means they go beyond just coding and assist you with the long term tech strategy.
+    </Container>
+  </Column>
+</Section>
+
+<Hero className="bg-alabaster py-24">
+  <Center className="flex flex-col gap-12">
+    ### Let’s talk about Scaling Up your team
+
+    <Flex className="flex-col lg:flex-row mx-auto">
+      <div className="xl:w-1/2 hidden xl:block">
+        <ContactImageGrid
+          className="xl:pl-16"
+          images={[{
+            src: '../../contact/img/contact-illu.png',
+            alt: 'Contact illustration',
+            width: 560,
+            height: 648,
+            },
+          ]}
+        />
+      </div>
+      <ScaleTeamContact className="w-2/3 xl:w-1/2 mx-auto" />
+    </Flex>
+  </Center>
+</Hero>

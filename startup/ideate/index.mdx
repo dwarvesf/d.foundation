@@ -1,0 +1,227 @@
+---
+title: "Spark and kick-off your innovation ideas"
+---
+
+<Hero
+  title="Spark and kick-off your innovation ideas"
+  subtitle={
+    <Flex className="gap-0">
+    Startups
+      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path></svg>
+    Ideate
+    </Flex>
+  }
+  ctaText="Let's talk"
+  ctaLink="#contact"
+  description="We bring your ambitious, nurtured ideas our of the fog and help turning it into
+  reality. This is the recommended solution for first-time founders with a
+  problem to solve and a cold head to follow it through."
+/>
+
+<Section fullWidth className="bg-alabaster py-24">
+  <Column className="dwarves-container row flex flex-wrap">
+    <H3 className="text-heading text-3xl mb-6">What it looks like</H3>
+    <Column className="w-full md:max-w-3xl **:text-xl">
+      <Paragraph className="!text-2xl font-medium">Ideas, like many people say “a dime a dozen” are a good start for any entrepreneurs. However, how to transform an idea into a solution or what we’d like to call “hypothesis” is not simple.</Paragraph>
+      
+      We walk entrepreneur through many practical workshops to fully understand the idea from a bird-view with all the bits and pieces that involve around it. From there, we synthesize them into problem-solution hypothesis so we can go out and test it.
+    </Column>
+  </Column>
+</Section>
+
+<Section>
+  <Column gap="2xl">
+    <H3 className="text-heading text-3xl">
+      How it works
+    </H3>
+    <ColumnsList columns={1}>
+      {[
+        'We sit down with founders and walk them through a series of Idea Validation Workshop.',
+        'We introduce founders to our network so he/she can get more exposure to find team members, advisers.',
+        'We help with presentation skill to ensure the story-telling is clear.',
+        ].map((item, index) => {
+          return (
+            <ListItem key={index} className="text-xl max-w-paragraph">
+              {item}
+            </ListItem>
+          )
+        })}
+    </ColumnsList>
+    <div className="flex flex-wrap flex-row">
+      {[
+        "Series of practical workshop on idea validation",
+        "Weekly session to follow up on progress and mentorship",
+        "Community event to speed up the learning on shaping up your ideas",
+        "Drafting a Pitch Deck for you to communicate your idea clear and easy",
+      ].map((item, index) => {
+        return (
+          <div className="w-full md:w-1/2 lg:w-1/4 p-6">
+            <div key={index} className="flex-shrink-0 p-6 bg-alabaster w-full h-full">
+              <Paragraph className="text-xl text-center">{item}</Paragraph>
+            </div>
+          </div>
+        )
+      })}
+    </div>
+  </Column>
+</Section>
+
+<Section>
+  <Column gap="2xl" className="items-center">
+    <H3 className="text-heading text-3xl">
+      What you get
+    </H3>
+    <Column>
+    <div className="mt-6 lg:flex">
+      {[
+        {
+          title: "Market & Customer",
+          description:
+            "Segmentize the market that your ideas will fit in. Develop an unbiased profile of who your customers are, what they need, and how they want to buy.",
+          items: [
+            "Market Segmentation",
+            "Select a beachhead market",
+            "Build an End User Profile",
+            "Calculate the Total Addressable Market (TAM) size",
+            "Profile the Persona for the Beachhead Market",
+            "Full Life Cycle Use Case",
+            "High-Level Product Specs",
+            "Quantify the Value Proposition",
+            "Identify your next 10 customers",
+          ],
+        },
+        {
+          title: "Value Proposition",
+          description:
+            "Create a bespoke and valuable proposition that your customers, team, and investors can buy into.",
+          items: [
+            "Define your core",
+            "Chart your Competitive Position",
+            "Determine the Customer Decision-Making Unit",
+            "The process to acquire a paying customer",
+            "Calculate the TAM size for follow-on market",
+            "Design a Business Model",
+            "Pricing Framework",
+            "Calculate Lifetime Value (LTV) of an Acquired Customer",
+            "Sales Process to Acquire a customer",
+            "Cost of Customer Acquisition",
+          ],
+        },
+        {
+          title: "Product Strategy",
+          description:
+            "Identify your key assumptions and define the Minimum Viable Product.",
+          items: [
+            "Key Assumptions",
+            "Define the MVP for Solution-Product fit",
+            "Product Plan",
+          ],
+        },
+      ].map((section, idx) => (
+        <div key={idx} data-index={idx + 1} className="border-alto mt-8 pt-10 w-full lg:w-1/3 dwarves-steps-item">
+          <div className="pr-8">
+            <h3 className="text-2xl text-primary leading-tight mb-3">
+              {section.title}
+            </h3>
+            <p className="text-lg text-black mb-3">{section.description}</p>
+            <details>
+              <summary className="list-none cursor-default text-lg text-primary hover:text-primary-hover pb-4">Learn more</summary>
+              <ul className="list-[circle] pl-5 text-gray-600 text-lg">
+                {section.items.map((item, i) => (
+                  <li key={i} className="mb-1">
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </details>
+          </div>
+        </div>
+      ))}
+    </div>
+    </Column>
+  </Column>
+</Section>
+
+<Section>
+  <Column gap="3xl" className="items-center text-2xl px-4 justify-center max-w-screen-lg mx-auto">
+    <H3 className="text-heading text-3xl">
+      What you get
+    </H3>
+
+    Save time and money - reducing risk - by laying solid foundations for your future business. Coaching sessions every week, guiding you through a 6-week repeatable sprint process designed to validate your idea, test its validity in the market, and prepare to build your Prototype.
+    <Flex className="flex-wrap md:flex-nowrap justify-center max-w-screen-lg mx-auto mt-8">
+      {[
+        [
+          "Cohort",
+          "999",
+          "Join an Ideate cohort and take advantage of lower pricing for the same curriculum. You’ll join a fixed session with 3-4 other Founders, sharing your ideas, challenges, and results; learning from each other as well as your cohort leader.",
+        ],
+        [
+          "One-to-on",
+          "1999",
+          "Get the most value from the problem validation process by choosing your own workshop times and getting one-to-one coaching with one of our Senior Product Managers as well as input from the wider Product Design Team.",
+        ],
+        [
+          "Bespoke",
+          "2999",
+          "If you’d like to include additional projects and experiments in your Ideate program curriculum or would like more input from the Product Design team during the process, we would be delighted to build a curriculum around you.",
+        ],
+      ].map(([title, price, description], i) => (
+        <div key={i} className="flex flex-col items-center mb-8 space-y-4 px-8">
+          <h3 className="uppercase text-sm font-medium tracking-wide leading-none inline-block rounded-full px-3 py-1 text-gray-600 bg-gray-200 mb-4">{title}</h3>
+          <strong className="text-3xl sm:text-4xl lg:text-5xl dwarves-price-text items-start">{price}</strong>
+          <p className="text-left text-base max-w-paragraph">{description}</p>
+        </div>
+      ))}
+    </Flex>
+</Column>
+</Section>
+
+<Hero>
+  <Center className="flex flex-col gap-12">
+    ### Let’s spark your ideas
+
+    <Flex className="flex-col lg:flex-row mx-auto">
+      <div className="xl:w-1/2 hidden xl:block">
+        <ContactImageGrid
+          className="xl:pl-16"
+          images={[{
+            src: '../../contact/img/contact-illu.png',
+            alt: 'Contact illustration',
+            width: 560,
+            height: 648,
+            },
+          ]}
+        />
+      </div>
+      <IdeateForm className="w-2/3 xl:w-1/2 mx-auto" />
+    </Flex>
+  </Center>
+</Hero>
+
+<Section fullWidth className="bg-foreground py-12">
+  <Container className="dwarves-container">
+    <h2 className="flex items-center justify-center text-heading text-white text-3xl">
+      What’s next:
+      <Button variant="link" className="inline items-center text-primary text-3xl" href="/startup/validation">
+        Validation
+        <svg
+          stroke="currentColor"
+          fill="currentColor"
+          strokeWidth="0"
+          viewBox="0 0 16 16"
+          className="ml-1"
+          height="1em"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M9 13.887l5-5V8.18l-5-5-.707.707 4.146 4.147H2v1h10.44L8.292 13.18l.707.707z"
+          ></path>
+        </svg>
+      </Button>
+    </h2>
+  </Container>
+</Section>

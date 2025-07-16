@@ -1,0 +1,229 @@
+---
+title: "Validation"
+---
+
+<Hero
+  title={`How to know if our idea
+  could hit the market in the early day?
+  `}
+  subtitle={
+    <Flex className="gap-0">
+    Startups
+      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path></svg>
+    Validation
+    </Flex>
+  }
+  description={`In this stage, we want to bring founders up to speed with problem-solution fit and formalize
+  key metrics for future business. We help founders to start putting together a financial model
+  to fully understand the revenue stream following each solution.
+
+  With all the effort we put in from validation and business modeling, we can synthesize a
+  wire-frame from the relevant data points so founder can start fund raising.
+  `}
+>
+  <Paragraph className="text-primary text-md font-bold uppercase mb-2">Recommended for</Paragraph>
+  
+  <div className="max-w-paragraph text-xl">
+    **Early-stage Founder with a problem-solution hypothesis** and **wants to raise capital** before commit to build.
+  </div>
+
+  <Button className="mt-6" href="#contact">Let's talk</Button>
+</Hero>
+
+<Section className="bg-alabaster">
+  <Column>
+    <H3 className="text-heading text-3xl">
+      How it works
+    </H3>
+    <Paragraph className="text-xl max-w-paragraph space-y-4">
+
+      Intensive series of hands-on workshop on various practical topics: Problem-Solution Fit, Business Model, Financial Model, Branding and Product Strategy.
+      
+      We will conduct User Testing and Research together with founders for better understanding the customers and stakeholders.
+
+    </Paragraph>
+    <ColumnsList columns={1}>
+      {[
+        "Financial model with key metrics to build early funnel",
+        "Product Strategy, User-Experience and Competition Research",
+        "Create a Landing Page for early users adoption and keep on testing",
+        "Formalize Marketing Message and Sale Scripts",
+        "Low fidelity wireframe",
+      ].map((item, index) => {
+        return (
+          <li key={index} className="text-xl py-1">{item}</li>
+        )
+      })}
+    </ColumnsList>
+    <div className="mt-6 lg:flex text-xl">
+      {[
+        {
+          title: "Reduce time-to-market",
+          description:
+            "Get your product concept to your users within weeks, not months, and start gathering feedback.",
+          icon: "../svg/timer.svg",
+        },
+        {
+          title: "Increase accountability",
+          description:
+            "The Product Manager will ensure you stay focused, on-track, and unbiased throughout.",
+          icon: "../svg/cog.svg",
+        },
+        {
+          title: "Lower cost of delivery",
+          description:
+            "Save thousands by gathering all the information you need before you begin building your Prototype.",
+          icon: "../svg/cog.svg",
+        },
+      ].map((section, idx) => (
+        <div key={idx} className="w-full lg:w-1/3">
+          <div className="px-6 space-y-2">
+            <svg width="60" height="60">
+              <use href={section.icon}></use>
+            </svg>
+            <strong>
+              {section.title}
+            </strong>
+            <p>{section.description}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+   </Column>
+</Section>
+
+<Section>
+  <Column gap="3xl">
+    <H3 className="text-heading text-3xl">
+      What you get
+    </H3>
+
+    <ColumnsList className="max-w-paragraph" columns={1}>
+      {[
+        "Set up business, financial model and key metrics",
+        "Getting idea validated: Testing the hypothesis before committing to Product Development",
+        "Early traction and the first batch of early adopters",
+        "Wire-frame to raise early stage capital",
+      ].map((item, index) => {
+        return (
+          <li key={index} className="text-xl py-1">{item}</li>
+        )
+      })}
+    </ColumnsList>
+    <ul className="text-xl flex-row flex justify-center flex-wrap">
+    {[
+        {
+          title: "Validation Framework",
+          description:
+            "Design a landing page, test your value proposition, and begin building a database of early adopters.",
+          icon: "../svg/validation-framework.svg",
+        },
+        {
+          title: "Customer acquisition",
+          description:
+            "Craft your message, define your audience, and identify your optimum channels for growth.",
+          icon: "../svg/customer-aquisition.svg",
+        },
+        {
+          title: "Product Strategy",
+          description:
+            "Outline your strategic vision and target a subset of your audience using our guided framework.",
+          icon: "../svg/product-strategy.svg",
+        },
+      ].map((section, index) => (
+      <li className="lg:w-1/2 p-4" key={index}>
+        <div className="py-12 px-10 h-full bg-alabaster flex items-center">
+          <svg width="64" height="65" className="mr-8 flex-none">
+            <use href={section.icon} />
+          </svg>
+          <div className="space-y-2">
+            <strong>{section.title}</strong>
+            <Paragraph className="text-sm">{section.description}</Paragraph>
+          </div>
+        </div>
+      </li>
+    ))}
+</ul>
+</Column>
+</Section>
+
+<Section>
+#### How we helped our clients
+
+<Flex className="sm:max-w-1/2">
+<Project colored background="tertiary-blue" href="/work/kiwipay" image="./img/kiwipay.png" imageAlt="Kiwipay landing logo" imageClassName="pt-8 pb-0 px-[4.5%] **:w-full !**:object-fit" className="max-h-[400px] overflow-hidden">
+  #### KiwiPay
+
+  **Fintech · Laos**
+</Project>
+</Flex>
+
+</Section>
+
+<Hero>
+  <Center className="flex flex-col gap-12">
+    ### Let’s validate your idea
+
+    <Flex className="flex-col lg:flex-row mx-auto">
+      <div className="xl:w-1/2 hidden xl:block">
+        <ContactImageGrid
+          className="xl:pl-16"
+          images={[{
+            src: '../../contact/img/contact-illu.png',
+            alt: 'Contact illustration',
+            width: 560,
+            height: 648,
+            },
+          ]}
+        />
+      </div>
+    <ServiceContact
+      serviceName="validation"
+      onlyForm
+      className="w-2/3 xl:w-1/2 mx-auto"
+      options={Object.entries({
+        "Standard (From $1000)": {
+          desc: `One-page websites, mobile apps, or presenting initial ideas to investors, stakeholders, and user-testing.`,
+        },
+        "Advanced (From $3000)": {
+          desc: `Small website, simple app, or presenting business ideas to investors, potential clients as an MVP/demo/prototype.`,
+        },
+        "Premium (From $6000)": {
+          desc: `Fully-formed, complex websites, apps that showcase brand story, multiple functions & offers, optimized for future evolvement.`,
+        },
+      }).map(([option, msg]) => ({
+        label: option,
+        value: option,
+        "pre-fill-message": msg.desc,
+      }))}
+    />
+    </Flex>
+  </Center>
+</Hero>
+
+<Section fullWidth className="bg-foreground py-12">
+  <Container className="dwarves-container">
+    <h2 className="flex items-center justify-center text-heading text-white text-3xl">
+      What’s next:
+      <Button variant="link" className="inline items-center text-primary text-3xl" href="/startup/mvp">
+        MVP Development
+        <svg
+          stroke="currentColor"
+          fill="currentColor"
+          strokeWidth="0"
+          viewBox="0 0 16 16"
+          className="ml-1"
+          height="1em"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M9 13.887l5-5V8.18l-5-5-.707.707 4.146 4.147H2v1h10.44L8.292 13.18l.707.707z"
+          ></path>
+        </svg>
+      </Button>
+    </h2>
+  </Container>
+</Section>
