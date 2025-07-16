@@ -8,7 +8,7 @@ template: work
   we are proud to be a part of"
 >
 <Column gap="lg" className="mt-8">
-  <HStack>
+  <Flex className="flex-col md:flex-row">
     <Project image="../images/work/logo/attrace.png" imageAlt="Attrace logo" href="/work/attrace">
       By involving in early development stage, we have actively contributed to many core functionalities of [Attrace](http://attrace.com/)'s blockchain network. Notably such as achieving pBFT for the consensus protocol, building a Network connector (for consumers to interact with Attrace's blockchain network) and a dashboard to manage campaigns.
     </Project>
@@ -20,9 +20,9 @@ template: work
     <Project image="../images/work/logo/base.png" imageAlt="Base logo">
       Base is the first-ever software built exclusively for executive assistants. They engaged with Dwarves to develop various new modules and features. We also helped to refactor the old frontend architecture of the user-front app. Our work helped Base to catchup their release roadmap as well as ensuring software quality of the product.
     </Project>
-  </HStack>
+  </Flex>
 
-  <HStack>
+  <Flex className="flex-col md:flex-row">
     <Project featured background="green" href="/work/aharooms" image="/images/work/logo/aharooms-landingpage.png" imageAlt="Aharooms logo">
       #### Aharooms
       
@@ -34,11 +34,11 @@ template: work
       
       *Ride-hailing • Vietnam*
     </Project>
-  </HStack>
+  </Flex>
 
   <Center>
     <Container>
-      <HStack gap="lg">
+      <Flex gap="lg" className="flex-col md:flex-row">
         <Project href="/work/para" image="/images/work/logo/para.png" imageAlt="Para logo">
           Para is a platform connecting hospitals with medical professionals. Para saw the demand for its product peak when Covid-19 hit severely. Through our Covid-19 program we partnered and helped unburden Para from the financial stress during the early stage of their MVP development.
           
@@ -50,9 +50,9 @@ template: work
           
           We also collaborated with Mudah's engineers to re-build the mobile website in React while optimizing page load performance as well as SEO.
         </Project>
-      </HStack>
+      </Flex>
 
-      <HStack gap="lg">
+      <Flex gap="lg" className="flex-col md:flex-row">
         <Project href="/work/tokenomy" image="/images/work/logo/tokenomy.png" imageAlt="Tokenomy logo">
           We developed the new Premium app from scratch together with their Backend team using React, Redux and TailwindCSS. The app supports dark/light theme switching, data caching and retrying failed api calls. We also architected a solid frontend foundation so that new features can be implemented easily, allowing Tokenomy to stay on track with their release timeline.
         </Project>
@@ -60,11 +60,11 @@ template: work
         <Project href="/work/pie" image="/images/work/logo/pie.png" imageAlt="Pie logo">
           Pie Mapping is a Fleet Management platform for enterprises. As a team of 8 Backend engineers, we work directly with their team in the UK - including the CTO, Frontend team and Product team. Working with existing Go microservices, we helped to improve the API performance, optimize SQL queries and integrated a new Search module with ElasticSearch.
         </Project>
-      </HStack>
+      </Flex>
     </Container>
   </Center>
 
-  <HStack>
+  <Flex className="flex-col md:flex-row">
     <Project colored background="dark" image="/images/work/logo/dental-marketplace.png" imageAlt="Dentistry Marketplace logo" href="/work/dental-marketplace">
       ### Dental Marketplace
       
@@ -82,10 +82,9 @@ template: work
       
       *Affiliate Marketing • Netherlands*
     </Project>
-  </HStack>
+  </Flex>
 
-  {/* Row 6: Final simple projects */}
-  <HStack>
+  <Flex className="flex-col md:flex-row">
     <Project href="/work/reapit" image="/images/work/logo/reapit.png" imageAlt="Reapit logo">
       We provide consulting and offshore development service (ODC) to help Reapit Cloud team build web app marketplace - as a Progressive Web App (PWA). The team has also contributed to some of their open-source packages as well as built several small functional apps such as React Checklist to enrich the marketplace.
     </Project>
@@ -97,6 +96,6 @@ template: work
     <Project href="/work/talennet" image="/images/work/logo/talennet.png" imageAlt="Talennet logo">
       Talennet is a veteran and the only company in Vietnam that provides end to end HR solutions to companies of all sizes. We collaborated to companies of all sizes. The team has helped with developing their multi-tenant platform to deliver a smooth user experience to a diverse range of users. The platform is now being used on a daily basis by employees of 300+ companies in Vietnam.
     </Project>
-  </HStack>
+  </Flex>
   </Column>
 </Hero>
