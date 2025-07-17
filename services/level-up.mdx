@@ -2,6 +2,43 @@
 title: "Level Up Your Development Team"
 description: "Scale up your product teams with expert mentorship, hands-on guidance, and best practices. Knowledge transfer and culture building for digital organizations."
 template: "services"
+form-options:
+  form-image: "/contact/img/contact-illu.png"
+  title: "Let’s level up your team"
+  service-name: "level-up"
+  show-select-location: false
+  additional-info-field-label: "More about your team"
+  select-fields:
+    - label: "What is your team structure?"
+      name: "team"
+      options:
+        - label: "1-3 members (Small team)"
+        - label: "3-10 members (Medium team)"
+          default: true
+        - label: "10-15 member (Growing team)"
+        - label: "More than 15 members (Established team)"
+  input-fields:
+    - type: "text"
+      name: "name"
+      label: "What is your name?"
+      group: "first"
+    - type: "text"
+      name: "email"
+      label: "What is your email address?"
+      required: true
+      group: "first"
+    - type: "text"
+      name: "organization"
+      label: "Organization"
+      group: "second"
+    - type: "text"
+      name: "website"
+      label: "Website"
+      group: "second"
+    - type: "text"
+      name: "stack"
+      label: "What is your current technology stack?"
+      placeholder: ".eg Golang, React, Swift, K8s, GCP..."
 ---
 
 <Hero 
@@ -47,14 +84,14 @@ Hiring doesn’t stop once someone starts their first day. Retaining your talent
     </ColumnsList>
     <div className="flex flex-wrap flex-row">
       {[
-        "Collaborative working environment", "Sustainable work", "Inclusivity", "Designing for accessibility",
-        "Integrated design & development", "CI/CD Workflow", "Retrospectives", "Stand-up",
-        "Community-supported tech decisions", "PR etiquette", "Asynchronous work", "Open communication"
+        "Collaborative working environment\nSustainable work\nInclusivity\nDesigning for accessibility",
+        "Integrated design & development\nCI/CD Workflow\nRetrospectives\nStand-up",
+        "Community-supported tech decisions\nPR etiquette\nAsynchronous work\nOpen communication"
       ].map((item, index) => {
         return (
-          <div className="w-full md:w-1/2 lg:w-1/4 p-6">
+          <div className="w-full lg:w-1/3 p-6">
             <div key={index} className="flex-shrink-0 p-6 bg-alabaster w-full h-full">
-              <Paragraph className="text-xl text-center">{item}</Paragraph>
+              <Paragraph className="text-lg text-center whitespace-pre-line">{item}</Paragraph>
             </div>
           </div>
         )
@@ -64,7 +101,7 @@ Hiring doesn’t stop once someone starts their first day. Retaining your talent
 </Section>
 
 <Section>
-## Mentoring
+### Mentoring
 
 <ParagraphBlock>
 We work 1 on 1 and in small groups with junior team members who are prime to advance in their career, but lacking the senior guidance to get them there.
@@ -76,7 +113,7 @@ By investing in junior designers and developers' growth, you can achieve higher 
 </Section>
 
 <Section>
-## Mentoring 
+### Mentoring 
 
 <ParagraphBlock>
 Finding the right designers and developers for your team takes time, as it should. You want to make sure you're going through a meaningful interview process and making the right picks to help you long into the future.

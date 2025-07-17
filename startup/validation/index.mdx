@@ -177,22 +177,30 @@ title: "Validation"
     <ServiceContact
       serviceName="validation"
       onlyForm
-      className="w-2/3 xl:w-1/2 mx-auto"
-      options={Object.entries({
-        "Standard (From $1000)": {
-          desc: `One-page websites, mobile apps, or presenting initial ideas to investors, stakeholders, and user-testing.`,
+      templateSelectFields={[
+        {
+          label: "What do you want to build?",
+          name: "service",
+          options: [
+            {
+              label: "Standard (From $1000)",
+              description:
+                "One-page websites, mobile apps, or presenting initial ideas to investors, stakeholders, and user-testing.",
+            },
+            {
+              label: "Advanced (From $3000)",
+              description:
+                "Small website, simple app, or presenting business ideas to investors, potential clients as an MVP/demo/prototype.",
+              default: true,
+            },
+            {
+              label: "Premium (From $6000)",
+              description:
+                "Fully-formed, complex websites, apps that showcase brand story, multiple functions & offers, optimized for future evolvement.",
+            },
+          ]
         },
-        "Advanced (From $3000)": {
-          desc: `Small website, simple app, or presenting business ideas to investors, potential clients as an MVP/demo/prototype.`,
-        },
-        "Premium (From $6000)": {
-          desc: `Fully-formed, complex websites, apps that showcase brand story, multiple functions & offers, optimized for future evolvement.`,
-        },
-      }).map(([option, msg]) => ({
-        label: option,
-        value: option,
-        "pre-fill-message": msg.desc,
-      }))}
+      ]}
     />
     </Flex>
   </Center>
