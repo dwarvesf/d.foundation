@@ -24,12 +24,12 @@
           "href": "https://github.com/dwarvesf"
         },
         {
-          "tab": "Blog",
+          "tab": "Memo",
           "href": "https://memo.d.foundation"
         },
         {
           "tab": "Careers",
-          "href": "https://careers.d.foundation/"
+          "href": "https://careers.d.foundation"
         }
       ]
     },
@@ -41,30 +41,15 @@
             {
               "group": "Expertise",
               "pages": [
-                [
-                  "Go",
-                  "/services/go"
-                ],
-                [
-                  "Elixir",
-                  "/services/elixir"
-                ],
+                ["Go", "/services/go"],
+                ["Elixir", "/services/elixir"],
                 "Node.js",
-                [
-                  "React",
-                  "/services/react"
-                ],
-                [
-                  "TypeScript",
-                  "/services/typescript"
-                ],
+                ["React", "/services/react"],
+                ["TypeScript", "/services/typescript"],
                 "Docker",
                 "Kubernetes",
                 "GCP/AWS",
-                [
-                  "Swift",
-                  "/services/swift"
-                ],
+                ["Swift", "/services/swift"],
                 "React Native",
                 "Blockchain",
                 "Hyperledger"
@@ -75,14 +60,8 @@
                 {
                   "group": "Offshore",
                   "pages": [
-                    [
-                      "Body Leasing",
-                      "/services/body-leasing"
-                    ],
-                    [
-                      "Development Center",
-                      "/services/odc"
-                    ],
+                    ["Body Leasing", "/services/body-leasing"],
+                    ["Development Center", "/services/odc"],
                     "Build-Operate-Transfer"
                   ]
                 },
@@ -103,17 +82,11 @@
                 "Digital Transformation",
                 "Strategy & Architecture",
                 "Web Development",
-                [
-                  "Mobile Development",
-                  "/services/mobile"
-                ],
+                ["Mobile Development", "/services/mobile"],
                 "Tooling Development",
                 "API Integration",
                 "Managed Services",
-                [
-                  "Level Up",
-                  "/services/level-up"
-                ]
+                ["Level Up", "/services/level-up"]
               ]
             },
             {
@@ -121,22 +94,10 @@
               "tag": "new",
               "href": "/startup",
               "pages": [
-                [
-                  "Ideate",
-                  "/startup/ideate"
-                ],
-                [
-                  "Validation",
-                  "/startup/validation"
-                ],
-                [
-                  "MVP Development",
-                  "/startup/mvp"
-                ],
-                [
-                  "Scale Up",
-                  "/startup/scale"
-                ]
+                ["Ideate", "/startup/ideate"],
+                ["Validation", "/startup/validation"],
+                ["MVP Development", "/startup/mvp"],
+                ["Scale Up", "/startup/scale"]
               ]
             }
           ]
@@ -155,10 +116,7 @@
         },
         {
           "tab": "Build with us",
-          "type": [
-            "button",
-            "primary"
-          ],
+          "type": ["button", "primary"],
           "href": "/contact"
         }
       ]
@@ -166,38 +124,17 @@
     "mobile-navigation-footer": {
       "email": "team@dwarves.foundation",
       "socials": {
-        "facebook": [
-          "https://www.facebook.com/dwarvesf",
-          "facebook-icon"
-        ],
-        "linkedin": [
-          "https://linkedin.com/company/dwarvesf",
-          "linkedin-icon"
-        ],
-        "x": [
-          "https://twitter.com/dwarvesf",
-          "x-icon"
-        ],
-        "github": [
-          "https://github.com/dwarvesf",
-          "github-icon"
-        ],
-        "discord": [
-          "https://discord.gg/VCeYSNzm",
-          "discord-icon"
-        ],
+        "facebook": ["https://www.facebook.com/dwarvesf", "facebook-icon"],
+        "linkedin": ["https://linkedin.com/company/dwarvesf", "linkedin-icon"],
+        "x": ["https://twitter.com/dwarvesf", "x-icon"],
+        "github": ["https://github.com/dwarvesf", "github-icon"],
+        "discord": ["https://discord.gg/VCeYSNzm", "discord-icon"],
         "instagram": [
-          "https://www.instagram.com/dwarves.foundation/",
+          "https://www.instagram.com/dwarves.foundation",
           "instagram-icon"
         ],
-        "behance": [
-          "https://www.behance.net/dwarvesf",
-          "behance-icon"
-        ],
-        "dribbble": [
-          "https://dribbble.com/dwarvesf",
-          "dribbble-icon"
-        ]
+        "behance": ["https://www.behance.net/dwarvesf", "behance-icon"],
+        "dribbble": ["https://dribbble.com/dwarvesf", "dribbble-icon"]
       }
     }
   },
@@ -234,38 +171,20 @@
           }
         ],
         "socials": {
-          "facebook": [
-            "https://www.facebook.com/dwarvesf",
-            "facebook-icon"
-          ],
+          "facebook": ["https://www.facebook.com/dwarvesf", "facebook-icon"],
           "linkedin": [
             "https://linkedin.com/company/dwarvesf",
             "linkedin-icon"
           ],
-          "x": [
-            "https://twitter.com/dwarvesf",
-            "x-icon"
-          ],
-          "github": [
-            "https://github.com/dwarvesf",
-            "github-icon"
-          ],
-          "discord": [
-            "https://discord.gg/VCeYSNzm",
-            "discord-icon"
-          ],
+          "x": ["https://twitter.com/dwarvesf", "x-icon"],
+          "github": ["https://github.com/dwarvesf", "github-icon"],
+          "discord": ["https://discord.gg/VCeYSNzm", "discord-icon"],
           "instagram": [
             "https://www.instagram.com/dwarves.foundation/",
             "instagram-icon"
           ],
-          "behance": [
-            "https://www.behance.net/dwarvesf",
-            "behance-icon"
-          ],
-          "dribbble": [
-            "https://dribbble.com/dwarvesf",
-            "dribbble-icon"
-          ]
+          "behance": ["https://www.behance.net/dwarvesf", "behance-icon"],
+          "dribbble": ["https://dribbble.com/dwarvesf", "dribbble-icon"]
         }
       },
       {
@@ -295,10 +214,7 @@
           {
             "tab": "Hire us",
             "href": "/contact",
-            "type": [
-              "link",
-              "primary"
-            ]
+            "type": ["link", "primary"]
           }
         ]
       },
@@ -339,10 +255,7 @@
           {
             "tab": "Join us",
             "href": "https://dwarves.careers/",
-            "type": [
-              "link",
-              "primary"
-            ]
+            "type": ["link", "primary"]
           }
         ]
       },
@@ -360,7 +273,7 @@
           },
           {
             "tab": "Alumni",
-            "href": "/alumni"
+            "href": "https://memo.d.foundation/contributor?view=alumni"
           },
           {
             "tab": "Privacy Policy",
