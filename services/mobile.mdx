@@ -6,13 +6,17 @@ form-options:
   form-image: "/contact/img/contact-illu.png"
   title: "Let’s build your next Mobile app"
   service-name: "mobile development"
-  options:
-    - label: Simple app (Up to $25,000)
-      description: Often list or table-based, an app with 3-4 screens and one primary function. It displays a relatively simple collection of information and doesn’t store any data.
-    - label: Database-dependent / dynamic apps (Up to $100,000)
-      description: Complex app that stores data on the user’s device or a remote server. It may require users to register, allow them to find, input, and display data, sync data between multiple devices, connect to remote online web services, etc.
-    - label: Multi-functional / Enterprise or Brand apps (More than $100,000)
-      description: Includes a number of core features and custom user interface assist with a business activity. Such apps usually require the use of extensive databases, advanced UI, and commerce integration.
+  select-fields:
+    - label: "What do you want to build?"
+      name: "application"
+      options:
+        - label: Simple app (Up to $25,000)
+          description: Often list or table-based, an app with 3-4 screens and one primary function. It displays a relatively simple collection of information and doesn’t store any data.
+        - label: Database-dependent / dynamic apps (Up to $100,000)
+          description: Complex app that stores data on the user’s device or a remote server. It may require users to register, allow them to find, input, and display data, sync data between multiple devices, connect to remote online web services, etc.
+          default: true
+        - label: Multi-functional / Enterprise or Brand apps (More than $100,000)
+          description: Includes a number of core features and custom user interface assist with a business activity. Such apps usually require the use of extensive databases, advanced UI, and commerce integration.
 ---
 
 <Hero title="Build and scale your mobile apps">
@@ -29,33 +33,92 @@ form-options:
   </Container>
 </Hero>
 
-<Flex className="flex-col md:flex-row">
-  <Project colored background="dark" href="/work/dental-marketplace" image="/images/services/mobile-development/dental-marketplace.png" imageAlt="Dentistry Marketplace logo">
-    #### Dental Marketplace
-    
-    **Dentistry · Singapore**
-  </Project>
-  <Project colored background="white-blue" href="/work/airwatt" image="/images/services/mobile-development/airwatt.png" imageAlt="Airwatt landing logo">
-    #### Airwatt
-    
-    **IoT · Vietnam**
-  </Project>
-</Flex>
+<Section>
+  <Flex className="flex-col md:flex-row">
+    <Project colored background="dark" href="/work/dental-marketplace" image="/images/services/mobile-development/dental-marketplace.png" imageAlt="Dentistry Marketplace logo">
+      #### Dental Marketplace
+      
+      **Dentistry · Singapore**
+    </Project>
+    <Project colored background="white-blue" href="/work/airwatt" image="/images/services/mobile-development/airwatt.png" imageAlt="Airwatt landing logo">
+      #### Airwatt
+      
+      **IoT · Vietnam**
+    </Project>
+  </Flex>
+</Section>
 
-<ContentBoxes
-  title="Mobile Development Services"
-  leftColumnContent={`
-  Although Elixir is quite a young language, it has the time to develop an active user community where even highly qualified engineering are willing to build, help and share their knowledge. Moreover, there is a lot of resources and tutorials available for developers to their hands on Elixir.
-  `}
-  rightColumnContent={
-    <div>
-    Native platforms we’ve been work on:
-    <ColumnsList columns={1}>
-        <ListItem>Languages and Frameworks</ListItem>
-        <ListItem>Techniques</ListItem>
-        <ListItem>Tools</ListItem>
-        <ListItem>Platforms</ListItem>
-      </ColumnsList>
-    </div>
-  }
-/>
+<Section>
+  ### Our taste on Mobile Development
+
+  <ContentBoxes
+    leftColumnContent={
+      <ParagraphBlock className="whitespace-pre-line">
+        {`The mobile app is a frontend for the business to communicate with customers. Mobile users tend to stick to the application that brings better experience.
+
+        We’ve been working on mobile applications since 2013 and grokking on how each approach works underlying, thus we always recommend our clients to go with native app development.
+        Native apps are applications that are written in languages specific to the operating systems that they are developed for - primarily.
+
+        We also help architect and build mobile apps on different platforms with native technology, follow by modern design guideline. When an app closely follows the guidelines for popular platforms, users could quickly adapt and become familiar in using it.
+        `}
+      </ParagraphBlock>
+    }
+    rightColumnContent={
+      <div>
+      Native platforms we’ve been work on:
+      <ColumnsList columns={1}>
+          <ListItem>iOS/iPadOS with Swift & Objective-C</ListItem>
+          <ListItem>WatchOS</ListItem>
+          <ListItem>Android with Kotlin & Java</ListItem>
+        </ColumnsList>
+      </div>
+    }
+  />
+</Section>
+
+<Section>
+### Deliver the best UX to end users
+
+<ParagraphBlock>
+  UX/UI is unified within a given platform, so it is already well known by users. The UX patterns recur in other native apps, so people will intuitively know how to move around in your app as well. User experience is also much better because the higher performance allows everything to run smoothly.
+
+  It is also easier for the creators to follow the imposed standards when designing and developing an app.
+
+  Simply put, creating native applications supports good UI/UX patterns for a given platform. In addition, you can develop platform-specific features directly within a native app, like integration with Google Pay or Siri.
+</ParagraphBlock>
+</Section>
+
+<Section>
+### Stability
+
+<ParagraphBlock>
+  Each mobile platform is supported by the giant behind them. It means that they are definitely much more stable in terms of both maintenance and development.
+</ParagraphBlock>
+</Section>
+
+<Section>
+### Access to hardware features
+
+<ParagraphBlock>
+  Native applications can take full advantage of all the hardware features of a mobile device. Moreover, their implementation is quick and easy thanks to the exclusive APIs offered by the Google and Apple operating systems.
+</ParagraphBlock>
+</Section>
+
+<Section>
+### Our Practices
+
+<ParagraphBlock>
+  Native applications can take full advantage of all the hardware features of a mobile device. Moreover, their implementation is quick and easy thanks to the exclusive APIs offered by the Google and Apple operating systems.
+
+  <ColumnsList className="text-xl">
+    <ListItem>Data API integration</ListItem>
+    <ListItem>Clean architecture</ListItem>
+    <ListItem>Mobile CI/CD with Bitrise and Git</ListItem>
+    <ListItem>Different environment for specific purpose</ListItem>
+    <ListItem>Realtime Notification</ListItem>
+    <ListItem>Automation testing</ListItem>
+    <ListItem>App Store distribution</ListItem>
+    <ListItem>Mobile app usage monitoring and tracking</ListItem>
+  </ColumnsList>
+</ParagraphBlock>
+</Section>
