@@ -45,7 +45,7 @@
                 ["Elixir", "/services/elixir"],
                 "Node.js",
                 ["React", "/services/react"],
-                ["TypeScript", "/services/typescript"],
+                ["TypeScript", "/services/react"],
                 "Docker",
                 "Kubernetes",
                 "GCP/AWS",

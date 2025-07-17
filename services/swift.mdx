@@ -2,52 +2,116 @@
 title: "Swift Development"
 description: "Next-level native application with the Swift language. Fast, safe, and scalable apps for iOS, macOS, and the Apple ecosystem."
 template: "services"
-form-options:
-  form-image: "/contact/img/contact-illu.png"
-  title: "Let’s build with us"
-  service-name: "swift development"
-  options:
-    - label: MVP app (Up to $25,000)
-      description: Launch your native iOS or macOS app quickly—core features, clean UX, ready for App Store submission.
-    - label: Business/Production app (Up to $100,000)
-      description: Scale with multi-feature native apps, integration with Apple services, and robust testing.
-    - label: Cross-platform or multi-app (More than $100,000)
-      description: Large-scale projects across iOS, macOS, watchOS, tvOS, with custom extensions and enterprise support.
 ---
 
-<Hero title="Next-level native application with the Swift language">
-  <Container className="text-xl">
-    Swift is a powerful and intuitive programming language for macOS, iOS, 
-    watchOS, tvOS and beyond. Swift code is not only type-safe by design, but 
-    also produces applications that run lightning-fast.
-    <Button href="#contact">Let's build</Button>
-  </Container>
-</Hero>
+<Hero
+  title="Build solid web front-end with React"
+  description="React and JSX has became an industry-standard environment for frontend development. With React we can rapidly build reusable components and building blocks for complex web applications."
+  ctaText="Let's build"
+  ctaLink="/contact"
+/>
 
-## Built with Swift
+<Section>
+### Built with Swift
 
+<ParagraphBlock>
 At Dwarves, we have been using Swift since the very first version of it. We leverage Swift’s features in our projects .eg Protocol Oriented Programming, Functional Reactive Programming and so on. On that journey, we have built many applications in variety of Apple’s platforms such as iOS, macOS, and App Extension.
+</ParagraphBlock>
+<Flex className="md:flex flex-wrap md:flex-nowrap mt-12">
+  {[
+    {
+      name: "Hidden",
+      desc: "A ultra-light MacOS utility that helps menu bar icons.",
+      icon: "../images/services/swift/hidden-bar.png",
+      href: "https://github.com/dwarvesf/hidden",
+    },
+    {
+      name: "Blurred",
+      desc: "A macOS utility that helps reduce distraction by dimming your inactive noise.",
+      icon: "../images/services/swift/blurred.png",
+      href: "https://github.com/dwarvesf/blurred",
+    },
+    {
+      name: "Session Buddy",
+      desc: "An ultra-light Safari extension helps you save open tabs as collections that can be easily restored later.",
+      icon: "../images/services/swift/session-buddy.png",
+      href: "https://github.com/dwarvesf/session-buddy",
+    },
+  ].map((item) => (
+      <FlexItem key={item.name} className="col md:w-1/2 lg:w-1/3 mb-10">
+        <Link
+          href={item.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link-reset hover:text-inherit"
+        >
+          <div className=" flex">
+            <img
+              src={item.icon}
+              alt="Hidden's logo"
+              className="flex-none block w-16 h-16 rounded"
+            />
+            <div className="mt-2 ml-4">
+              <strong className="block text-xl font-bold font-mono">
+                {item.name}
+              </strong>
+              <p className="!text-lg mt-1">
+                {item.desc}
+              </p>
+            </div>
+          </div>
+        </Link>
+      </FlexItem>
+  ))}
+</Flex>
+<Button href="https://superbits.co/all-products" variant="link" className="text-primary text-xl" target="_blank" rel="noopener noreferrer">More cool products<svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg></Button>
+</Section>
 
-## Faster, Safer
+<Section>
+### Faster, Safer
 
-- Swift is faster than Objective-C, because it removed the limitations of C language and has been improved with the help of advanced technologies that were unavailable when C was developed.
-- Swift is compatible with binary that means the end result of Swift app development will benefit the smaller for users for running their new operating system.
-- The launch time of your application will be fast since Swift’s dynamic library is utilized by an app and will be cached in the memory, which will be shared among the apps.
-- Swift’s syntax and language constructions exclude the several types of mistakes potentially possible in Objective-C. This control means fewer crashes and cases of unexpected behavior.
+<ParagraphBlock>
+  <ColumnsList columns={1}>
+    <li>Swift is faster than Objective-C, because it removed the limitations of C language and has been improved with the help of advanced technologies that were unavailable when C was developed.</li>
+    <li>Swift is compatible with binary that means the end result of Swift app development will benefit the smaller for users for running their new operating system.</li>
+    <li>The launch time of your application will be fast since Swift’s dynamic library is utilized by an app and will be cached in the memory, which will be shared among the apps.</li>
+    <li>Swift’s syntax and language constructions exclude the several types of mistakes potentially possible in Objective-C. This control means fewer crashes and cases of unexpected behavior.</li>
+  </ColumnsList>
+</ParagraphBlock>
+</Section>
 
-## Apple’s ongoing focus
+<Section>
+### Apple’s ongoing focus
 
-- Swift is backed by Apple, and it is the primary language for building any Apple’s platform application.
-- Easy to adapt the update whenever Apple has any new rollout feature.
-- Easy to distribute on App Store since Apple has given us a well-designed toolkit for handling this.
+<ParagraphBlock>
+  <ColumnsList columns={1}>
+    <li>Swift is backed by Apple, and it is the primary language for building any Apple’s platform application.</li>
+    <li>Easy to adapt the update whenever Apple has any new rollout feature.</li>
+    <li>Easy to distribute on App Store since Apple has given us a well-designed toolkit for handling this.</li>
+  </ColumnsList>
+</ParagraphBlock>
+</Section>
 
-## Low maintenance cost
 
-- The code in Swift more closely resembles English, making it easier to read and requiring less time to check the code.
-- It requires less number of code lines compared to Objective-C in comparison to other apps.
-- In Objective-C, you have to manually synchronize method names and comments between files. While with Swift, programmers can spend more time creating app logic and improving the quality of their code, comments, and features that are supported.
+<Section>
+### Low maintenance cost
 
-## Great community and steady evolution
+<ParagraphBlock>
+  <ColumnsList columns={1}>
+    <li>The code in Swift more closely resembles English, making it easier to read and requiring less time to check the code.</li>
+    <li>It requires less number of code lines compared to Objective-C in comparison to other apps.</li>
+    <li>In Objective-C, you have to manually synchronize method names and comments between files. While with Swift, programmers can spend more time creating app logic and improving the quality of their code, comments, and features that are supported.</li>
+  </ColumnsList>
+</ParagraphBlock>
+</Section>
 
-- Swift has a great community, which anyone would be willing for helping each other.
-- Swift has been years in the making, and it continues to evolve with new features and capabilities. Every Swift’s proposal are well written and reviewed by the most talented computer sciences around the world.
+<Section>
+### Great community and steady evolution
+
+<ParagraphBlock>
+  <ColumnsList columns={1}>
+    <li>Swift has a great community, which anyone would be willing for helping each other.</li>
+    <li>Swift has been years in the making, and it continues to evolve with new features and capabilities. Every Swift’s proposal are well written and reviewed by the most talented computer sciences around the world.</li>
+  </ColumnsList>
+</ParagraphBlock>
+</Section>
