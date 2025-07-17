@@ -2,40 +2,30 @@
 title: "Elixir Development"
 description: "High availability and scalable system with Elixir and Phoenix. Backend and data APIs built for performance and reliability."
 template: "services"
-form-options:
-  form-image: "/contact/img/contact-illu.png"
-  title: "Let’s build with us"
-  service-name: "elixir"
-  options:
-    - label: API/Data Platform (Up to $25,000)
-      description: Rapid backend/API for your web, mobile, or IoT app. Reliable, testable, and ready for growth.
-    - label: Realtime System (Up to $100,000)
-      description: Chat, notifications, or real-time dashboards—built for performance, concurrency, and minimal latency.
-    - label: Distributed/Enterprise (More than $100,000)
-      description: Full-scale, distributed systems with high concurrency and nine-nines reliability. Large data, mission-critical ops, and global scaling.
 ---
 
-<Hero title="High availability and scalable system with Elixir">
-  <Container className="text-xl">
-    We have adopted Elixir and Phoenix framework since early 2016 and 
-    has applied it successfully till today. We use Elixir as 
-    the main language for web, back-end development and data API development.
-    <Button href="#contact">Let's build</Button>
-  </Container>
-</Hero>
+<Hero
+  title="High availability and scalable system with Elixir"
+  description="We have adopted Elixir and Phoenix framework since early 2016 and has applied it successfully till today. We use Elixir as the main language for web, back-end development and data API development."
+  ctaText="Let's build"
+  ctaLink="/contact"
+/>
 
+<Section>
 ## Elixir & Phoenix
 
+<ParagraphBlock>
 Elixir benefits from the wealthy, open-source framework Phoenix which enables us to shorten development process and shift our focus into the product-market fit instead of reinventing the wheel.
+</ParagraphBlock>
+</Section>
 
+<Section>
+## Power of Erlang & Elixir
 
 <ContentBoxes
-  title="Power of Erlang & Elixir"
-  leftColumnContent={`
-  Elixir runs on top of the Erlang VM (BEAM), inheriting Erlang’s decades-long reputation for concurrency, distribution, and reliability.  
+  leftColumnContent="Elixir runs on top of the Erlang VM (BEAM), inheriting Erlang’s decades-long reputation for concurrency, distribution, and reliability.  
   This foundation gives Elixir apps built-in support for handling millions of connections, real-time communication, and automatic recovery from errors.  
-  The result: battle-tested performance in production for messaging, IoT, and high-availability services.
-  `}
+  The result: battle-tested performance in production for messaging, IoT, and high-availability services."
   rightColumnContent={
     <div>
     What you get with Elixir & Erlang:
@@ -51,32 +41,53 @@ Elixir benefits from the wealthy, open-source framework Phoenix which enables us
     </div>
   }
 />
+</Section>
 
+<Section>
 ## Concurrency built-in
 
+<ParagraphBlock>
 The Erlang VM (BEAM) was built for concurrency. Its actor model helps create isolated processes that communicate via messages without interfering with each other’s state. This enables the system to handle user spikes with ease.
+</ParagraphBlock>
+</Section>
 
+<Section>
 ## Scalability
 
+<ParagraphBlock>
 Thanks to the Erlang VM, Elixir apps can run on various nodes. This makes it easy to scale web or IoT systems across servers and machines. Multiple virtualized servers over distributed systems mean better app performance.
+</ParagraphBlock>
+</Section>
 
+<Section>
 ## Reliability: fault-tolerant approach
 
+<ParagraphBlock>
 One of the features that developers love the most about Erlang and Elixir is fault-tolerance. It provides built-in safety mechanism to keep the product functioning even when something goes wrong. Processes alert a “failure” to dependent processes, even when they’re on different physical servers so they can fix the problem immediately.
+</ParagraphBlock>
+</Section>
 
----
+<Section>
+  <H3 className="mb-8">Built with Elixir</H3>
 
-## Built with Elixir
+  <Flex gap="2xl" className="flex-col md:flex-row">
+    <Project colored background="green" href="/work/aharooms" image="/images/work/aharooms/landing-page.png" imageAlt="Aharooms hospitality platform">
+      #### Aharooms
+      
+      **Hospitality · Vietnam**
+    </Project>
+    <Project colored background="purple" href="/work/naru" image="/images/work/naru/landing-page.png" imageAlt="Naru.app productivity platform">
+      #### Naru.app
+      
+      **Productivity · U.S**
+    </Project>
+  </Flex>
+</Section>
 
-<Flex className="flex-col md:flex-row">
-  <Project colored background="green" href="/work/aharooms" image="/mnt/data/CleanShot 2025-07-17 at 11.12.24@2x.png" imageAlt="Aharooms hospitality platform">
-    #### Aharooms
-    
-    **Hospitality · Vietnam**
-  </Project>
-  <Project colored background="purple" href="/work/naru" image="/mnt/data/CleanShot 2025-07-17 at 11.12.41@2x.png" imageAlt="Naru.app productivity platform">
-    #### Naru.app
-    
-    **Productivity · U.S**
-  </Project>
-</Flex>
+<Section>
+  ## A growing and solid community
+
+  <ParagraphBlock>
+    Although Elixir is quite a young language, it has the time to develop an active user community where even highly qualified engineering are willing to build, help and share their knowledge. Moreover, there is a lot of resources and tutorials available for developers to their hands on Elixir.
+  </ParagraphBlock>
+</Section>
