@@ -1,5 +1,5 @@
 ---
-title: "Reaching Solution-Product fit"
+title: 'Reaching Solution-Product fit'
 ---
 
 <Hero
@@ -23,9 +23,7 @@ title: "Reaching Solution-Product fit"
 
 <Section className="bg-alabaster">
   <Column gap="2xl">
-    <H3 className="text-heading text-3xl">
-      How it works
-    </H3>
+    <H3 className="text-heading text-3xl">How it works</H3>
     <ColumnsList columns={1}>
       {[
         'We act as your technical co-founder until you’re ready to take roles in-house.',
@@ -34,52 +32,50 @@ title: "Reaching Solution-Product fit"
         'We cover a whole software development lifecycle, from system design, software design, development and quality assurance.',
         'We set goals and strategy and usual check-in for progress and iteration.',
         'We bring in experts to help with know-how knowledge from unfamiliar domains like business & operation structure, BI & metric guidance and everything related to building a sustainable company.',
-        ].map((item, index) => {
-          return (
-            <ListItem key={index} className="text-xl max-w-paragraph py-1">
-              {item}
-            </ListItem>
-          )
-        })}
+      ].map((item, index) => {
+        return (
+          <ListItem key={index} className="text-xl max-w-paragraph py-1">
+            {item}
+          </ListItem>
+        );
+      })}
     </ColumnsList>
   </Column>
 </Section>
 
 <Section>
   <Column gap="2xl">
-    <H3 className="text-heading text-3xl">
-      What you’ll get
-    </H3>
+    <H3 className="text-heading text-3xl">What you’ll get</H3>
     <ColumnsList columns={1}>
       {[
         'Throughout User Testing: A clear Strategy on Product and Tech Development.',
         'Dedicated Tech and Design Team: Effective Product team to focus solely on the project.',
         'Scalable codebase and well-crafted MVP.',
-        ].map((item, index) => {
-          return (
-            <ListItem key={index} className="text-xl max-w-paragraph py-1">
-              {item}
-            </ListItem>
-          )
-        })}
+      ].map((item, index) => {
+        return (
+          <ListItem key={index} className="text-xl max-w-paragraph py-1">
+            {item}
+          </ListItem>
+        );
+      })}
     </ColumnsList>
     <Column>
       {[
         [
-          "Right from beginning",
-          "The right team, tools, and tests for the job. You will be paired with a small team of experts to combine robust code and slick design for a superior user experience.",
+          'Right from beginning',
+          'The right team, tools, and tests for the job. You will be paired with a small team of experts to combine robust code and slick design for a superior user experience.',
         ],
         [
-          "Get to market fast",
-          "We utilize lean and agile techniques to ensure we get your business to market as efficiently as possible. Time-efficient while ensuring the result delivery.",
+          'Get to market fast',
+          'We utilize lean and agile techniques to ensure we get your business to market as efficiently as possible. Time-efficient while ensuring the result delivery.',
         ],
         [
-          "Flexible approaches",
-          "Because we are immersed in your business with you, we can help suggest team changes to respond to market feedback or changing circumstances. Startups with low fixed overheads and the correct team have a much higher chance of success.",
+          'Flexible approaches',
+          'Because we are immersed in your business with you, we can help suggest team changes to respond to market feedback or changing circumstances. Startups with low fixed overheads and the correct team have a much higher chance of success.',
         ],
         [
-          "Velocity tracking",
-          "By making an iteration budget and measure our progress, we are able to produce an increasingly accurate estimate of the project’s completion time with the Founder.",
+          'Velocity tracking',
+          'By making an iteration budget and measure our progress, we are able to produce an increasingly accurate estimate of the project’s completion time with the Founder.',
         ],
       ].map((item, index) => {
         const isEven = index % 2 === 0;
@@ -92,7 +88,7 @@ title: "Reaching Solution-Product fit"
             </Column>
             {isEven && <div className="hidden md:block w-1/2"></div>}
           </Flex>
-        )
+        );
       })}
     </Column>
   </Column>
@@ -105,12 +101,14 @@ title: "Reaching Solution-Product fit"
 <Project colored background="light-yellow" href="/work/artzy" image="./img/artzy.png" imageAlt="artzy landing logo" imageClassName="pt-8 pb-0 px-[4.5%] **:w-full !**:object-fit" className="max-h-[400px] overflow-hidden sm:w-1/2">
   #### Artzy
 
-  **Ecommerse, Mobile Printing · Vietnam**
+**Ecommerse, Mobile Printing · Vietnam**
+
 </Project>
 <Project colored background="white-blue" href="/work/airwatt" image="./img/airwatt.png" imageAlt="airwatt landing logo" imageClassName="pt-8 pb-0 px-[4.5%] **:w-full !**:object-fit" className="max-h-[400px] overflow-hidden sm:w-1/2">
   #### Airwatt
 
-  **IoT · Vietnam**
+**IoT · Vietnam**
+
 </Project>
 </Flex>
 
@@ -135,14 +133,19 @@ title: "Reaching Solution-Product fit"
       </div>
       <ContactForm showPolicyAgreement className="w-2/3 xl:w-1/2 mx-auto" />
     </Flex>
+
   </Center>
 </Hero>
 
 <Section fullWidth className="bg-foreground py-12">
   <Container className="dwarves-container">
     <h2 className="flex items-center justify-center text-heading text-muted text-3xl">
-      What’s next:
-      <Button variant="link" className="inline items-center text-primary text-3xl" href="/startup/scale">
+      <span>What’s next:</span>
+      <Button
+        variant="link"
+        className="inline items-center text-primary text-3xl"
+        href="/startup/scale"
+      >
         Scale Up
         <svg
           stroke="currentColor"
