@@ -1,47 +1,47 @@
 ---
-title: "Level Up Your Development Team"
-description: "Scale up your product teams with expert mentorship, hands-on guidance, and best practices. Knowledge transfer and culture building for digital organizations."
-template: "services"
+title: 'Level Up Your Development Team'
+description: 'Scale up your product teams with expert mentorship, hands-on guidance, and best practices. Knowledge transfer and culture building for digital organizations.'
+template: 'services'
 form-options:
-  form-image: "/contact/img/contact-illu.png"
-  title: "Let’s level up your team"
-  service-name: "level-up"
+  form-image: '/contact/img/contact-illu.png'
+  title: 'Let’s level up your team'
+  service-name: 'level-up'
   show-select-location: false
-  additional-info-field-label: "More about your team"
+  additional-info-field-label: 'More about your team'
   select-fields:
-    - label: "What is your team structure?"
-      name: "team"
+    - label: 'What is your team structure?'
+      name: 'team'
       options:
-        - label: "1-3 members (Small team)"
-        - label: "3-10 members (Medium team)"
+        - label: '1-3 members (Small team)'
+        - label: '3-10 members (Medium team)'
           default: true
-        - label: "10-15 member (Growing team)"
-        - label: "More than 15 members (Established team)"
+        - label: '10-15 member (Growing team)'
+        - label: 'More than 15 members (Established team)'
   input-fields:
-    - type: "text"
-      name: "name"
-      label: "What is your name?"
-      group: "first"
-    - type: "text"
-      name: "email"
-      label: "What is your email address?"
+    - type: 'text'
+      name: 'name'
+      label: 'What is your name?'
+      group: 'first'
+    - type: 'text'
+      name: 'email'
+      label: 'What is your email address?'
       required: true
-      group: "first"
-    - type: "text"
-      name: "organization"
-      label: "Organization"
-      group: "second"
-    - type: "text"
-      name: "website"
-      label: "Website"
-      group: "second"
-    - type: "text"
-      name: "stack"
-      label: "What is your current technology stack?"
-      placeholder: ".eg Golang, React, Swift, K8s, GCP..."
+      group: 'first'
+    - type: 'text'
+      name: 'organization'
+      label: 'Organization'
+      group: 'second'
+    - type: 'text'
+      name: 'website'
+      label: 'Website'
+      group: 'second'
+    - type: 'text'
+      name: 'stack'
+      label: 'What is your current technology stack?'
+      placeholder: '.eg Golang, React, Swift, K8s, GCP...'
 ---
 
-<Hero 
+<Hero
   title="Level up your development team"
   description="Companies hire us to assist their development team during the early day or during crisis. We provide in-depth knowledge sharing, comprehensive training and hands-on guidance."
   ctaText="Let's talk"
@@ -63,38 +63,38 @@ Your product is never “done”. Past features can be improved and new features
 We introduce processes and approaches to culture shaping that lead to suitable hires and proficient people.
 
 Hiring doesn’t stop once someone starts their first day. Retaining your talented team requires a thoughtful and ongoing effort that ultimately comes down to - are they fulfilled at work?
+
 </ParagraphBlock>
 </Section>
 
 <Section>
+  <H3 className="text-heading text-3xl">Best Practices</H3>
   <Column gap="2xl">
-    <H3 className="text-heading text-3xl">
-      Best Practices
-    </H3>
-    <ColumnsList columns={1}>
+    <ParagraphBlock>
+      Some of the processes and best practices which we believe would drive a
+      healthy product:
+    </ParagraphBlock>
+    <div className="flex flex-wrap flex-row gap-6">
       {[
-        'Some of the processes and best practices which we believe would drive a healthy product:'
-        ].map((item, index) => {
-          return (
-            <ListItem key={index} className="text-xl max-w-paragraph">
-              {item}
-            </ListItem>
-          )
-        })}
-    </ColumnsList>
-    <div className="flex flex-wrap flex-row">
-      {[
-        "Collaborative working environment\nSustainable work\nInclusivity\nDesigning for accessibility",
-        "Integrated design & development\nCI/CD Workflow\nRetrospectives\nStand-up",
-        "Community-supported tech decisions\nPR etiquette\nAsynchronous work\nOpen communication"
+        'Collaborative working environment\nSustainable work\nInclusivity\nDesigning for accessibility',
+        'Integrated design & development\nCI/CD Workflow\nRetrospectives\nStand-up',
+        'Community-supported tech decisions\nPR etiquette\nAsynchronous work\nOpen communication',
       ].map((item, index) => {
         return (
-          <div className="w-full lg:w-1/3 p-6">
-            <div key={index} className="flex-shrink-0 p-6 bg-alabaster w-full h-full">
-              <Paragraph className="text-lg text-center whitespace-pre-line">{item}</Paragraph>
-            </div>
+          <div
+            key={index}
+            className="flex-1 px-6 py-10 bg-alabaster w-full h-full space-y-2"
+          >
+            {item.split('\n').map((line, lineIndex) => (
+              <span
+                key={lineIndex}
+                className="text-lg block text-center whitespace-pre-line"
+              >
+                {line}
+              </span>
+            ))}
           </div>
-        )
+        );
       })}
     </div>
   </Column>
@@ -109,11 +109,12 @@ We work 1 on 1 and in small groups with junior team members who are prime to adv
 Using tools like pair programming, design critique, lunch and learns, and code or design audits, we are able to provide the dedicated expert mentorship that you don’t have the bandwidth for.
 
 By investing in junior designers and developers' growth, you can achieve higher retention rates, positively impact individuals' careers, and become a top choice for future talent.
+
 </ParagraphBlock>
 </Section>
 
 <Section>
-### Mentoring 
+### Hiring
 
 <ParagraphBlock>
 Finding the right designers and developers for your team takes time, as it should. You want to make sure you're going through a meaningful interview process and making the right picks to help you long into the future.
