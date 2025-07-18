@@ -1,0 +1,255 @@
+<Hero
+  title="The Dwarves give back\nas a team and individual"
+  subTitle="Corporate Social Responsibility"
+  description="We have been a part of local community where we operate."
+/>
+
+
+<Section>
+## Social Impact
+
+<ParagraphBlock>
+Given the network we have built through years, we bridge the gap between technical experts and IT students to work together on building tech solutions for social causes.
+
+This enables social causes's owners to focus more on their work, technical veterans can utilize their valuable mentorship on students who prefer to gain practical experience and social awareness.
+</ParagraphBlock>
+</Section>
+
+<Section>
+  <CSRSlider>
+    <CSRBlockCard
+      logoImg="./img/salt-cancer-logo.png"
+      logoAlt="Salt Cancer Initiative Logo"
+      heroImg="./img/salt-cancer.png"
+      heroAlt="Salt Cancer Initiative Hero Image"
+    >
+      ### Salt Cancer Initiative
+
+      <ParagraphBlock className="text-lg">
+        Salt Cancer Initiative (SCI) is a non-profit organization that focuses on providing information, education, training, and emotional support for cancer patients in Vietnam. Founded by **Thuy Thanh Truong**, a former cancer patient who has been 3 times honored for her influence and inspiration for the youth community. As a person who has gone through the hard times facing cancer, Thuy understands how struggling and fearful it was not to approach a reliable source of cancer information. And she decided to do something about it.
+
+        We help bring the resolution using tech. In an era where electrical device and the influence of social media is really a thing, we can't help but dive in and leverage it to amend social problem in a better approachable way.
+      </ParagraphBlock>
+    </CSRBlockCard>
+    <CSRBlockCard
+      logoImg="./img/the-library-logo.png"
+      logoAlt="The Library Project Logo"
+      heroImg="./img/the-library.jpg"
+      heroAlt="The Library Project Hero Image"
+    >
+      ### Library Project
+
+      <ParagraphBlock className="text-lg">
+        It all started in 2006 when Tom Stader and his friends wanted to make a difference in the lives of orphanages and children's shelters in Dalian, China. The Library Project (TLP) donates rural elementary school libraries, conducts children's literacy programs, and provides teacher training. Throughout four key periods of the journey: A Simple Idea (2006), Finding Our Way (2007-2008), Taking Risks (2009), and One Million Books (Today), TLP tells the story of positively creating impacts to the lives of underprivileged children.
+      </ParagraphBlock>
+    </CSRBlockCard>
+  </CSRSlider>
+</Section>
+
+{/* Contact Section */}
+<Section className="my-24" id="contact">
+  <ParagraphBlock className="mb-10">
+    ### Let's us know your needs,
+    ### and we will come up with a suitable solution.
+  </ParagraphBlock>
+  <CSRContactForm id="contact-form--csr" submitText="Submit" />
+</Section>
+
+{/* Community Section */}
+<Section>
+  <Center className="flex-col">
+     ## Community
+    
+    <Column className="gap-0 flex-col">
+      {[
+          {
+            "logo": {
+              "src": "./img/gopher-logo.png",
+              "alt": "Golang Community logo",
+              "width": 120,
+              "height": 76
+            },
+            "title": "Golang Community",
+            "description": "The Dwarves helped to found and organise Golang Community in Vietnam since 2015 and be part of it till today. We are a group of members working in different places. We love and use Go for building open source projects.",
+            "link": {
+              "href": "https://golang.org.vn/",
+              "text": "Check out their events"
+            },
+            "image": {
+              "src": "./img/golang.png",
+              "alt": "Golang VN conference",
+              "width": 600,
+              "height": 400
+            },
+            "reversed": false
+          },
+          {
+            "logo": {
+              "src": "./img/webuild-logo.png",
+              "alt": "WeBuild Community logo",
+              "width": 120,
+              "height": 48
+            },
+            "title": "WeBuild Community",
+            "description": "2018 is a remarkable year when 1 of our founding member decided to found and contribute to WeBuild Community.\nWeBuild is a non-profit community that focuses on raising the quality bar of engineers in Vietnam.",
+            "link": {
+              "href": "https://webuild.community",
+              "text": "Join us"
+            },
+            "image": {
+              "src": "./img/webuild.png",
+              "alt": "WeBuild community meetup",
+              "width": 600,
+              "height": 400
+            },
+            "reversed": true
+          },
+          {
+            "logo": {
+              "src": "./img/techie-logo.png",
+              "alt": "Techie Story logo",
+              "width": 120,
+              "height": 70
+            },
+            "title": "Techie Story",
+            "description": "Created in the early of 2020, Techie Story is a community project where we set our foot in the hidden aspect of the tech world, one story at a time. We seek for people behind the stage, listen to their stories and make sure they can be proud of what they contributed. The transcript will later be fine-tuned and display on techiestory.co.",
+            "link": {
+              "href": "https://techiestory.co",
+              "text": "Read our stories"
+            },
+            "image": {
+              "src": "./img/techie-story.png",
+              "alt": "Techie Story website",
+              "width": 600,
+              "height": 400
+            },
+            "reversed": false
+          }
+        ].map((item, index) => (
+          <FeatureShowcase
+            key={index}
+            logo={item.logo}
+            title={item.title}
+            description={item.description}
+            link={item.link}
+            image={item.image}
+            reversed={item.reversed}
+          />
+        ))}
+      </Column>
+  </Center>
+</Section>
+
+{/* Open Source Section */}
+<Section>
+  ### Open Source Software
+  <ParagraphBlock className="mb-20">
+    Empowering Future by promoting and contributing to Open Source Software. At Dwarves Foundation, we believe that Open Source Software is good for everyone. By being open, they empower the development of technology and help businesses to deliver innovative ideas with no boundaries.
+    
+    We are engineers and techies. Through the years in the industry, we get to build our projects using thousand of libraries and open-source software. Now it's time to give back.
+  </ParagraphBlock>
+  <Container className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 w-full max-w-none">
+    {[
+      {
+        name: "Hidden",
+        description: "A ultra-light MacOS utility that helps menu bar logos.",
+        url: "https://github.com/dwarvesf/hidden",
+        logo: "./img/hidden-bar.png",
+      },
+      {
+        name: "Blurred",
+        description:
+          "A macOS utility that helps reduce distraction by dimming your inactive noise.",
+        url: "https://github.com/dwarvesf/blurred",
+        logo: "./img/blurred.png",
+      },
+      {
+        name: "Micro Sniff",
+        description:
+          "An ultra-light macOS utility that notify whenever your micro-device is being used.",
+        url: "https://github.com/dwarvesf/micro-sniff",
+        logo: "./img/micro-sniff.png",
+      },
+    ].map((item) => (
+      <div key={item.name} className="w-full">
+        <a
+          href={item.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-secondary block h-full rounded-lg px-12 py-10 text-center transition-all duration-200 hover:-translate-y-1 hover:transform hover:shadow-lg"
+        >
+          <img
+            src={item.logo}
+            alt={`${item.name} logo`}
+            className="mx-auto mb-4 h-30 w-30"
+          />
+          <strong className="mt-4 mb-2 block text-center text-2xl font-semibold">
+            {item.name}
+          </strong>
+          <p className="text-foreground text-center">
+            {item.description}
+          </p>
+        </a>
+      </div>
+    ))}
+  </Container>
+  <div className="mt-8 text-right">
+    <Link
+      href="/opensource"
+      className="text-primary hover:text-primary-hover inline-flex items-center text-lg font-medium transition-colors"
+    >See more <svg className="ml-2 h-4 w-4" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" /></svg></Link>
+  </div>
+</Section>
+
+{/* Investment Section */}
+<Section
+  className="my-24 bg-cover bg-center bg-no-repeat py-30"
+  style={{
+    backgroundImage: "url(./img/investment-bg.jpg)",
+    backgroundColor: "#202126",
+  }}
+>
+  <div className="container text-white">
+    <h2 className="mb-6 text-3xl leading-tight font-semibold">Investment</h2>
+    <h3 className="mb-4 text-2xl font-semibold">Dwarves Fund</h3>
+    <div className="space-y-4">
+      <ParagraphBlock>
+        In 2018, we started Dwarves Fund 1 as a dedicated venture fund. Come with Product and Technology R&D capability, Dwarves commits on delivering a scalable and sustainable business. We make angel-size investment into early stage startups, makers and hustlers who are building next generation tools and digital products for netizen. Usually the early stage startups need to spend from 12 - 24 months to reach product-fit stage. As we have worked and invested into dozen of startups, been there done that, the pattern is there, technology is there. We could help the bootstrappers to shorten to 9 - 12 months and quickly get to series A.
+      </ParagraphBlock>
+    </div>
+  </div>
+</Section>
+
+{/* Empowering People Section */}
+<Section>
+  <h2 className="text-foreground mb-6 text-3xl font-semibold">
+    Empowering People
+  </h2>
+  <div className="mb-20 space-y-4">
+    <ParagraphBlock>
+      At Dwarves Foundation, we strive to create a respectful, rewarding, diverse, and inclusive work environment. By empowering our members to discover and create inspiring products, we entrust them to bring those achievements to help others accomplish more.
+    </ParagraphBlock>
+  </div>
+  <Image
+    src="./img/people-bg.jpg"
+    alt="Dwarves Foundation team"
+    width={1200}
+    height={600}
+    className="mt-20 w-full rounded-lg"
+    srcSet="./img/people-bg.jpg 1x, ./img/people-bg@2x.jpg 2x"
+  />
+</Section>
+
+{/* CTA Section */}
+<Section className="bg-secondary py-20">
+  <div className="mx-auto text-center md:w-2/3 lg:w-1/2">
+    <h2 className="mb-8 text-2xl leading-tight font-semibold">
+      Have the same DNA and want to build world-class products with superb team?
+    </h2>
+    <Button
+      variant="primary"
+      href="#contact"
+      className="inline-block"
+    >Join us</Button>
+  </div>
+</Section>
