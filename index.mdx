@@ -13,17 +13,17 @@ description: 'Welcome to the home of your new documentation'
   from startups to corporates, to build world-class quality products and
   lead the road to success, since 2013."
 >
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-20">
+  <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mt-20">
     <Image
       src="./images/home/team-learning.png"
       alt="team-learning"
-      className="hidden lg:block"
+      className="hidden sm:block"
     />
     <Image src="./images/home/team-working.png" alt="team-working" />
     <Image
       src="./images/home/working.png"
       alt="working"
-      className="hidden lg:block"
+      className="hidden sm:block"
     />
   </div>
 </Hero>
@@ -31,15 +31,12 @@ description: 'Welcome to the home of your new documentation'
 <Hero
   title="It’s the details that count"
   subtitle="Engineering"
-  description="Ensuring innovation products has enough capacity to “disrupt” the industry through emerging
-  technology was our mission (and vision) since day one.
+  descriptionClassName="!max-w-4xl"
+  description="Ensuring innovation products has enough capacity to “disrupt” the industry through emerging technology was our mission (and vision) since day one.
 
-Our approach to technologies and people is tailored to each product. You will always work with
-team of experts who understand your end goal and support you all the way to the finish line, no
-matter where it is in the product lifecycle.
+Our approach to technologies and people is tailored to each product. You will always work with team of experts who understand your end goal and support you all the way to the finish line, no matter where it is in the product lifecycle.
 
-All of that establishes a strong partnership which results in world-class quality products on top
-of a solid technology foundation.
+All of that establishes a strong partnership which results in world-class quality products on top of a solid technology foundation.
 "
 
 >
@@ -69,7 +66,7 @@ of a solid technology foundation.
   />
 </div>
 
-<Link href="/manifesto" className="text-lg font-semibold text-primary">
+<Link href="/manifesto" className="text-xl font-medium text-primary">
   Our Engineering definition →
 </Link>
 
@@ -79,10 +76,8 @@ of a solid technology foundation.
   title="Successful outcomes
   we are proud to be a part of"
   subtitle="Our work"
-  description="From small startups idea to established businesses, we cover areas that are usually hard to get
-  right - from design, branding, development, consulting and offshore. With years of experience
-  and a cultivated engineering culture that focus on building quality products, we take care of the
-  whole product cycle so you can truly focus on the business."
+  description="From small startups idea to established businesses, we cover areas that are usually hard to get right - from design, branding, development, consulting and offshore. With years of experience and a cultivated engineering culture that focus on building quality products, we take care of the whole product cycle so you can truly focus on the business."
+  descriptionClassName="!max-w-4xl"
 >
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
     <SolutionHighlight
@@ -126,7 +121,7 @@ of a solid technology foundation.
   </div>
   <Link
     href="/work"
-    className="text-lg font-semibold text-primary"
+    className="text-xl font-medium text-primary"
   >
     Explore our work →
   </Link>
@@ -174,7 +169,7 @@ of a solid technology foundation.
       'mudah-logo.png',
     ].map((logo, index) => (
       <Center
-        className="h-full lg:h-40 max-h-[80px] lg:max-h-[160px] px-12 min-w-[200px]"
+        className="h-full lg:h-40 max-h-[60px] lg:max-h-[160px] sm:px-12 px-8"
         key={index}
       >
         <Image
