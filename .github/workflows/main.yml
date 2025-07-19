@@ -82,6 +82,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NEXT_PUBLIC_PAGES_BASE_PATH: ${{ steps.setup_pages.outputs.base_path }}
           NEXT_PUBLIC_GOOGLE_MAPS_API_KEY: ${{ secrets.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY }}
+          NEXT_PUBLIC_EMAILER_API: ${{ secrets.NEXT_PUBLIC_EMAILER_API }}
+          NEXT_PUBLIC_HUBSPOT_API: ${{ secrets.NEXT_PUBLIC_HUBSPOT_API }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
