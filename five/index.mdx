@@ -1,0 +1,506 @@
+---
+title: "Five"
+description: "Five is a number that represents the quantity of five."
+template: "five"
+---
+<Section className="pt-20 pb-20">
+  <FiveContainer>
+    <div className="mb-10 flex flex-col items-center">
+      <div
+        className="mb-2 h-100 w-full bg-contain bg-center bg-no-repeat lg:h-200 max-h-[721px]"
+        style={{
+          backgroundImage: "url('./svg/hero.svg')",
+        }}
+      />
+      <h3 className="text-26 text-center font-semibold">
+        Join us in celebrating Dwarves’ big family
+      </h3>
+    </div>
+    <div className="mx-auto w-full text-base text-muted-foreground md:w-5/6 lg:w-full">
+        Building an innovation startup requires lots of different things, and it is tough. Most of them have to deal with business development, legal, fundraising, team recruitment, and product development at the same time. Growing a startup needs a strong and experienced team behind. The software team that can help to design the system, design the database, produce the well-crafted software, keep the system stable, avoid the technical debt and deliver values is one of the critical pieces to solve the puzzle.
+        
+        That initial motivation for Dwarves Foundation was the lack of respect that software firms receive. The nature of the business with a tight deadline and budget forces them to do tricks. They hit and run. The codebase and software they produced are full of crap, and it damages our pride.
+        
+        This is where Dwarves Foundation comes in. We start Dwarves Foundation as we want to build things right. The Dwarves was founded 5 years ago. We started a small software studio in late 2014 in Saigon with three members. We didn’t have an office until six months later. We used to sit around the coffee corner for team collaboration or business meetings. The very first office is about 20 square meters and located in a small alley of District 3. And the journey of Empowering Innovation begins from there.
+        
+        We reached 5 this January. To celebrate that, here’s what we’re up to.
+    </div>
+  </FiveContainer>
+</Section>
+
+<Section className="bg-alto/10 pt-20 pb-12">
+  <FiveContainer>
+    <H3 className="text-26 mb-10 font-semibold">By the Numbers</H3>
+    <div className="-mx-4 flex flex-wrap justify-center text-muted-foreground">
+      {[
+        {
+          title: 3,
+          content: 'continents with our presence',
+        },
+        {
+          title: '5+',
+          content: 'years in the market',
+        },
+        {
+          title: '15+',
+          content: 'clients worldwide',
+        },
+        {
+          title: '15+',
+          content: 'open source projects',
+        },
+        {
+          title: 20,
+          content: 'platforms & apps delivery',
+        },
+        {
+          title: '30%',
+          content: 'growth rate annual',
+        },
+        {
+          title: '60+',
+          content: 'talented members',
+        },
+        {
+          title: '100+',
+          content: 'alumni members',
+        },
+        {
+          title: 300,
+          content: 'square meters of office space',
+        },
+        {
+          title: '500K',
+          content: 'lines of code and counting',
+        },
+      ].map(({ title, content }) => (
+        <div
+          key={content}
+          className="mb-8 w-1/2 px-4 text-center md:w-1/4 lg:w-1/5"
+        >
+          <h4 className="text-40">{title}</h4>
+          <p className="text-sm">{content}</p>
+        </div>
+      ))}
+    </div>
+  </FiveContainer>
+</Section>
+
+<Timeline
+  items={[
+      // 2015
+      {
+        year: 2015,
+        event: 'We start with a team of 3.',
+        highlighted: true,
+      },
+      {
+        event: 'We adopt the name Dwarves Foundation and its lore.',
+        highlighted: true,
+      },
+      { event: 'Mission & Core Values are well-defined.', highlighted: true },
+      { event: 'Dwarves on Facebook, Twitter & Github.', highlighted: true },
+      {
+        event: 'We have our Source Version Control on Gitlab CE.',
+        highlighted: false,
+      },
+      { event: 'Adopt Go, Docker, and Ansible.', highlighted: true },
+      { event: 'The first client in SG.', highlighted: false },
+      { event: 'We ship the first build as a team.', highlighted: false },
+      { event: 'The team reaches 10.', highlighted: true },
+      { event: 'Acquire the domain dwarvesf.com', highlighted: true },
+      { event: 'Adopt CI/CD & Code Review practice.', highlighted: true },
+      { event: 'The first client in VN.', highlighted: false },
+
+      // 2016
+      { year: 2016, event: 'The team reaches 15.', highlighted: true },
+      { event: 'Our very first designer joins the team.', highlighted: true },
+      { event: 'The first client in UK and FR.', highlighted: false },
+      {
+        event:
+          'We adopt DC/OS as a container orchestration tool and microservice architect.',
+        highlighted: true,
+      },
+      {
+        event: 'Acquire the domain dwarves.foundation & d.foundation',
+        highlighted: false,
+      },
+
+      // 2017
+      { year: 2017, event: 'The team reaches 25.', highlighted: true },
+      { event: 'Our very first QC team.', highlighted: true },
+      { event: 'Triple office space', highlighted: true },
+      { event: 'Adopt Swift & Kotlin.', highlighted: true },
+      { event: 'There were initial ideas for Remote culture.', highlighted: true },
+
+      // 2018
+
+      { year: 2018, event: 'Established US & EU branches.', highlighted: true },
+      { event: 'The team reaches 40.', highlighted: false },
+      { event: 'The first VP of Engineering.', highlighted: false },
+      { event: 'Adopt a company-wide expertise ladder.', highlighted: true },
+      { event: 'Operations & Business team join the woodland.', highlighted: true },
+      { event: 'The first internship batch for the talented.', highlighted: false },
+      { event: 'Automation testing applied.', highlighted: true },
+      {
+        event: 'The Dwarves Manifesto for Craftsmanship has been composed.',
+        highlighted: true,
+      },
+      { event: 'Adopt Kubernetes and TypeScript.', highlighted: true },
+
+      // 2019
+      {
+        year: 2019,
+        event: 'The team reach 50 and gradually adopt Remote culture.',
+        highlighted: true,
+      },
+      {
+        event:
+          'We published the first version of the Dwarves Handbook and Playbook.',
+        highlighted: true,
+      },
+      { event: 'The first client in the US.', highlighted: false },
+      { event: 'The first client in AU, NE, and MY.', highlighted: false },
+      {
+        event: 'The official launch of Ventures arm at dwarves.ventures',
+        highlighted: true,
+      },
+      { event: 'And make the first acceleration batch.', highlighted: false },
+      { event: 'Applied Scrum at Scale.', highlighted: true },
+      { event: 'Launch Tech Radar program.', highlighted: true },
+      {
+        event: 'Fortress dashboard for fully operating automation.',
+        highlighted: true,
+      },
+      { event: 'Investor Relations and Valuation dashboard.', highlighted: false },
+
+      // 2020
+      { year: 2020, event: 'Established CA branch', highlighted: true },
+      {
+        event: 'The first version of the Automation framework.',
+        highlighted: true,
+      },
+      { event: 'First dividend batch for the shareholders.', highlighted: true },
+      { event: 'Heavily invest in Community and CSR works.', highlighted: true },
+      { event: 'Who knows?', highlighted: true },
+    ]}
+/>
+
+<Section className="bg-alto/10">
+  <FiveContainer className="space-y-4 text-xl">
+    ### Lessons learned
+
+    <Paragraph className="text-muted-foreground">
+      Things we have learned the hard way. For the past 5 years, we've learned which is the right thing to do in the middle of chaos.
+    </Paragraph>
+
+    <div className="mb-10 flex flex-wrap">
+      {[[
+        {
+          title: "People's values",
+          content:
+            "It all starts with people. Put the human factor at the core of everything. Be a good listener. Respect others. Understand other people's values, concerns, and points of view.",
+        },
+        {
+          title: 'A positive can-do attitude',
+          content:
+            'Maintain a positive can-do attitude, no matter how difficult the circumstances, but are honest in describing the situation.',
+        },
+        {
+          title: 'Lead by example',
+          content:
+            'Lead by example. Never complain. When in doubt, start working on the actual thing to figure it out.',
+        },
+        {
+          title: 'Look for partnership',
+          content:
+            "Don't look for business, look for partnership. And it's about giving, not taking.",
+        },
+      ], [
+        {
+          title: 'Keep moving ahead',
+          content:
+            "Enjoy the journey! Don't plan your life or career too much. Things happen. Keep moving ahead. Each time and situation — even the most difficult ones — has blessings and joys associated if you look and appreciate them.",
+        },
+        {
+          title: 'Look at people unique value',
+          content:
+            'When you start hiring, look at people unique value. Being different from others is always a source of value. The difference can be anything. The way of thinking could be different. The vision of technology. The methodology of operations. Presentation skills. Communication skills. Leadership. The speed of prototyping. Emotional understanding of others. Anything can be the difference. We must be an organization where those specialties are well respected, rather than having stereotyped technical skill evaluations like school exams.',
+        },
+      ]].map((column, idx) => (
+        <div
+          key={idx}
+          className="w-full md:w-1/2 md:first:pr-6 md:last:pl-6"
+        >
+          {column.map(({ title, content }) => (
+            <SubSection title={title} key={title} className="mb-10 text-base text-muted-foreground">
+              {content}
+            </SubSection>
+          ))}
+        </div>
+      ))}
+    </div>
+    <Image
+      className="block w-full"
+      src="./img/team.jpg"
+      alt="Dwarves Foundation team"
+      width={800}
+      height={533}
+    />
+  </FiveContainer>
+</Section>
+
+<Section>
+  <FiveContainer>
+    #### Highlighted
+    <Paragraph className="mb-10 text-xl text-muted-foreground">
+      Below is a list of few things that we accomplished together as a team.
+      Not all of them are significant, but they are what we proud of.
+    </Paragraph>
+
+    <SubSection title="Vision & Belief" className="mb-12">
+      <div className="flex flex-wrap">
+        <div className="col w-full md:w-3/5 text-base">
+
+          Dwarvish magic was fundamentally technological know-how. With software is continuing to change the world, we want to build a company where software engineering disciplines could shine; innovative & quality products are shipped and change the world for the better.
+
+          At our woodland, the Dwarves are encouraged to thoroughly assess and evaluate the product quality before handing it to the users. By participating in every detail of the work, we take craftsmanship as one of the most fundamental factors of the career transformation for engineers. Top-notch products require world-class engineers, and craftsmanship is what makes it done. Craftsmanship is what flows among the team spirit, or does not exist at all.
+
+          <Paragraph className="text-foreground text-xl font-medium">
+            "We choose innovation to be one of our core values that form ideas to affect the general society undoubtedly."
+          </Paragraph>
+        </div>
+        <div className="w-full md:w-2/5 md:pl-2">
+          <Image
+            className="mt-4 w-full lg:mt-1 lg:w-auto"
+            alt="metal forging"
+            src="./img/df.jpg"
+            width={400}
+            height={300}
+          />
+        </div>
+      </div>
+    </SubSection>
+    <SubSection title="Culture: Engineering Drive" className="mb-12">
+      <div className="-mx-2 mt-6 flex flex-wrap">
+        {[
+          <>
+            Systematic
+            <br />
+            Discipline
+          </>,
+          <>
+            Engineers are not
+            <br />
+            commodities
+          </>,
+          <>
+            The best
+            <br />
+            idea wins
+          </>,
+        ].map((content, index) => (
+          <div key={index} className="w-full px-2 md:w-1/3">
+            <div
+              className="border-foreground/20 mb-4 flex items-center justify-center border px-8 py-11 text-center text-xl font-medium text-white"
+              style={{
+                background: 'rgba(243, 243, 243, 0.05)',
+              }}
+            >
+              {content}
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className="flex justify-end">
+        <Link
+          href="/manifesto"
+          className="text-primary inline-flex items-center text-base"
+        >
+          See more
+          <span className="ml-2">→</span>
+        </Link>
+      </div>
+    </SubSection>
+    <SubSection title="Dwarves Manifesto" className="mb-10">
+      <HighlightedLink href="/manifesto">The manifesto</HighlightedLink> is the principles and definition of engineering philosophy, the guiding ideas that help to shape up the way we think and work, to ensure the core values and to deliver quality software. As we honor and stand for software craftsmanship, we turn them into the concrete message and more applicable
+    </SubSection>
+    <SubSection title="Dwarves Handbook" className="mb-10 text-base">
+      After years working worked with companies varied in size from startups to corporates, to build world-class quality products and lead the road to success, we come up with the Dwarves Handbook.
+      
+      <HighlightedLink href="https://github.com/dwarvesf/handbook/">The handbook</HighlightedLink> is where we try to share what's worth knowing about the Dwarves, the company, our culture, our process, and our history. It's a guide to understanding what people are talking about, whether it's okay to take your vacation when you've only been with us for few months (yes), what a benefits package looks like, and hopefully everything in-between. The handbook also offers us an opportunity to clarify who we are as a company. What do we stand for? How should we work?
+      
+      Also, <HighlightedLink href="https://github.com/dwarvesf/playbook">the playbook</HighlightedLink>, on the other hand, contains our practices in software development, guides for getting things done, programming well, programming in style, and collaborating to make them successful.
+    </SubSection>
+    <SubSection title="Agile at Scale" className="mb-10 text-base">
+      We apply the Agile methodology & Scrum to run our company. It takes place in every corner
+
+      <ColumnsList columns={1} className="list-[circle] p-0 pl-5">
+        {[
+          'Business Direction planning with eight weeks long cycle',
+          'The operations planning & review between departments',
+          'Hiring for culture and values are more important for the team aspect',
+          'The Dwarves are encouraging to catch up with the team and embrace the tacit base knowledge',
+          'The functional team reach the semi-autonomy status and perform on their objectives',
+        ].map((content, idx) => (
+          <li key={idx} className="mt-4 text-base">
+            {content}
+          </li>
+        ))}
+      </ColumnsList>
+    </SubSection>
+    <SubSection title="Remote Working" className="mb-10 text-base">
+      We endorsed and adopted Remote culture from early 2019. Till now, it brings more benefits to the team and helps us to transform the way we collaborate. We don't manage chairs. People have more time for the family and their alone zone to get things done. They focus on the quality conversation and output rather than random interrupting messages.
+      
+      People migrate their conversation to Basecamp, and all the information's there. All the check-in messages are up there to help the team get to know each other more. People from different timezone can catch up when they finished their works, and transparency is back to town.
+    </SubSection>
+    <SubSection title="Engineering Ladder" className="mb-10 text-base">
+      Along with the engineering practices, we also came up with the ranking ladder, which helps us classify and build a mentoring tree between the Dwarves. The lead or senior is assigned with objectives. During the cycle, they can choose the mentees, the juniors. The ranking system is structured based on engineering drive culture to form the list of metrics. It starts from D to C, to B, to A and ends with S. There are also several checkpoints in the middle.
+      
+      We try to make everything a bit clearer on how the portion is distributed. It all comes with your unique values, as mentioned above, and how impactful it is.
+    </SubSection>
+    <SubSection title="Automation Operations" className="mb-10 text-base">
+      Most software companies can't automate their business workflow. It requires a well-defined process, and the cost to make it happens is expensive.
+      
+      We build Fortress, a dashboard with a built-in bot, integrated with Basecamp and other Task Management tools to aggregate all the operational data and help to schedule other things that other companies have to build a team to take care of. As a result, with the team size of 60, there are only 4 dwarves to wear an additional hat and take charge to run the daily operations, from recruitment, candidate assessment, onboarding new members, leave request handling, payroll, accounting, and even company valuation. All the operational data are pulled into a single hub for lates data analytics and optimization.
+    </SubSection>
+    <SubSection title="Open Structure" className="mb-10 text-base">
+      The open organization structure reflects in the ownership that the team member could have and the transparency in team direction. After 5 years, we are rewarding the contribution by giving the portion of the company profit to exceptional dwarves or the dwarves who want to make a legacy here. With the unique value and impact they bring to the tables, they could manage to speed up the boat.
+    </SubSection>
+    {[
+      {
+        title: 'Software',
+        blocks: [
+          { name: 'attrace', logo: './img/logo/attrace.png', w: 116 },
+          { name: 'cjc', logo: './img/logo/cjc.png', w: 108 },
+          { name: 'reapit', logo: './img/logo/reapit.png', w: 107 },
+          { name: 'hidden-bar', logo: './img/logo/hidden-bar.png', w: 152 },
+          { name: 'vim-motion', logo: './img/logo/vim-motion.png', w: 158 },
+          { name: 'readify', logo: './img/logo/readify.png', w: 128 },
+        ]
+      },
+      {
+        title: 'CSR',
+        blocks: [
+          {
+            name: 'golang-vietnam',
+            logo: './img/logo/golang-vietnam.png',
+            w: 185,
+          },
+          { name: 'swift-vn', logo: './img/logo/swift-vn.png', w: 179 },
+          { name: 'webuild', logo: './img/logo/webuild.png', w: 149 },
+        ]
+      },
+    ].map(({ title, blocks }, idx) => (
+      <SubSection
+        key={title}
+        title={title}
+        className={idx === 0 ? 'mb-10' : ''}
+      >
+        <div className="row flex flex-wrap items-center">
+          {blocks.map(({ logo, name, w }, blockIdx) => (
+            <div key={name} className="col mt-4 h-14 w-1/2 md:w-1/3">
+              <div
+                className={`flex h-full items-center ${
+                  blockIdx % 3 === 1 ? 'lg:justify-center' : ''
+                } ${blockIdx % 3 === 2 ? 'lg:justify-end' : ''} grayscale`}
+              >
+                <img src={logo} width={w} alt={name} />
+              </div>
+            </div>
+          ))}
+        </div>
+      </SubSection>
+    ))}
+  </FiveContainer>
+</Section>
+
+<Section className="bg-alto/10">
+  <FiveContainer>
+    <H4>Special Thanks</H4>
+    <Paragraph className="text-muted-foreground mb-14 text-xl">
+      Every contribution counts. Thanks for always be around, listen to our
+      story and support our moves in a way or another.
+    </Paragraph>
+    <div className="row mb-18 flex flex-wrap">
+      {[
+        'Bui Vu Nam',
+        'Bui Trung Hieu',
+        'Tieu Quang Huy',
+        'Pham Duy Khang',
+        'Nguyen Thanh Tung',
+        'Nguyen Huu Loc',
+        'Le Ngoc Thach',
+        'Do Chi Thien',
+        'Nguyen Manh Hieu',
+        'Le Nhu Khanh',
+        'Nguyen Thanh Trung',
+        'Le Thi Minh Tam',
+        'Nguyen Minh Tuan',
+        'Nguyen Le Duy',
+        'Nguyen Pham Hoang Diem',
+        'Vo Anh Duy',
+        'Nguyen Thanh Long',
+        'Truong Hoang Phuong',
+        'Chu Duc Trung',
+        'Nguyen Quoc Huy',
+        'Ngo Tuan Anh',
+        'Tu Dang Khoa',
+        'Vu Huy Quan',
+        'Nguyen Duc Thanh',
+        'Nguyen Manh Quoc Anh',
+        'Le Phuoc My',
+        'Mai Lam Trong Nguyen',
+        'Tran Thanh Phuong',
+        'Le Chau Vinh Hoi',
+        'Trinh Van Huy',
+      ].map(name => (
+        <Paragraph
+          key={name}
+          className="text-muted-foreground mb-2 w-1/2 py-px md:w-1/3 text-center"
+        >
+          {name}
+        </Paragraph>
+      ))}
+    </div>
+    <hr className="borer-t border-muted-foreground/20 mb-4 h-px w-full" />
+    <div className="flex flex-wrap items-center lg:-mx-5">
+      {[
+        { name: 'pearcomms', logo: './img/logo/pearcomms.png', w: 46 },
+        { name: 'pie', logo: './img/logo/pie.png', w: 71 },
+        { name: 'reapit', logo: './img/logo/reapit.png', w: 101 },
+        { name: 'basehq', logo: './img/logo/basehq.png', w: 107 },
+        { name: 'be', logo: './img/logo/be.png', w: 50 },
+        { name: 'mudah', logo: './img/logo/mudah.png', w: 77 },
+        { name: 'urbox', logo: './img/logo/urbox.png', w: 79 },
+        { name: 'telemetry', logo: './img/logo/telemetry.png', w: 137 },
+        { name: 'sajari', logo: './img/logo/sajari.png', w: 106 },
+        { name: 'chotot', logo: './img/logo/chotot.png', w: 100 },
+        { name: 'ecal', logo: './img/logo/ecal.png', w: 100 },
+        { name: 'attrace', logo: './img/logo/attrace.png', w: 116 },
+        { name: 'amio', logo: './img/logo/amio.png', w: 116 },
+        { name: 'aharooms', logo: './img/logo/aharooms.png', w: 120 },
+        { name: 'cjc', logo: './img/logo/cjc.png', w: 114 },
+      ].map(({ name, logo, w }) => (
+        <div key={name} className="col mt-4 h-20 w-1/2 sm:w-1/3">
+          <div className="flex h-full items-center justify-center grayscale">
+            <img src={logo} alt={name} width={w} />
+          </div>
+        </div>
+      ))}
+    </div>
+  </FiveContainer>
+</Section>
+
+<JoinUs
+  logo="./svg/logo.svg"
+  heroBg="./svg/hero-bg.svg"
+>
+  Thanks for joining us in the first five years.
+  We look forward to the next five
+  <Image
+    src="./svg/heart.svg"
+    alt="Heart"
+    className="mx-auto mt-3 inline-block"
+  />
+</JoinUs>
