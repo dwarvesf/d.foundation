@@ -44,6 +44,8 @@
               "pages": [
                 ["Go", "/services/go"],
                 ["Elixir", "/services/elixir"],
+                "AI/Data",
+                "Blockchain",
                 "Node.js",
                 ["React", "/services/react"],
                 ["TypeScript", "/services/react"],
@@ -51,9 +53,7 @@
                 "Kubernetes",
                 "GCP/AWS",
                 ["Swift", "/services/swift"],
-                "React Native",
-                "Blockchain",
-                "Hyperledger"
+                "React Native"
               ]
             },
             {
