@@ -44,10 +44,10 @@
                 {
                   "group": "Expertise",
                   "pages": [
-                    "AI/Data",
-                    "Finance",
-                    "Blockchain",
-                    "Platform Engineering"
+                    ["AI", "/services/ai"],
+                    "Fintech",
+                    "Platform Ops",
+                    "Web3"
                   ]
                 },
                 {
