@@ -40,20 +40,29 @@
           "tab": "Services",
           "groups": [
             {
-              "group": "Expertise",
-              "pages": [
-                ["Go", "/services/go"],
-                ["Elixir", "/services/elixir"],
-                "AI/Data",
-                "Blockchain",
-                "Node.js",
-                ["React", "/services/react"],
-                ["TypeScript", "/services/react"],
-                "Docker",
-                "Kubernetes",
-                "GCP/AWS",
-                ["Swift", "/services/swift"],
-                "React Native"
+              "groups": [
+                {
+                  "group": "Expertise",
+                  "pages": [
+                    "AI/Data",
+                    "Finance",
+                    "Blockchain",
+                    "Platform Engineering"
+                  ]
+                },
+                {
+                  "group": "Technology",
+                  "pages": [
+                    ["Go", "/services/go"],
+                    ["Elixir", "/services/elixir"],
+                    ["React", "/services/react"],
+                    "Node.js/TypeScript",
+                    "Docker/K8S",
+                    "GCP/AWS",
+                    ["Swift", "/services/swift"],
+                    "React Native"
+                  ]
+                }
               ]
             },
             {
