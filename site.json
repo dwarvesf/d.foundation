@@ -45,9 +45,9 @@
                   "group": "Expertise",
                   "pages": [
                     ["AI", "/services/ai"],
+                    ["Web3", "/services/web3"],
                     "Fintech",
-                    "Platform Ops",
-                    ["Web3", "/services/web3"]
+                    "Platform Ops"
                   ]
                 },
                 {
