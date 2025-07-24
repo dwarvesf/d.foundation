@@ -14,8 +14,9 @@ template: 'services'
 <Section>
 ## What we build
 
-<ParagraphBlock>
-  ### Smart contracts & DeFi
+<Flex className="flex-col md:flex-row mt-8" gap="2xl">
+<ParagraphBlock className="flex-1">
+  #### Smart contracts & DeFi
   <ColumnsList columns={1}>
     <li>Custom smart contracts and logic on EVM compatible chains</li>
     <li>DeFi protocols for lending, borrowing, and asset tokenization</li>
@@ -24,8 +25,8 @@ template: 'services'
   </ColumnsList>
 </ParagraphBlock>
 
-<ParagraphBlock>
-  ### Blockchain integration
+<ParagraphBlock className="flex-1">
+  #### Blockchain integration
   <ColumnsList columns={1}>
     <li>Connect existing systems with public blockchain networks</li>
     <li>Indexing nodes that organize blockchain data for queries</li>
@@ -34,8 +35,8 @@ template: 'services'
   </ColumnsList>
 </ParagraphBlock>
 
-<ParagraphBlock>
-### Web3 infrastructure
+<ParagraphBlock className="flex-1">
+#### Web3 infrastructure
 <ColumnsList columns={1}>
   <li>Architecture design for novel blockchain systems</li>
   <li>Contract auditing and security analysis</li>
@@ -43,137 +44,83 @@ template: 'services'
   <li>Vesting contracts and tokenomics implementation</li>
 </ColumnsList>
 </ParagraphBlock>
-</Section>
-
-<Section>
-## What's next in Web3
-
-<ParagraphBlock>
-We're focused on practical opportunities:
-</ParagraphBlock>
-<ParagraphBlock>
-  <ColumnsList columns={1}>
-    <li>Real-world utility: Moving beyond speculation to actual use cases</li>
-    <li>Cross-chain infrastructure: Making different blockchains work together seamlessly</li>
-    <li>Regulatory compliance: Building systems that work within legal frameworks</li>
-    <li>User experience: Making Web3 as easy to use as Web2</li>
-  </ColumnsList>
-</ParagraphBlock>
-</Section>
-
-<Section>
-## Latest research
-
-<ParagraphBlock>
-  <ColumnsList columns={1}>
-    <li>Protocol architecture</li>
-    <li>Bitcoin thesis</li>
-    <li>DeFi thesis</li>
-    <li>DeFAI thesis</li>
-    <li>Algorithmic Stablecoin thesis</li>
-    <li>Stablecoin thesis</li>
-  </ColumnsList>
-</ParagraphBlock>
+</Flex>
 </Section>
 
 <Section>
 ## Our track record
 
 <ParagraphBlock>
-  We've built Web3 solutions across different use cases. Here are some
-  highlights:
+  We've built Web3 solutions across different use cases.
 </ParagraphBlock>
 
-<ParagraphBlock>
-  ### Payment systems
-  <ColumnsList columns={1}>
-    <li>
-      **Neutronpay** - Built a payment platform on Bitcoin's Lightning Network
-      for fast, low-cost transactions.
-    </li>
-    <li>
-      **Mochi** - Created Web3 tooling and infrastructure for seamless
-      blockchain interactions.
-    </li>
-  </ColumnsList>
-</ParagraphBlock>
+<Flex className="flex-col md:flex-row mt-10" gap="2xl">
+  <Project featured background="dark" image="/images/work/logo/neutron-landingpage.webp" imageAlt="Neutronpay logo" href="/work/neutron">
+    ### Neutron
 
-<ParagraphBlock>
-  ### DeFi & trading
-  <ColumnsList columns={1}>
-    <li>
-      **iCrosschain** - Built the fastest cross-chain exchange (15-second
-      transfers). Connected 8 major blockchain networks.
-    </li>
-    <li>
-      **Tokenomy** - Helped build their mobile app for crypto investment
-      platform.
-    </li>
-  </ColumnsList>
-</ParagraphBlock>
+    *Payment processing • US*
 
-<ParagraphBlock>
-  ### NFTs & gaming
-  <ColumnsList columns={1}>
-    <li>
-      **Eklipse** - Built video-based NFT tooling for game streamers to monetize
-      their content.
-    </li>
-    <li>
-      **MStation** - Created an on-chain RPG game with blockchain-based
-      mechanics.
-    </li>
-  </ColumnsList>
-</ParagraphBlock>
+  </Project>
 
-<ParagraphBlock>
-### Enterprise blockchain
-<ColumnsList columns={1}>
-  <li>**Attrace** - Built a blockchain referral layer that brings transparency to affiliate marketing.</li>
-</ColumnsList>
-</ParagraphBlock>
-</Section>
+  <Project featured customBackgroundColor="#FFE2DA" href="/work/mochi" image="/images/work/logo/mochi-landingpage.webp" imageAlt="Mochi logo">
+    #### Mochi
 
-<Section>
-## Console Labs
+    *Crypto social payment • Global*
 
-<ParagraphBlock>
-Console Labs is our Web3-focused subsidiary handling specialized blockchain R&D:
-</ParagraphBlock>
-<ParagraphBlock>
-  <ColumnsList columns={1}>
-    <li>Smart contract development: Custom contracts with security-first approach</li>
-    <li>DeFi protocols: Lending platforms, DEXs, and yield farming systems</li>
-    <li>Cross-chain solutions: Bridges and interoperability infrastructure</li>
-    <li>Contract auditing: Security reviews and vulnerability analysis</li>
-    <li>NFT platforms: End-to-end NFT marketplace development</li>
-  </ColumnsList>
-</ParagraphBlock>
+  </Project>
+
+</Flex>
+
+<Flex className="flex-col md:flex-row" gap="2xl">
+  <Project colored customBackgroundColor="#F6CEF1" image="/images/work/logo/attrace-landingpage.webp" imageAlt="Attrace landing logo" href="/work/attrace">
+    ### Attrace
+
+    *Affiliate Marketing • Netherlands*
+
+  </Project>
+
+  <Project featured customBackgroundColor="#90FE3D" href="/work/icrosschain" image="/images/work/logo/icrosschain-landingpage.webp" imageAlt="iCrosschain logo">
+    #### iCrosschain
+
+    *Cross-chain exchange • US*
+
+  </Project>
+</Flex>
+
 </Section>
 
 <Section>
 ## Our tech stack
 
-<ParagraphBlock>
-  <ColumnsList columns={1}>
-    <li>Blockchains: Ethereum, Bitcoin, Polygon, BSC, Solana, Avalanche, Arbitrum</li>
-    <li>Smart contracts: Solidity, Rust, Move for different blockchain ecosystems</li>
-    <li>Backend: Go, Node.js, Python for blockchain indexing and APIs</li>
-    <li>Web3 libraries: Web3.js, Ethers.js, wagmi for frontend integration</li>
-    <li>Infrastructure: IPFS, The Graph, Alchemy, Infura for decentralized services</li>
-  </ColumnsList>
+<ParagraphBlock className="mt-6">
+**Blockchains**: Ethereum, Bitcoin, Polygon, BSC, Solana, Avalanche, Arbitrum
+
+**Smart contracts**: Solidity, Rust, Move for different blockchain ecosystems
+
+**Backend**: Go, Node.js, Python for blockchain indexing and APIs
+
+**Web3 libraries**: Web3.js, Ethers.js, wagmi for frontend integration
+
+**Infrastructure**: IPFS, The Graph, Alchemy, Infura for decentralized services
+
 </ParagraphBlock>
 </Section>
 
-<Section>
+<Section className="pb-20">
 ## Why work with us
 
-<ParagraphBlock>
-  <ColumnsList columns={1}>
-    <li>We've been here since the beginning. We started building on Ethereum in 2017, before the hype cycles. We know what works and what doesn't.</li>
-    <li>We focus on real utility. Not every problem needs blockchain. We help you figure out when it makes sense and when it doesn't.</li>
-    <li>We understand the regulatory landscape. Especially in Southeast Asia, where crypto regulations are evolving rapidly.</li>
-    <li>We build for the long term. Our solutions survive market crashes and hype cycles because they solve real problems.</li>
-  </ColumnsList>
+<ParagraphBlock className="mt-2">
+  We're focused on practical opportunities:
+</ParagraphBlock>
+
+<ParagraphBlock className="mt-6">
+**Real-world utility**: Moving beyond speculation to actual use cases
+
+**Cross-chain infrastructure**: Making different blockchains work together seamlessly
+
+**Regulatory compliance**: Building systems that work within legal frameworks
+
+**User experience**: Making Web3 as easy to use as Web2
+
 </ParagraphBlock>
 </Section>

@@ -47,7 +47,7 @@
                     ["AI", "/services/ai"],
                     "Fintech",
                     "Platform Ops",
-                    "Web3"
+                    ["Web3", "/services/web3"]
                   ]
                 },
                 {
