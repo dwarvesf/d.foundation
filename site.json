@@ -100,14 +100,29 @@
               ]
             },
             {
-              "group": "For startups",
-              "tag": "new",
-              "href": "/startup",
-              "pages": [
-                ["Ideate", "/startup/ideate"],
-                ["Validation", "/startup/validation"],
-                ["MVP Development", "/startup/mvp"],
-                ["Scale Up", "/startup/scale"]
+              "groups": [
+                {
+                  "group": "For startups",
+                  "href": "/startup",
+                  "pages": [
+                    ["Ideate", "/startup/ideate"],
+                    ["Validation", "/startup/validation"],
+                    ["MVP Development", "/startup/mvp"],
+                    ["Scale Up", "/startup/scale"]
+                  ]
+                },
+                {
+                  "group": "Programs",
+                  "tag": "new",
+                  "href": "/programs",
+                  "pages": [
+                    ["AI co-build", "/programs/ai-co-build"],
+                    [
+                      "Post vibe: Platform maintenance",
+                      "/programs/platform-maintenance"
+                    ]
+                  ]
+                }
               ]
             }
           ]
