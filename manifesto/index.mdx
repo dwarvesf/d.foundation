@@ -6,52 +6,49 @@
   description="Our definition of engineering philosophy, the guiding ideas that shape how we think and work, helps us ensure the core values and deliver top-grade software."
 >
   <Image
-    src="/images/manifesto/team.png"
+    src="/images/manifesto/team.webp"
     alt="team"
     containerClassName="mt-32"
   />
 </Hero>
 
-<Hero
-  title="Craftsmanship"
->
+<Hero title="Craftsmanship">
   <Stack className="gap-20 mt-24">
     {[
       [
-        "Well-crafted software",
-        "We humbly demonstrate our expertise and experience through well-crafted software. We aim toward perfection with every piece we produce. We take pride in high quality products we deliver. We do not tolerate preventable defects.",
+        'Well-crafted software',
+        'We humbly demonstrate our expertise and experience through well-crafted software. We aim toward perfection with every piece we produce. We take pride in high quality products we deliver. We do not tolerate preventable defects.',
       ],
       [
-        "Quality pays",
+        'Quality pays',
         "Quality is always the top priority. Quality problems overwhelm everything else. When quality isn't managed, the entire project is unmanageable. Good things will take time. Crafting high quality software requires efforts, disciplines and proper methods. Software development is intellectual work.",
       ],
       [
-        "Mind the Details",
-        "Details matter. We believe small details equate to big success. Thus, creating a product that charms users involve adjusting, refining, and perfecting, over and over again. Attention to details makes all the differences and creates memorable user experience.",
+        'Mind the Details',
+        'Details matter. We believe small details equate to big success. Thus, creating a product that charms users involve adjusting, refining, and perfecting, over and over again. Attention to details makes all the differences and creates memorable user experience.',
       ],
       [
-        "The Boring Solution",
+        'The Boring Solution',
         "Technical decision isn’t so much about which tool to pick than what problem to solve. When in doubt, go with the boring solution. A boring solution means that you're using simple vocabulary everybody can understand and follow along.",
       ],
       [
-        "Think long-term",
-        "Good codes and good processes require good brains, thus we want to avoid burnouts. We discourage rushing and working overtime. We believe in well-balanced and working sustainably, so we can stay a happy bunch of sane workers.",
+        'Think long-term',
+        'Good codes and good processes require good brains, thus we want to avoid burnouts. We discourage rushing and working overtime. We believe in well-balanced and working sustainably, so we can stay a happy bunch of sane workers.',
       ],
       [
-        "Applications Need Solid Foundations",
+        'Applications Need Solid Foundations',
         "Much similar to building a house, software products rely on a solid foundation. A product doesn't stop when it's launched, it starts when it launches. There will be works which run on for weeks, months, even years. Be it the never-ending maintenance or extensions, the product's foundation stays the most crucial. Make sure we lay a solid foundation for every piece of software.",
       ],
       [
-        "Nothing is permanent",
-        "Software moves fast. New technology has enabled us to create new things. The technology you used yesterday might deprecate today. Make sure you understand both the old technology and the new one before buying into the next new thing. New technology needs to provide actual values over existing solutions.",
+        'Nothing is permanent',
+        'Software moves fast. New technology has enabled us to create new things. The technology you used yesterday might deprecate today. Make sure you understand both the old technology and the new one before buying into the next new thing. New technology needs to provide actual values over existing solutions.',
       ],
     ].map(([title, description], index) => (
-      <Flex
-        key={index}
-        className="flex-col md:flex-row gap-4"
-      >
+      <Flex key={index} className="flex-col md:flex-row gap-4">
         <H3 className="col w-full md:w-5/12 lg:w-1/3 mb-6 md:mb-0">{title}</H3>
-        <Paragraph className="col w-full md:w-7/12 text-xl leading-loose">{description}</Paragraph>
+        <Paragraph className="col w-full md:w-7/12 text-xl leading-loose">
+          {description}
+        </Paragraph>
       </Flex>
     ))}
   </Stack>
@@ -67,41 +64,42 @@
         The Agile Minifesto
       </H1>
       <Paragraph className="text-foreground mb-8 text-xl whitespace-pre-line">
-        We've been uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value what we called "Minifesto".
+        We've been uncovering better ways of developing software by doing it and
+        helping others do it. Through this work we have come to value what we
+        called "Minifesto".
       </Paragraph>
     </div>
     <Stack className="col w-full md:w-7/12">
       <Stack className="gap-12">
-      {[
-        [
-          "Running lean",
-          "Lean philosophy regards everything not adding values to the customer as waste. In order to eliminate waste, one should be able to recognize it. Partially done work, extra processes like paperwork and features not often used by customers are waste. Rework or unnecessarily complex solutions are waste. Waiting for other activities, teams, processes is waste. Managerial overhead not producing real values is waste.",
-        ],
-        [
-          "Deliver as fast as possible",
-          "Make it work. Perfect is an enemy of good. Look for perfection, but not yet. First do it, then do it right, then do it better. Any sufficiently complex system cannot be built out of design, it has to be evolved. The shorter the iterations, the better the learning and communication within the team. The sooner the end product is delivered without major defects, the sooner feedback can be received, and incorporated into the next iteration.",
-        ],
-        [
-          "Aim for simplicity",
-          "Simplicity is complicated. Simple is harder than complex. We have to write code for humans not machines. We want readability. Readable means Reliable. It's easier to understand. It's easier to work on. If it breaks, it's easier to fix.",
-        ],
-        [
-          "Effective > Productive",
-          "Being productive is about occupying your time—filling your schedule to the brim and getting as much done as you can. Being effective is about finding more of your time unoccupied and open for other things besides work. We don’t believe in busyness. We believe in effectiveness. Know your priority and do things that matter.",
-        ],
-        [
-          "Fail fast, learn often",
-          "Don't be afraid of starting all over again. Evaluate your work constantly. Don't be afraid of throwing to the rubbish a project you've been working on for the last few months. When you start from scratch, innovation comes organically inspired by previous experiences. Evaluate your work constantly.",
-        ],
-      ].map(([title, description], index) => (
-        <Flex
-          key={index}
-          className="flex-col gap-0"
-        >
-          <strong className="block font-semibold text-2xl mb-4 text-primary">{title}</strong>
-          <p className="text-lg leading-loose">{description}</p>
-        </Flex>
-      ))}
+        {[
+          [
+            'Running lean',
+            'Lean philosophy regards everything not adding values to the customer as waste. In order to eliminate waste, one should be able to recognize it. Partially done work, extra processes like paperwork and features not often used by customers are waste. Rework or unnecessarily complex solutions are waste. Waiting for other activities, teams, processes is waste. Managerial overhead not producing real values is waste.',
+          ],
+          [
+            'Deliver as fast as possible',
+            'Make it work. Perfect is an enemy of good. Look for perfection, but not yet. First do it, then do it right, then do it better. Any sufficiently complex system cannot be built out of design, it has to be evolved. The shorter the iterations, the better the learning and communication within the team. The sooner the end product is delivered without major defects, the sooner feedback can be received, and incorporated into the next iteration.',
+          ],
+          [
+            'Aim for simplicity',
+            "Simplicity is complicated. Simple is harder than complex. We have to write code for humans not machines. We want readability. Readable means Reliable. It's easier to understand. It's easier to work on. If it breaks, it's easier to fix.",
+          ],
+          [
+            'Effective > Productive',
+            'Being productive is about occupying your time—filling your schedule to the brim and getting as much done as you can. Being effective is about finding more of your time unoccupied and open for other things besides work. We don’t believe in busyness. We believe in effectiveness. Know your priority and do things that matter.',
+          ],
+          [
+            'Fail fast, learn often',
+            "Don't be afraid of starting all over again. Evaluate your work constantly. Don't be afraid of throwing to the rubbish a project you've been working on for the last few months. When you start from scratch, innovation comes organically inspired by previous experiences. Evaluate your work constantly.",
+          ],
+        ].map(([title, description], index) => (
+          <Flex key={index} className="flex-col gap-0">
+            <strong className="block font-semibold text-2xl mb-4 text-primary">
+              {title}
+            </strong>
+            <p className="text-lg leading-loose">{description}</p>
+          </Flex>
+        ))}
       </Stack>
     </Stack>
   </Flex>
@@ -117,16 +115,16 @@
   <HStack className="flex-wrap mt-20 gap-10">
     {[
       [
-        "Systematic Discipline",
-        "Software engineering is an engineering discipline that’s applied to the development of software in a systematic approach.\n\nNot applying software engineering methods results in more expensive, less reliable software, and it can be vital on the long term, as the changes come in, the costs will dramatically increase.",
+        'Systematic Discipline',
+        'Software engineering is an engineering discipline that’s applied to the development of software in a systematic approach.\n\nNot applying software engineering methods results in more expensive, less reliable software, and it can be vital on the long term, as the changes come in, the costs will dramatically increase.',
       ],
       [
-        "Engineers are not commodities",
-        "In every software, the engineering team is one of the most important factor to make it successful. Software is more of an artisanship, and software engineers aren’t a replaceable cog.\n\nPeople have an assembly line mindset left over from the industrial age. Don’t believe the one-size-fits-all interview process with whiteboarding problems. These serve to grind away the individuality and make us feel like an assembly line worker.",
+        'Engineers are not commodities',
+        'In every software, the engineering team is one of the most important factor to make it successful. Software is more of an artisanship, and software engineers aren’t a replaceable cog.\n\nPeople have an assembly line mindset left over from the industrial age. Don’t believe the one-size-fits-all interview process with whiteboarding problems. These serve to grind away the individuality and make us feel like an assembly line worker.',
       ],
       [
-        "The best idea wins",
-        "If you have a great idea and the will to make it work, you can create great changes. Nothing is off limits — we’re constantly looking for improvements in our people, our processes, and our products.\n\nAll voices are equal here — we hire people to have opinions and perspectives. If your idea makes the most sense, that’s what we’ll do, regardless of your role or seniority.",
+        'The best idea wins',
+        'If you have a great idea and the will to make it work, you can create great changes. Nothing is off limits — we’re constantly looking for improvements in our people, our processes, and our products.\n\nAll voices are equal here — we hire people to have opinions and perspectives. If your idea makes the most sense, that’s what we’ll do, regardless of your role or seniority.',
       ],
     ].map(([title, description], index) => (
       <Flex
@@ -137,7 +135,7 @@
         <Paragraph className="whitespace-pre-line">{description}</Paragraph>
       </Flex>
     ))}
-      </HStack>
+  </HStack>
 </Hero>
 
 <Hero
@@ -147,46 +145,58 @@
 >
   <Container className="grid grid-cols-2 md:grid-cols-4 gap-8 w-full max-w-none">
     {[
-      ["Technology", ["Go", "Elixir", "Swift", "Flutter", "ReactJS", "TypeScript"]],
-      ["Platform & Deployment", ["Docker", "GCP/AWS", "Kubernetes"]],
-      [["Architecture", ["Microservices", "Serverless"]], ["Emerging", ["Blockchain", "Hyperledger", "Practices"]]],
       [
-        "Agile",
-        ["Tech Radar", "CI/CD", "Container-centric", "Code Review", "Automation;"],
+        'Technology',
+        ['Go', 'Elixir', 'Swift', 'Flutter', 'ReactJS', 'TypeScript'],
       ],
-        ].map((item, index) => (
+      ['Platform & Deployment', ['Docker', 'GCP/AWS', 'Kubernetes']],
+      [
+        ['Architecture', ['Microservices', 'Serverless']],
+        ['Emerging', ['Blockchain', 'Hyperledger', 'Practices']],
+      ],
+      [
+        'Agile',
+        [
+          'Tech Radar',
+          'CI/CD',
+          'Container-centric',
+          'Code Review',
+          'Automation;',
+        ],
+      ],
+    ].map((item, index) =>
       Array.isArray(item[0]) ? (
-        <Column
-          key={index}
-          className="flex-col gap-4 mb-12"
-        >
+        <Column key={index} className="flex-col gap-4 mb-12">
           <H5>{item[0][0]}</H5>
           <ul className="list-none">
             {item[0][1].map((subItem, subIndex) => (
-              <li key={subIndex} className="text-lg leading-loose">{subItem}</li>
+              <li key={subIndex} className="text-lg leading-loose">
+                {subItem}
+              </li>
             ))}
           </ul>
           <H5>{item[1][0]}</H5>
           <ul className="list-none">
             {item[1][1].map((subItem, subIndex) => (
-              <li key={subIndex} className="text-lg leading-loose">{subItem}</li>
+              <li key={subIndex} className="text-lg leading-loose">
+                {subItem}
+              </li>
             ))}
           </ul>
         </Column>
       ) : (
-        <Column
-          key={index}
-          className="flex-col gap-4 mb-12"
-        >
+        <Column key={index} className="flex-col gap-4 mb-12">
           <H5>{item[0]}</H5>
           <ul className="list-none">
             {item[1].map((subItem, subIndex) => (
-              <li key={subIndex} className="text-lg leading-loose">{subItem}</li>
+              <li key={subIndex} className="text-lg leading-loose">
+                {subItem}
+              </li>
             ))}
           </ul>
         </Column>
-      )
-    ))}
+      ),
+    )}
   </Container>
 </Hero>
 
@@ -197,57 +207,59 @@
   <Container className="md:flex max-w-none gap-1 pt-8 pb-16">
     {[
       [
-        "Continuous Improvement",
-        "Story, Planning, Sprint\nDaily Standup\nRetrospective",
-        "ic-Continuos.svg",
+        'Continuous Improvement',
+        'Story, Planning, Sprint\nDaily Standup\nRetrospective',
+        'ic-Continuos.svg',
       ],
       [
-        "Lean Thinking",
-        "People first.\nValue-oriented.\nEliminating waste.",
-        "ic-LeanThinking.svg",
+        'Lean Thinking',
+        'People first.\nValue-oriented.\nEliminating waste.',
+        'ic-LeanThinking.svg',
       ],
       [
-        "Delivery Pipeline",
-        "Continuous Exploration.\nContinuous Integration.\nContinuous Deployment.",
-        "ic-DeliveryPipeline.svg",
+        'Delivery Pipeline',
+        'Continuous Exploration.\nContinuous Integration.\nContinuous Deployment.',
+        'ic-DeliveryPipeline.svg',
       ],
       [
-        "Innovation",
-        "Space and time for creativity.\nValidate with customers.\nPivot without mercy or guilt when the hypothesis needs to change.",
-        "ic-Innovation.svg",
+        'Innovation',
+        'Space and time for creativity.\nValidate with customers.\nPivot without mercy or guilt when the hypothesis needs to change.',
+        'ic-Innovation.svg',
       ],
     ].map(([title, description, icon], index) => (
       <Flex
         key={index}
         className="md:w-1/4 bg-alabaster px-12 py-10 border border-solid border-white flex-col items-center gap-0"
       >
-        <Image
-          src={`./svg/${icon}`}
-          alt={title}
-          className="mb-4 h-12"
-        />
-        <strong className="text-center mb-4 block text-xl font-semibold leading-tight">{title}</strong>
-        <Paragraph className="text-center text-md whitespace-pre-line leading-loose">{description}</Paragraph>
+        <Image src={`./svg/${icon}`} alt={title} className="mb-4 h-12" />
+        <strong className="text-center mb-4 block text-xl font-semibold leading-tight">
+          {title}
+        </strong>
+        <Paragraph className="text-center text-md whitespace-pre-line leading-loose">
+          {description}
+        </Paragraph>
       </Flex>
     ))}
   </Container>
-  <Link href="/contact" className="text-xl font-medium text-primary">Work with us →</Link>
+  <Link href="/contact" className="text-xl font-medium text-primary">
+    Work with us →
+  </Link>
 </Hero>
 
 <Hero title="Tech Radar">
   <Flex className="flex-row flex flex-wrap xl:flex-nowrap justify-between gap-4">
     <Column className="text-xl mb-4 xl:mb-0 max-w-[35em] leading-loose">
       The Dwarves have a <Link href="/radar" className="font-medium text-primary">spinning radar</Link>. This radar is how we assess and adopt new technology. Throughout the years, we observe the tech industry and pick out the most promising tech to put into the radar to begin the assessment process.
-      
+
       This urges us to learn the newest and the best technology out there to enhance the output
       quality, speed up the development process, also to bring the best pieces
       of software to life.
-      
+
       Everyone is encouraged to gather into small focus
       groups to discuss and study a particular topic. The below format could be
       found originated from ThoughtWorks. We organize the topics using two
       categorizing elements: **Quadrant** and **Ring**.
-      
+
       Check out the repo <Link href="https://github.com/dwarvesf/radar" className="font-medium text-primary">dwarvesf/radar</Link> to learn more.
     </Column>
     <Column className="text-xl">
@@ -269,6 +281,7 @@
         <ListItem>Hold: things that neither fit us nor we’ve had a good experience with</ListItem>
       </UnorderedList>
     </Column>
+
   </Flex>
 </Hero>
 
@@ -280,28 +293,31 @@
     <Flex className="flex-row flex flex-wrap gap-8 lg:flex-nowrap">
       {[
         {
-          title: "Open source software",
+          title: 'Open source software',
           description:
-            "We believe that OSS are good for everyone. By being open, they will empower the development of technology and help businesses to deliver innovative ideas.",
-          link: "/opensource",
+            'We believe that OSS are good for everyone. By being open, they will empower the development of technology and help businesses to deliver innovative ideas.',
+          link: '/opensource',
           external: false,
         },
         {
-          title: "Playbook",
+          title: 'Playbook',
           description:
             "It details how we make successful web and mobile products. It's filled with things we've learned based on our own experience and study of others' experiences.",
-          link: "https://github.com/dwarvesf/playbook",
+          link: 'https://github.com/dwarvesf/playbook',
           external: true,
         },
         {
-          title: "Our apps",
+          title: 'Our apps',
           description:
-            "Some free apps and utilities from our team for creatives and professionals, these Mac apps will make even the best Mac better than ever.",
-          link: "https://superbits.co/",
+            'Some free apps and utilities from our team for creatives and professionals, these Mac apps will make even the best Mac better than ever.',
+          link: 'https://superbits.co/',
           external: true,
         },
       ].map((card, idx) => (
-        <Flex key={idx} className="gap-2 w-full md:w-1/2 lg:w-1/3 mb-10 lg:mb-0">
+        <Flex
+          key={idx}
+          className="gap-2 w-full md:w-1/2 lg:w-1/3 mb-10 lg:mb-0"
+        >
           <div className="flex flex-col justify-between text-center px-16 py-8 md:px-10 h-full bg-[hsla(0,0%,95.3%,.05)] border border-[#474b59]">
             <div>
               <strong className="block w-full uppercase text-base font-semibold mb-4">
@@ -314,7 +330,7 @@
                 href={card.link}
                 className="inline-block text-primary text-xl font-medium"
                 {...(card.external
-                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  ? { target: '_blank', rel: 'noopener noreferrer' }
                   : {})}
               >
                 <span>See more</span>
@@ -330,10 +346,15 @@
 <Section className="bg-alabaster">
   <Center className="max-w-none flex-col gap-4 py-8">
     <H4 className="text-center whitespace-pre-line">
-      Have the same DNA and want to build world-class
-      products?
+      Have the same DNA and want to build world-class products?
     </H4>
-    <Button href="https://dwarves.careers" variant="primary" className="mx-auto" target="_blank" rel="noopener noreferrer">
+    <Button
+      href="https://dwarves.careers"
+      variant="primary"
+      className="mx-auto"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       Join us
     </Button>
   </Center>

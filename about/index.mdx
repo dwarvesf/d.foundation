@@ -1,5 +1,5 @@
 ---
-template: "about"
+template: 'about'
 ---
 
 <Dwarves
@@ -9,7 +9,7 @@ template: "about"
   companyName="Dwarves"
   pronunciation="/dwɔːvz/"
   companyDescription="Dwarves are the small and misshapen creatures. They are wisdom, natural good at crafting and well known for being the best blacksmiths throughout the nine worlds. The dwarf is an example of a creature who has the ability that surpasses the known world, presaging the rise of a universe beyond this physical realm. Aspiring to create a positive breakthrough that can be able to rewrite the new world, we chose the name Dwarves Foundation as the commitment to the vision that we follow."
-  imageSrc="./img/dwarves.jpg"
+  imageSrc="./img/dwarves.webp"
   imageAlt="Dwarves"
 />
 
@@ -17,29 +17,32 @@ template: "about"
   title="Core Values"
   values={[
     {
-      title: "Craftsmanship",
-      content: "We work toward perfection in every single piece that we produce. We are proud of the well-crafted software that we develop together.",
-      icon: "./svg/hammer.svg"
+      title: 'Craftsmanship',
+      content:
+        'We work toward perfection in every single piece that we produce. We are proud of the well-crafted software that we develop together.',
+      icon: './svg/hammer.svg',
     },
     {
-      title: "Teamwork",
-      content: "Teamwork is all about trust and collaboration. Having someone in the team mean we can rely on this person.",
-      icon: "./svg/teamwork.svg"
+      title: 'Teamwork',
+      content:
+        'Teamwork is all about trust and collaboration. Having someone in the team mean we can rely on this person.',
+      icon: './svg/teamwork.svg',
     },
     {
-      title: "Sustainable",
-      content: "We think long-term. We believe in working sustainably and balanced so that we are a happy bunch of sane workers.",
-      icon: "./svg/circular.svg"
-    }
+      title: 'Sustainable',
+      content:
+        'We think long-term. We believe in working sustainably and balanced so that we are a happy bunch of sane workers.',
+      icon: './svg/circular.svg',
+    },
   ]}
   stats={[
-    { value: "8", title: "Years" },
-    { value: "100+", title: "Members" },
-    { value: "30", title: "Clients" },
-    { value: "18", title: "Open sources" }
+    { value: '8', title: 'Years' },
+    { value: '100+', title: 'Members' },
+    { value: '30', title: 'Clients' },
+    { value: '18', title: 'Open sources' },
   ]}
   description="Our woodland is a sum of great technology, engineering culture, and smart people. The numbers speak it for themselves."
-  imageSrc="./img/dwarves-team.jpg"
+  imageSrc="./img/dwarves-team.webp"
   imageAlt="Dwarves Team"
 />
 
@@ -47,52 +50,29 @@ template: "about"
   title="From our founder"
   quote="Innovation happens. There are many startups found and raise fund every day. They focus on making significant positive changes, impact millions of people, lead to breakthroughs and support the foundation of economic growth.
 
-  Building an innovation startup requires lots of different things, and it is tough. Most of them have to deal with business development, legal, fundraising, team recruitment, and product development at the same time. Tech startups need to move fast and break things.
+Building an innovation startup requires lots of different things, and it is tough. Most of them have to deal with business development, legal, fundraising, team recruitment, and product development at the same time. Tech startups need to move fast and break things.
 
-  At some points, growing a startup needs a strong and experienced team behind. The software team that can help to design the system, design the database, produce the well-crafted software, keep the system stable, avoid the technical debt and deliver values is one of the critical pieces to solve the puzzle.
+At some points, growing a startup needs a strong and experienced team behind. The software team that can help to design the system, design the database, produce the well-crafted software, keep the system stable, avoid the technical debt and deliver values is one of the critical pieces to solve the puzzle.
 
-  Another motivation for Dwarves Foundation was the lack of respect that service firms receive. Most software companies out there focus on digital transformation and consultancy. The nature of the business with a tight deadline and budget force them to do tricks. They hit and run. The codebase and software they produced are full of crap, and it damages our pride.
+Another motivation for Dwarves Foundation was the lack of respect that service firms receive. Most software companies out there focus on digital transformation and consultancy. The nature of the business with a tight deadline and budget force them to do tricks. They hit and run. The codebase and software they produced are full of crap, and it damages our pride.
 
-  This is where Dwarves Foundation comes in. Despite the fact that service firms scale linearly, their ultimate size is capped and small, they don’t have life-changing exits for their founders, we start Dwarves Foundation as we want to build things right.
+This is where Dwarves Foundation comes in. Despite the fact that service firms scale linearly, their ultimate size is capped and small, they don’t have life-changing exits for their founders, we start Dwarves Foundation as we want to build things right.
 
-  This is what we do here. It takes many forms, and we’re always working towards better software craftsmanship.
-  "
-  author="Han Ngo"
-  authorTitle="Founder & CEO"
-  authorImageSrc="./img/ceo-dwarves.jpg"
-  authorImageAlt="CEO Dwarves"
-  teamImageSrc="./img/year-end-party.jpeg"
-  teamImageAlt="Year End Party"
+This is what we do here. It takes many forms, and we’re always working towards better software craftsmanship.
+"
+author="Han Ngo"
+authorTitle="Founder & CEO"
+authorImageSrc="./img/ceo-dwarves.webp"
+authorImageAlt="CEO Dwarves"
+teamImageSrc="./img/year-end-party.webp"
+teamImageAlt="Year End Party"
 />
-
 
 <Team
   title="Our team"
   description="We are product guys and startup veterans. We provide support across the board."
   team={(() => {
     const team = [
-      // {
-      //   full_name: 'Dung Ho',
-      //   username: 'Hồ Tuấn Dũng',
-      //   role: 'Data Engineer',
-      //   department: ['Engineering'],
-      //   socials: [
-      //     { type: 'linkedin', link: '#' },
-      //     { type: 'github', link: '#' },
-      //   ],
-      //   avatar: './team/Dung_Ho.jpg',
-      // },
-      // {
-      //   full_name: 'Bach Phuong',
-      //   username: 'Phương Xuân Bách',
-      //   role: 'Data Analyst',
-      //   department: ['Engineering'],
-      //   socials: [
-      //     { type: 'linkedin', link: '#' },
-      //     { type: 'github', link: '#' },
-      //   ],
-      //   avatar: './team/Bach_Phuong.jpg',
-      // },
       {
         full_name: 'Hung Pham',
         username: 'Phạm Thế Hùng',
@@ -121,7 +101,10 @@ template: "about"
         role: 'Backend Engineer',
         department: ['Engineering'],
         socials: [
-          { type: 'linkedin', link: 'https://www.linkedin.com/in/nguyenvanletay/' },
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/nguyenvanletay/',
+          },
           { type: 'github', link: 'https://github.com/taynguyen' },
         ],
         avatar: './team/Tay_Nguyen.jpg',
@@ -259,7 +242,10 @@ template: "about"
         role: 'Full-stack Engineer',
         department: ['Engineering'],
         socials: [
-          { type: 'linkedin', link: 'https://www.linkedin.com/in/minhluuquang/' },
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/minhluuquang/',
+          },
           { type: 'github', link: 'https://github.com/minhluuquang' },
         ],
         avatar: './team/Minh_Luu.jpg',
@@ -303,7 +289,10 @@ template: "about"
         role: 'Frontend Engineer',
         department: ['Engineering'],
         socials: [
-          { type: 'linkedin', link: 'https://www.linkedin.com/in/hien-le-duy/' },
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/hien-le-duy/',
+          },
           { type: 'github', link: 'https://github.com/leduyhien152' },
         ],
         avatar: './team/Hien_Le.jpg',
@@ -383,7 +372,10 @@ template: "about"
         role: 'Backend Engineer',
         department: ['Engineering'],
         socials: [
-          { type: 'linkedin', link: 'https://www.linkedin.com/in/hungnguyen1905/' },
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/hungnguyen1905/',
+          },
           { type: 'github', link: '#' },
         ],
         avatar: './team/Hung_Nguyen.jpg',
@@ -405,7 +397,10 @@ template: "about"
         role: 'Frontend Engineer',
         department: ['Engineering'],
         socials: [
-          { type: 'linkedin', link: 'https://www.linkedin.com/in/ngo-lap-nguyen/' },
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/ngo-lap-nguyen/',
+          },
           { type: 'github', link: 'https://github.com/ngolapnguyen' },
         ],
         avatar: './team/Lap_Nguyen.jpg',
@@ -524,7 +519,10 @@ template: "about"
         role: 'Frontend Engineer',
         department: ['Engineering'],
         socials: [
-          { type: 'linkedin', link: 'https://www.linkedin.com/in/tai-pham-harry/' },
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/tai-pham-harry/',
+          },
           { type: 'github', link: 'https://github.com/taipham1803' },
         ],
         avatar: './team/Tai_Pham.jpg',
@@ -610,7 +608,10 @@ template: "about"
         role: 'DevOps Principal',
         department: ['Engineering'],
         socials: [
-          { type: 'linkedin', link: 'https://www.linkedin.com/in/mytruong1372/' },
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/mytruong1372/',
+          },
           { type: 'github', link: 'https://github.com/lmquang' },
         ],
         avatar: './team/Quang_Le.jpg',
@@ -707,7 +708,10 @@ template: "about"
         role: 'Frontend Lead',
         department: ['Engineering'],
         socials: [
-          { type: 'linkedin', link: 'https://www.linkedin.com/in/tranhuuminh/' },
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/tranhuuminh/',
+          },
           { type: 'github', link: 'https://github.com/thminhVN' },
         ],
         avatar: './team/Minh_Tran.jpg',
@@ -762,7 +766,10 @@ template: "about"
         role: 'Marketing Executive',
         department: ['Communication'],
         socials: [
-          { type: 'linkedin', link: 'https://www.linkedin.com/in/mytruong1372/' },
+          {
+            type: 'linkedin',
+            link: 'https://www.linkedin.com/in/mytruong1372/',
+          },
           { type: 'github', link: '#' },
         ],
         avatar: './team/My_Truong.jpg',
@@ -792,32 +799,37 @@ template: "about"
         ],
         avatar: './team/Anh_Tran.jpg',
       },
-    ]
+    ];
     const logos = {
-      'All': './svg/leader.svg',
-      'Engineering': './svg/developer.svg',
-      'Leadership': './svg/leader.svg',
-      'Design': './svg/designer.svg',
-      'Communication': './svg/community.svg'
-    }
-    return team.reduce((acc, member) => {
-      const department = member.department || []
-      if (!department.length) {
-        return acc
-      }
-      for (const dep of department) {
-        if (!acc[dep]) {
-          acc[dep] = {
-            logo: logos[dep],
-            members: []
-          }
+      All: './svg/leader.svg',
+      Engineering: './svg/developer.svg',
+      Leadership: './svg/leader.svg',
+      Design: './svg/designer.svg',
+      Communication: './svg/community.svg',
+    };
+    return team.reduce(
+      (acc, member) => {
+        const department = member.department || [];
+        if (!department.length) {
+          return acc;
         }
-        acc[dep].members.push(member)
-      }
-      return acc
-    }, { 'All': {
-        logo: logos['All'],
-        members: team
-      } })
+        for (const dep of department) {
+          if (!acc[dep]) {
+            acc[dep] = {
+              logo: logos[dep],
+              members: [],
+            };
+          }
+          acc[dep].members.push(member);
+        }
+        return acc;
+      },
+      {
+        All: {
+          logo: logos['All'],
+          members: team,
+        },
+      },
+    );
   })()}
 />
