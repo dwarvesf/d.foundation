@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/dwarvesf/web-engine/main/app/schema/site.json",
   "theme": "default",
   "language": "en",
   "site": {
