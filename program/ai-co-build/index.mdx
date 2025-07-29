@@ -1,8 +1,8 @@
 ---
 title: 'AI co-build'
-description: 'AI is reshaping business. As a research-focused tech consultancy, we focus on creating AI solutions that solve real business problems, not just flashy demos that fall apart in production.' 
+description: 'AI is reshaping business. As a research-focused tech consultancy, we focus on creating AI solutions that solve real business problems, not just flashy demos that fall apart in production.'
 template: 'services'
-form-option:
+form-options:
   form-image: '/contact/img/contact-illu.png'
   title: 'Let’s build your next AI solution'
   service-name: 'AI development'
@@ -20,54 +20,44 @@ form-option:
 ---
 
 <Hero
-  title="AI co-build"
   description="AI is reshaping business. As a research-focused tech consultancy, we focus on creating AI solutions that solve real business problems, not just flashy demos that fall apart in production."
   ctaText="Let's talk"
   ctaLink="#contact"
-/> 
+  subtitle={
+    <Flex className="gap-0">
+      Program
+      <svg
+        stroke="currentColor"
+        fill="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        height="1.5em"
+        width="1.5em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+      </svg>
+      AI co-build
+    </Flex>
+  }
+  title="Let's build AI solutions together"
+/>
 
-<Section>
+<Section className="bg-alabaster py-20">
 
-  ### Join the Intelligence Age revolution
+### Why AI matters now
 
   <ParagraphBlock>
 
-    The Intelligence Age, as Sam Altman from OpenAI envisions, empowers companies with Generative AI, LLMs, and Agentic AI to innovate and optimize. With 95% accuracy, AI automates tasks and unlocks insights, driving real productivity gains. 
-    
-    Partner with Dwarves to lead this wave or risk falling behind.
+    The Intelligence Age, as Sam Altman from OpenAI envisions, empowers companies with Generative AI, LLMs, and Agentic AI to innovate and optimize. With 95% accuracy, AI automates tasks and unlocks insights, driving real productivity gains.
 
   </ParagraphBlock>
 
 </Section>
 
-<Section className="!pt-0">
-<Flex className="flex-col md:flex-row" gap="2xl">
-  <Project featured customBackgroundColor="#FDA900" background="light" href="/work/droppii" image="/images/work/logo/droppii-landingpage.webp" imageAlt="Droppii logo">
-    #### Droppii
-
-    *E-commerce • Vietnam*
-
-  </Project>
-
-  <Project featured customBackgroundColor="#091A73" background="dark" work="true" href="/work/inloop" image="/images/work/logo/inloop-landingpage.webp" imageAlt="Inloop logo">
-    #### Inloop
-
-    *Consulting service • Singapore*
-
-  </Project>
-
-  <Project colored customBackgroundColor="#800531" background="dark" image="/images/work/logo/plot-landingpage.webp" imageAlt="Plot logo" href="/work/plot">
-    ### Plot
-
-    *Social media marketing • US*
-
-  </Project>
-</Flex>
-</Section>
-
 <Section>
 
-  ### Your business challenges
+### Your business challenges
 
   <ParagraphBlock>
 
@@ -113,10 +103,9 @@ form-option:
 
 </Section>
 
+<Section  className="bg-alabaster">
 
-<Section>
-
-  ### What you gain
+### What you gain
 
   <ParagraphBlock>
 
@@ -158,82 +147,37 @@ form-option:
 
 <Section>
 
-  ### Why AI matters now
-
-  <ParagraphBlock>
-
-    AI transforms how you work, from automating routine tasks to delivering personalized customer experiences. It’s your chance to innovate or eliminate inefficiencies.
-
-  </ParagraphBlock>
-
-</Section>
-
-<Section>
-
-  ### Our Track Record: Real-World AI Success
+### Our Track Record: Real-World AI Success
 
   <ParagraphBlock>
 
     We've built AI solutions across industries, delivering tangible results. Here are some highlights:
 
-    <ColumnsList columns={1}>
+    </ParagraphBlock>
 
-      <ListItem>
+</Section>
 
-        **Fornax**: AI system for evaluating startup pitch decks (GPT-4o).
+<Section className="!pt-0">
+<Flex className="flex-col md:flex-row" gap="2xl">
+  <Project featured customBackgroundColor="#FDA900" background="light" href="/work/droppii" image="/images/work/logo/droppii-landingpage.webp" imageAlt="Droppii logo">
+    #### Droppii
 
-      </ListItem>
+    *E-commerce • Vietnam*
 
-      <ListItem>
+  </Project>
 
-        **[Memo](https://memo.d.foundation/)**: Knowledge-sharing platform with AI-powered search and privacy-focused content discovery (DuckDB, Transformers.js).
+  <Project featured customBackgroundColor="#091A73" background="dark" work="true" href="/work/inloop" image="/images/work/logo/inloop-landingpage.webp" imageAlt="Inloop logo">
+    #### Inloop
 
-      </ListItem>
+    *Consulting service • Singapore*
 
-      <ListItem>
+  </Project>
 
-        **Observer**: Social listening agent analyzing technology trends (Mastra.ai, MCP, DuckDB, crawl4ai, Gemini-2.5-flash).
+  <Project colored customBackgroundColor="#800531" background="dark" image="/images/work/logo/plot-landingpage.webp" imageAlt="Plot logo" href="/work/plot">
+    ### Plot
 
-      </ListItem>
+    *Social media marketing • US*
 
-      <ListItem>
-
-        **Fortress**: AI agent monitoring community stats (n8n, GPT-4o).
-
-      </ListItem>
-
-      <ListItem>
-
-        **[Droppii](https://dwarves.foundation/work/droppii/)**: AI-powered product consultation and recommendation for e-commerce (GPT-3.5 Instruct).
-
-      </ListItem>
-
-      <ListItem>
-
-        **[Plot](https://dwarves.foundation/work/plot/)**: AI for automatic social media content labeling and management (LangChain, Cohere Embeddings v3, GPT-4 Turbo, Pinecone Vector DB).
-
-      </ListItem>
-
-      <ListItem>
-
-        **[Screenz](https://dwarves.foundation/work/screenz-ai/)**: AI-powered screen analysis and automation tools (ElevenLabs, GPT-4o).
-
-      </ListItem>
-
-      <ListItem>
-
-        **[Inloop](https://dwarves.foundation/work/inloop/)**: Human-in-the-loop AI consulting systems (Agentic AI, Claude Sonnet, RAG, Cohere Embed v3, OpenRouter).
-
-      </ListItem>
-
-      <ListItem>
-
-        **MCPilot**: Discord bot for Model Context Protocol configuration and AI Q&A (Mastra.ai, GPT-4o-mini, ai-sdk).
-
-      </ListItem>
-
-    </ColumnsList>
-
-  </ParagraphBlock>
-
+  </Project>
+</Flex>
 </Section>

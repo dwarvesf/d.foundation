@@ -2,31 +2,54 @@
 title: 'Post vibe: Platform maintenance'
 description: 'Keep your creative flow alive while we handle the scaling grind. Dwarves Consulting delivers platform ops and AI workflow optimization, so you can focus on shipping great products and growing your community.'
 template: 'services'
-form-option:
+form-options:
+  className: 'bg-alabaster'
   form-image: '/contact/img/contact-illu.png'
-  title: 'Let’s build your next AI solution'
-  service-name: 'AI development'
+  title: 'Let’s book a 30-minute call to discuss'
+  service-name: 'Post vibe: Platform maintenance'
   select-fields:
-    - label: 'What kind of AI solution do you need?'
-      name: 'ai_solution_type'
+    - label: 'What kind of platform maintenance do you need?'
+      name: 'platform_maintenance_type'
       options:
-        - label: AI-powered products (e.g., chatbots, digital products)
-          description: Intelligent chatbots and assistants that actually help users, AI-powered digital products that enhance user experiences, Custom AI platforms designed for specific industry needs, Agentic systems that can reason and take actions.
+        - label: Performance optimization (e.g., crashes, lag, scaling issues)
+          description: Solutions for apps struggling with growing user base, Performance tuning for data-intensive operations, Infrastructure scaling to handle traffic spikes, Optimization for improved response times.
           default: true
-        - label: Data & MLOps (e.g., model deployment, data pipelines)
-          description: AI model deployment and optimization for production environments, Data pipelines that feed your AI systems reliably, MLOps and LLMOps for efficient model development and deployment, AI integration with existing systems and workflows.
-        - label: Smart automation (e.g., document processing, computer vision)
-          description: Document processing and analysis systems, Content generation and curation tools, Automated decision-making systems, Computer vision applications for real-world problems.
+        - label: Maintenance & updates (e.g., bug fixes, feature updates)
+          description: Ongoing bug fixes and system maintenance, Feature updates and improvements, Code refactoring for better maintainability, Technical debt reduction.
+        - label: Cost optimization (e.g., cloud bills, AI model efficiency)
+          description: Cloud cost analysis and optimization, AI model efficiency improvements, Resource allocation review, Strategies to reduce operational expenses without sacrificing performance.
+        - label: Security & compliance (e.g., protection, GDPR, HIPAA)
+          description: Security audits and improvements, Compliance implementation (GDPR, HIPAA, etc.), Data protection strategies, Authentication and authorization enhancements.
+        - label: AI workflow optimization (e.g., LLM integration, agent systems)
+          description: Streamlining AI and ML workflows, LLM integration and optimization, Agent system improvements, AI pipeline efficiency enhancements.
 ---
 
 <Hero
-  title="Post vibe: Platform maintenance"
   description="Keep your creative flow alive while we handle the scaling grind. Dwarves Consulting delivers platform ops and AI workflow optimization, so you can focus on shipping great products and growing your community."
   ctaText="Let's talk"
-  ctaLink="contact"
+  ctaLink="#contact"
+  subtitle={
+    <Flex className="gap-0">
+      Program
+      <svg
+        stroke="currentColor"
+        fill="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        height="1.5em"
+        width="1.5em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+      </svg>
+      Post vibe
+    </Flex>
+  }
+  title="Maintain your platform,
+  keep your vibe"
 />
 
-<Section>
+<Section className="bg-alabaster py-20">
 
 ### Vibe coders, don’t let ops kill your flow
 
@@ -40,7 +63,7 @@ At Dwarves Consulting, our platform ops retainer keeps your platform humming, so
 
 <Section>
 
-  ### The post-MVP grind challenge
+### The post-MVP grind challenge
 
   <ParagraphBlock>
 
@@ -86,9 +109,9 @@ At Dwarves Consulting, our platform ops retainer keeps your platform humming, so
 
 </Section>
 
-<Section>
+<Section className="bg-alabaster py-20">
 
-  ### Our solution: Platform ops that vibe with you
+### Our solution: Platform ops that vibe with you
 
   <ParagraphBlock>
 
@@ -136,7 +159,7 @@ At Dwarves Consulting, our platform ops retainer keeps your platform humming, so
 
 <Section>
 
-  ### What you get: More vibe, less stress
+### What you get: More vibe, less stress
 
   <ParagraphBlock>
 
@@ -169,46 +192,9 @@ At Dwarves Consulting, our platform ops retainer keeps your platform humming, so
       </ListItem>
 
     </ColumnsList>
- 
+
        Teams working with us have cut costs and freed up time to focus on launching new features and adding value for users.
-  
-  </ParagraphBlock>
-
-</Section>
-
-<Section>
-
-  ### Get started
-
-  <ParagraphBlock>
-
-    Let’s get your platform vibing. Book a **free 30-minute review session** to:
-
-    <ColumnsList columns={1}>
-
-      <ListItem>
-
-        **Audit your setup:** We’ll check your MVP’s infrastructure and AI workflows.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Get a quick fix:** Walk away with one actionable tip to boost performance.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Plan your scale:** If it’s a fit, we’ll tailor a retainer to keep you soaring.
-
-      </ListItem>
-
-    </ColumnsList>
-
-    No pressure, just a chat to make your platform as epic as your ideas.
 
   </ParagraphBlock>
 
 </Section>
-
