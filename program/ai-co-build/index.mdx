@@ -1,11 +1,183 @@
 ---
-title: 'AI co-build - Program'
-description: ''
+title: 'AI co-build'
+description: 'AI is reshaping business. As a research-focused tech consultancy, we focus on creating AI solutions that solve real business problems, not just flashy demos that fall apart in production.'
 template: 'services'
+form-options:
+  form-image: '/contact/img/contact-illu.png'
+  title: 'Let’s build your next AI solution'
+  service-name: 'AI development'
+  select-fields:
+    - label: 'What kind of AI solution do you need?'
+      name: 'ai_solution_type'
+      options:
+        - label: AI-powered products (e.g., chatbots, digital products)
+          description: Intelligent chatbots and assistants that actually help users, AI-powered digital products that enhance user experiences, Custom AI platforms designed for specific industry needs, Agentic systems that can reason and take actions.
+          default: true
+        - label: Data & MLOps (e.g., model deployment, data pipelines)
+          description: AI model deployment and optimization for production environments, Data pipelines that feed your AI systems reliably, MLOps and LLMOps for efficient model development and deployment, AI integration with existing systems and workflows.
+        - label: Smart automation (e.g., document processing, computer vision)
+          description: Document processing and analysis systems, Content generation and curation tools, Automated decision-making systems, Computer vision applications for real-world problems.
 ---
+
+<Hero
+  description="AI is reshaping business. As a research-focused tech consultancy, we focus on creating AI solutions that solve real business problems, not just flashy demos that fall apart in production."
+  ctaText="Let's talk"
+  ctaLink="#contact"
+  subtitle={
+    <Flex className="gap-0">
+      Program
+      <svg
+        stroke="currentColor"
+        fill="currentColor"
+        stroke-width="0"
+        viewBox="0 0 24 24"
+        height="1.5em"
+        width="1.5em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path>
+      </svg>
+      AI co-build
+    </Flex>
+  }
+  title="Let's build AI solutions together"
+/>
+
+<Section className="bg-alabaster py-20">
+
+### Why AI matters now
+
+  <ParagraphBlock>
+
+    The Intelligence Age, as Sam Altman from OpenAI envisions, empowers companies with Generative AI, LLMs, and Agentic AI to innovate and optimize. With 95% accuracy, AI automates tasks and unlocks insights, driving real productivity gains.
+
+  </ParagraphBlock>
+
+</Section>
 
 <Section>
 
-# AI co-build
+### Your business challenges
 
+  <ParagraphBlock>
+
+    Scaling brings pain points that slow you down or hold you back:
+
+    <ColumnsList columns={1}>
+
+      <ListItem>
+
+        **Manual overload:** Repetitive tasks eat up staff time.
+
+      </ListItem>
+
+      <ListItem>
+
+        **Data chaos:** Unorganized data delays decisions.
+
+      </ListItem>
+
+      <ListItem>
+
+        **High costs:** Inefficient workflows inflate budgets.
+
+      </ListItem>
+
+      <ListItem>
+
+        **Customer lag:** Slow responses frustrate users.
+
+      </ListItem>
+
+      <ListItem>
+
+        **Tech gaps:** Outdated systems can't keep up.
+
+      </ListItem>
+
+    </ColumnsList>
+
+    These hurdles steal your focus from growth. We're here to fix that.
+
+  </ParagraphBlock>
+
+</Section>
+
+<Section  className="bg-alabaster">
+
+### What you gain
+
+  <ParagraphBlock>
+
+    At Dwarves, our **AI consulting service** empowers your business to thrive.
+
+    Our research-driven team co-builds custom AI solutions, from intelligent agents to automated workflows, tailored to your needs. We integrate seamlessly with your systems, ensuring fast results.
+
+    <ColumnsList columns={1}>
+
+      <ListItem>
+
+        **Efficiency boost:** Automate tasks, saving 30% of staff time.
+
+      </ListItem>
+
+      <ListItem>
+
+        **Cost savings:** Reduce expenses by up to 25%.
+
+      </ListItem>
+
+      <ListItem>
+
+        **Smart insights:** Act 20% faster with AI-driven data.
+
+      </ListItem>
+
+      <ListItem>
+
+        **Department wins:** Improve sales (25% conversion boost), support (80% query automation), and accounting (20 hours saved weekly).
+
+      </ListItem>
+
+    </ColumnsList>
+
+  </ParagraphBlock>
+
+</Section>
+
+<Section>
+
+### Our Track Record: Real-World AI Success
+
+  <ParagraphBlock>
+
+    We've built AI solutions across industries, delivering tangible results. Here are some highlights:
+
+    </ParagraphBlock>
+
+</Section>
+
+<Section className="!pt-0">
+<Flex className="flex-col md:flex-row" gap="2xl">
+  <Project featured customBackgroundColor="#FDA900" background="light" href="/work/droppii" image="/images/work/logo/droppii-landingpage.webp" imageAlt="Droppii logo">
+    #### Droppii
+
+    *E-commerce • Vietnam*
+
+  </Project>
+
+  <Project featured customBackgroundColor="#091A73" background="dark" work="true" href="/work/inloop" image="/images/work/logo/inloop-landingpage.webp" imageAlt="Inloop logo">
+    #### Inloop
+
+    *Consulting service • Singapore*
+
+  </Project>
+
+  <Project colored customBackgroundColor="#800531" background="dark" image="/images/work/logo/plot-landingpage.webp" imageAlt="Plot logo" href="/work/plot">
+    ### Plot
+
+    *Social media marketing • US*
+
+  </Project>
+</Flex>
 </Section>
