@@ -4,7 +4,8 @@ description: 'AI is reshaping business. As a research-focused tech consultancy, 
 template: 'services'
 form-options:
   form-image: '/contact/img/contact-illu.png'
-  title: 'Let’s build your next AI solution'
+  title: "Build with us"
+  subtitle: "Let's discuss your ideas. The more specific you are, the faster we can help. Our team will get back to you within 24hrs."
   service-name: 'AI development'
   select-fields:
     - label: 'What kind of AI solution do you need?'
@@ -43,141 +44,104 @@ form-options:
   title="Let's build AI solutions together"
 />
 
-<Section className="bg-alabaster py-20">
+<Section className="bg-alabaster py-20" contentClassName="flex items-center flex-col gap-4">
 
-### Why AI matters now
+  ### Why AI matters now
 
-  <ParagraphBlock>
-
-    The Intelligence Age, as Sam Altman from OpenAI envisions, empowers companies with Generative AI, LLMs, and Agentic AI to innovate and optimize. With 95% accuracy, AI automates tasks and unlocks insights, driving real productivity gains.
-
-  </ParagraphBlock>
+  <div className="text-center text-xl max-w-3xl">
+    The Intelligence Age, as Sam Altman from OpenAI envisions, empowers companies with <span className="text-primary font-semibold">Generative AI, LLMs, and Agentic AI</span> to innovate and optimize. With <span className="text-primary font-semibold">95% accuracy</span>, AI automates tasks and unlocks insights, driving real productivity gains.
+  </div>
 
 </Section>
 
-<Section>
+<Section contentClassName="space-y-[1em]">
 
-### Your business challenges
+  ### Your business challenges
 
-  <ParagraphBlock>
+  Scaling brings pain points that slow you down or hold you back:
 
-    Scaling brings pain points that slow you down or hold you back:
-
-    <ColumnsList columns={1}>
-
-      <ListItem>
-
-        **Manual overload:** Repetitive tasks eat up staff time.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Data chaos:** Unorganized data delays decisions.
-
-      </ListItem>
-
-      <ListItem>
-
-        **High costs:** Inefficient workflows inflate budgets.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Customer lag:** Slow responses frustrate users.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Tech gaps:** Outdated systems can't keep up.
-
-      </ListItem>
-
-    </ColumnsList>
-
-    These hurdles steal your focus from growth. We're here to fix that.
-
-  </ParagraphBlock>
-
+  <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 mt-8">
+    {[
+    [
+      "Manual overload",
+      "Repetitive tasks eat up staff time, preventing your team from focusing on high-value strategic work that drives business growth and innovation.",
+    ],
+    [
+      "Data chaos",
+      "Unorganized data delays decisions, making it impossible to act quickly on market opportunities or respond effectively to customer needs and competitive pressures.",
+    ],
+    [
+      "High costs",
+      "Inefficient workflows inflate budgets, wasting resources on manual processes that could be automated while increasing operational overhead and reducing profit margins.",
+    ],
+    [
+      "Customer lag",
+      "Slow responses frustrate users, leading to poor customer experience, reduced satisfaction scores, and ultimately churn to competitors who can respond faster.",
+    ],
+    [
+      "Tech gaps",
+      "Outdated systems can't keep up with modern business demands, creating bottlenecks that limit scalability and prevent adoption of new technologies and processes.",
+    ],
+  ].map((item, idx) => {
+    const [title, description] = item;
+    const secondRow = idx > 2;
+    const secondRowClass = 'lg:col-span-3'
+    return (
+      <Flex
+        key={idx}
+        className={`flex-col bg-[#e7e7e7] p-10 text-[#4b4b5b] col-span-2 gap-0 ${secondRow ? secondRowClass : ''}`}
+      >
+        <H6>{title}</H6>
+        <Paragraph className="whitespace-pre-line">{description}</Paragraph>
+      </Flex>
+    )
+  })}
+  </div>
 </Section>
 
-<Section  className="bg-alabaster">
+<Section contentClassName="space-y-4">
 
 ### What you gain
 
   <ParagraphBlock>
-
     At Dwarves, our **AI consulting service** empowers your business to thrive.
 
     Our research-driven team co-builds custom AI solutions, from intelligent agents to automated workflows, tailored to your needs. We integrate seamlessly with your systems, ensuring fast results.
-
-    <ColumnsList columns={1}>
-
-      <ListItem>
-
-        **Efficiency boost:** Automate tasks, saving 30% of staff time.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Cost savings:** Reduce expenses by up to 25%.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Smart insights:** Act 20% faster with AI-driven data.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Department wins:** Improve sales (25% conversion boost), support (80% query automation), and accounting (20 hours saved weekly).
-
-      </ListItem>
-
-    </ColumnsList>
-
   </ParagraphBlock>
 
-</Section>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+      {[
+        [
+          "⚡ Efficiency boost",
+          "Automate tasks, saving 30% of staff time. Free your team from repetitive work to focus on strategic initiatives, creative problem-solving, and high-impact activities that drive business value.",
+          "efficiency-boost.svg",
+        ],
+        [
+          "💰 Cost savings",
+          "Reduce expenses by up to 25%. Streamline operations through intelligent automation, optimize resource allocation, and eliminate wasteful manual processes that drain your budget unnecessarily.",
+          "cost.svg",
+        ],
+        [
+          "🧠 Smart insights",
+          "Act 20% faster with AI-driven data. Transform raw information into actionable intelligence, enabling rapid decision-making and giving you competitive advantages in dynamic markets.",
+          "insight.svg",
+        ],
+        [
+          "🎯 Department wins",
+          "Improve sales (25% conversion boost), support (80% query automation), and accounting (20 hours saved weekly). Measurable improvements across all business functions and operations.",
+          "department-wins.svg",
+        ],
+      ].map((item) => (
+        <HStack className="p-10 gap-4 bg-[#e7e7e7] text-[#4b4b5b]" key={item[0]}>
+          <svg svg width="64" height="64" className="shrink-0 !flex-[unset]">
+            <use href={`./assets/${item[2]}`} />
+          </svg>
+          <Flex className="flex-col gap-4 flex-1">
+            <h4 className="text-2xl font-semibold leading-8">{item[0]}</h4>
+            <Paragraph className="whitespace-pre-line mt-0">{item[1]}</Paragraph>
+          </Flex>
+        </HStack>
+      ))}
+    </div>
 
-<Section>
-
-### Our Track Record: Real-World AI Success
-
-  <ParagraphBlock>
-
-    We've built AI solutions across industries, delivering tangible results. Here are some highlights:
-
-    </ParagraphBlock>
-
-</Section>
-
-<Section className="!pt-0">
-<Flex className="flex-col md:flex-row" gap="2xl">
-  <Project featured customBackgroundColor="#FDA900" background="light" href="/work/droppii" image="/images/work/logo/droppii-landingpage.webp" imageAlt="Droppii logo">
-    #### Droppii
-
-    *E-commerce • Vietnam*
-
-  </Project>
-
-  <Project featured customBackgroundColor="#091A73" background="dark" work="true" href="/work/inloop" image="/images/work/logo/inloop-landingpage.webp" imageAlt="Inloop logo">
-    #### Inloop
-
-    *Consulting service • Singapore*
-
-  </Project>
-
-  <Project colored customBackgroundColor="#800531" background="dark" image="/images/work/logo/plot-landingpage.webp" imageAlt="Plot logo" href="/work/plot">
-    ### Plot
-
-    *Social media marketing • US*
-
-  </Project>
-</Flex>
 </Section>

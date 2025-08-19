@@ -5,7 +5,8 @@ template: 'services'
 form-options:
   className: 'bg-alabaster'
   form-image: '/contact/img/contact-illu.png'
-  title: 'Let’s book a 30-minute call to discuss'
+  title: "Build with us"
+  subtitle: "Let's discuss your ideas. The more specific you are, the faster we can help. Our team will get back to you within 24hrs."
   service-name: 'Post vibe: Platform maintenance'
   select-fields:
     - label: 'What kind of platform maintenance do you need?'
@@ -49,17 +50,18 @@ form-options:
   keep your vibe"
 />
 
-<Section className="bg-alabaster py-20">
+<Section className="bg-alabaster py-20" contentClassName="flex items-center flex-col gap-4">
 
-### Vibe coders, don’t let ops kill your flow
+  ### Vibe coders, don’t let ops kill your flow
 
-<ParagraphBlock>
-You're a vibe coder, building dope AI apps, no-code workflows, or services that light up your community. Your MVP is live, users are hyped, but now the grind of scaling is harshing your vibe. Crashes, costs, and tech headaches are stealing your creative mojo.
+  <div className="text-center text-xl max-w-4xl">
+    You're a vibe coder, building dope AI apps, no-code workflows, or services that light up your community. <span className="text-primary font-semibold">Your MVP is live, users are hyped</span>, but now the grind of scaling is harshing your vibe. Crashes, costs, and tech headaches are stealing your creative mojo.
 
-At Dwarves Consulting, our platform ops retainer keeps your platform humming, so you can focus on what you love: creating. Ready to scale without the stress?
+    At Dwarves Consulting, our platform ops retainer keeps your platform humming, so you can focus on what you love: creating. Ready to scale without the stress?
+  </div>
 
-</ParagraphBlock>
 </Section>
+
 
 <Section>
 
@@ -69,43 +71,39 @@ At Dwarves Consulting, our platform ops retainer keeps your platform humming, so
 
     After nailing your MVP, these pain points probably sound familiar:
 
-    <ColumnsList columns={1}>
-
-      <ListItem>
-
-        **Crashes and lag:** Growing users or data tank your app’s performance.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Maintenance drain:** Bug fixes and updates eat up your coding time.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Cloud bill shock:** AI models or traffic spikes send costs soaring.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Security stress:** Your quick MVP setup isn’t ready for hackers or compliance.
-
-      </ListItem>
-
-      <ListItem>
-
-        **AI hiccups:** Unoptimized workflows slow things down or break the bank.
-
-      </ListItem>
-
-    </ColumnsList>
-
-    These ops struggles pull you away from building the next big thing. We get it, and we’ve got you covered.
-
   </ParagraphBlock>
+
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-20 mt-20">
+    {[
+      [
+        "Crashes and lag",
+        "Growing users or data tank your app's performance. Your once-snappy AI features now timeout, database queries crawl, and users start complaining about slow response times during peak hours.",
+      ],
+      [
+        "Maintenance drain",
+        "Bug fixes and updates eat up your coding time. Instead of building that killer new feature, you're stuck patching security vulnerabilities and debugging production issues every week.",
+      ],
+      [
+        "Cloud bill shock",
+        "AI models or traffic spikes send costs soaring. Your AWS bill went from $200 to $2000 overnight because your vector database isn't optimized and your AI workflows are burning through compute credits.",
+      ],
+      [
+        "Security stress",
+        "Your quick MVP setup isn't ready for hackers or compliance. Now enterprise clients want SOC2, your database passwords are still in plaintext, and you're one breach away from disaster.",
+      ],
+      [
+        "AI hiccups",
+        "Unoptimized workflows slow things down or break the bank. Your AI pipeline works but takes 10 minutes per request, costs $5 per inference, and fails randomly when OpenAI has an outage.",
+      ],
+    ].map((item) => {
+      return (
+        <Flex key={item[0]} className="flex-col gap-0">
+          <H6>{item[0]}</H6>
+          <Paragraph className="text-md">{item[1]}</Paragraph>
+        </Flex>
+      );
+    })}
+  </div>
 
 </Section>
 
@@ -117,43 +115,47 @@ At Dwarves Consulting, our platform ops retainer keeps your platform humming, so
 
     Our platform ops retainer is built for vibe coders. We handle the techy stuff, so you can keep creating:
 
-    <ColumnsList columns={1}>
-
-      <ListItem>
-
-        **Scale effortlessly:** Optimize your cloud and infrastructure for 10x growth.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Stay secure:** Lock down your platform with enterprise-grade security and compliance (like GDPR, HIPAA).
-
-      </ListItem>
-
-      <ListItem>
-
-        **Cut costs:** Fine-tune AI workflows to save 20-30% on cloud bills.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Run smoothly:** 24/7 monitoring and fixes for 99.9% uptime.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Future-proof:** Prep for AI agents and enterprise demands by 2026.
-
-      </ListItem>
-
-    </ColumnsList>
-
-    We’re not corporate suits. We match your fast, creative energy and amplify your vision.
-
   </ParagraphBlock>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 md:gap-x-40 lg:gap-x-60 mt-20">
+    {[
+      [
+        "Scale Effortlessly",
+        "Optimize your cloud and infrastructure for 10x growth with auto-scaling, load balancing, and database optimization that handles traffic spikes seamlessly.",
+        "lean-thinking.svg",
+      ],
+      [
+        "Run smoothly",
+        "24/7 monitoring and fixes for 99.9% uptime with automated monitoring, instant alerts, and recovery procedures that keep your platform running.",
+        "productivity.svg",
+      ],
+      [
+        "Stay Secure",
+        "Lock down your platform with enterprise-grade security and compliance (like GDPR, HIPAA). From encrypted databases to SOC2 certification without enterprise headaches.",
+        "secure.svg",
+      ],
+      [
+        "Future-proof",
+        "Prep for AI agents and enterprise demands by 2026 with architecture ready for multimodal models, agent workflows, and enterprise integrations.",
+        "ideate.svg",
+      ],
+      [
+        "Cut costs",
+        "Fine-tune AI workflows to save 20-30% on cloud bills through pipeline optimization, smart caching, and right-sized infrastructure for maximum performance.",
+        "coin.svg",
+      ],
+    ].map((item) => {
+      return (
+        <div key={item[0]}>
+          <svg width="60" height="60">
+            <use href={`./assets/${item[2]}`} />
+          </svg>
+          <H6>{item[0]}</H6>
+          <Paragraph className="text-md">{item[1]}</Paragraph>
+        </div>
+      );
+    })}
+  </div>
 
 </Section>
 
@@ -163,38 +165,40 @@ At Dwarves Consulting, our platform ops retainer keeps your platform humming, so
 
   <ParagraphBlock>
 
-    Partner with us and unlock:
-
-    <ColumnsList columns={1}>
-
-      <ListItem>
-
-        **Creative freedom:** More time to build features and iterate on AI.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Cost savings:** Slash cloud and compute costs with optimized setups.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Peace of mind:** A reliable, secure platform with 99.9% uptime.
-
-      </ListItem>
-
-      <ListItem>
-
-        **Expert backup:** Our DevOps and AI ops pros, without hiring in-house.
-
-      </ListItem>
-
-    </ColumnsList>
-
-       Teams working with us have cut costs and freed up time to focus on launching new features and adding value for users.
+    Teams working with us have cut costs and freed up time to focus on launching new features and adding value for users.
 
   </ParagraphBlock>
+
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+    {[
+      [
+        "Creative freedom",
+        "More time to build features and iterate on AI. Focus on what you love while we handle infrastructure scaling, maintenance headaches, and technical optimization behind the scenes.",
+      ],
+      [
+        "Cost savings",
+        "Slash cloud and compute costs with optimized setups. Our AI workflow optimization and infrastructure tuning typically saves clients 20-30% on their monthly cloud bills without compromising performance.",
+      ],
+      [
+        "Peace of mind",
+        "A reliable, secure platform with 99.9% uptime. Sleep better knowing your platform is monitored 24/7, automatically scales during traffic spikes, and meets enterprise security standards.",
+      ],
+      [
+        "Expert backup",
+        "Our DevOps and AI ops pros, without hiring in-house. Get instant access to senior engineers with years of platform scaling experience, without the overhead of full-time hires.",
+      ],
+    ].map((item) => {
+        const [title, description] = item;
+        return (
+          <Flex
+            key={title}
+            className={`flex-col bg-[#e7e7e7] p-10 text-[#4b4b5b] gap-0`}
+          >
+            <H6>{title}</H6>
+            <Paragraph className="whitespace-pre-line">{description}</Paragraph>
+          </Flex>
+        )
+      })}
+  </div>
 
 </Section>
