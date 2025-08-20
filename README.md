@@ -29,3 +29,7 @@ pnpm dev
 ```
 
 The website should be available at `http://localhost:3000`.
+
+## Preview Deployments
+
+This repository also supports preview deployments for feature branches using GitHub Actions. Any push to a branch other than `main` will automatically trigger a preview deployment that can be accessed at `https://dwarvesf.github.io/preview.d.foundation/preview/{branch-name}/`.
