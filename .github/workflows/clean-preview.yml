@@ -1,0 +1,87 @@
+name: Clean Preview Deployment
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment operations
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Clone preview repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git clone https://x-access-token:${{ secrets.DWARVES_PAT }}@github.com/dwarvesf/preview.d.foundation.git
+          cd preview.d.foundation
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Remove preview deployment
+        id: cleanup
+        run: |
+          cd preview.d.foundation
+          BRANCH_NAME="${{ github.event.pull_request.head.ref }}"
+          
+          if [ -d "$BRANCH_NAME" ]; then
+            echo "Removing preview deployment for branch: $BRANCH_NAME"
+            rm -rf "$BRANCH_NAME"
+            git add .
+            git commit -m "Remove preview deployment for PR #${{ github.event.pull_request.number }} ($BRANCH_NAME)"
+            git push origin main
+            echo "deployment-status=success" >> $GITHUB_OUTPUT
+          else
+            echo "No preview deployment found for branch: $BRANCH_NAME"
+            echo "deployment-status=skipped" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Add PR comment (Succeeded)
+        if: success() && steps.cleanup.outputs.deployment-status == 'success'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: "preview-${{ github.ref_name }}-cleanup"
+          message: |
+            ### Preview Deployment Cleaned Up
+
+            The preview deployment for branch `${{ github.ref_name }}` has been successfully removed.
+
+            View workflow run: [View Run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+
+      - name: Add PR comment (Skipped)
+        if: success() && steps.cleanup.outputs.deployment-status == 'skipped'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: "preview-${{ github.ref_name }}-cleanup"
+          message: |
+            ### Preview Deployment Cleanup Skipped
+
+            No preview deployment was found for branch `${{ github.ref_name }}`.
+
+            View workflow run: [View Run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+
+      - name: Add PR comment (Failed)
+        if: failure()
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: "preview-${{ github.ref_name }}-cleanup"
+          message: |
+            ### Preview Deployment Cleanup Failed
+
+            Failed to clean up the preview deployment for branch `${{ github.ref_name }}`.
+
+            View workflow run: [View Run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
