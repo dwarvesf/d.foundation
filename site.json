@@ -39,6 +39,7 @@
       "tabs": [
         {
           "tab": "Services",
+          "default-expanded": true,
           "groups": [
             {
               "groups": [
