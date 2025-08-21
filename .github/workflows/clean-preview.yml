@@ -36,8 +36,8 @@ jobs:
         id: cleanup
         run: |
           cd preview.d.foundation
-          BRANCH_NAME="${{ github.event.pull_request.head.ref }}"
-          
+          BRANCH_NAME="${{ github.ref_name }}"
+
           if [ -d "$BRANCH_NAME" ]; then
             echo "Removing preview deployment for branch: $BRANCH_NAME"
             rm -rf "$BRANCH_NAME"
@@ -54,11 +54,11 @@ jobs:
         if: success() && steps.cleanup.outputs.deployment-status == 'success'
         uses: marocchino/sticky-pull-request-comment@v2
         with:
-          header: "preview-${{ github.ref_name }}-cleanup"
+          header: "preview-${{ github.event.pull_request.head.ref }}-cleanup"
           message: |
             ### Preview Deployment Cleaned Up
 
-            The preview deployment for branch `${{ github.ref_name }}` has been successfully removed.
+            The preview deployment for branch `${{ github.event.pull_request.head.ref }}` has been successfully removed.
 
             View workflow run: [View Run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
 
@@ -66,11 +66,11 @@ jobs:
         if: success() && steps.cleanup.outputs.deployment-status == 'skipped'
         uses: marocchino/sticky-pull-request-comment@v2
         with:
-          header: "preview-${{ github.ref_name }}-cleanup"
+          header: "preview-${{ github.event.pull_request.head.ref }}-cleanup"
           message: |
             ### Preview Deployment Cleanup Skipped
 
-            No preview deployment was found for branch `${{ github.ref_name }}`.
+            No preview deployment was found for branch `${{ github.event.pull_request.head.ref }}`.
 
             View workflow run: [View Run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
 
@@ -78,10 +78,10 @@ jobs:
         if: failure()
         uses: marocchino/sticky-pull-request-comment@v2
         with:
-          header: "preview-${{ github.ref_name }}-cleanup"
+          header: "preview-${{ github.event.pull_request.head.ref }}-cleanup"
           message: |
             ### Preview Deployment Cleanup Failed
 
-            Failed to clean up the preview deployment for branch `${{ github.ref_name }}`.
+            Failed to clean up the preview deployment for branch `${{ github.event.pull_request.head.ref }}`.
 
             View workflow run: [View Run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
