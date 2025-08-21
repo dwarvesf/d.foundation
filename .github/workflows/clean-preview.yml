@@ -38,12 +38,15 @@ jobs:
           cd preview.d.foundation
           BRANCH_NAME="${{ github.event.pull_request.head.ref }}"
 
+          git fetch origin gh-pages
+          git checkout gh-pages
+
           if [ -d "$BRANCH_NAME" ]; then
             echo "Removing preview deployment for branch: $BRANCH_NAME"
             rm -rf "$BRANCH_NAME"
             git add .
             git commit -m "Remove preview deployment for PR #${{ github.event.pull_request.number }} ($BRANCH_NAME)"
-            git push origin main
+            git push origin gh-pages
             echo "deployment-status=success" >> $GITHUB_OUTPUT
           else
             echo "No preview deployment found for branch: $BRANCH_NAME"
