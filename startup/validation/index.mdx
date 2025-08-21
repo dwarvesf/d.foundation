@@ -169,43 +169,34 @@ With all the effort we put in from validation and business modeling, we can synt
 
 </Section>
 
-<Hero>
-  <Center className="flex flex-col gap-12">
-    ### Let’s validate your idea
-
-    <Flex className="flex-col lg:flex-row mx-auto">
-    <ServiceContact
-      title="Let’s validate your idea"
-      bgImage="../../contact/img/contact-illu.png"
-      serviceName="validation"
-      templateSelectFields={[
+<ServiceContact
+  title="Let’s validate your idea"
+  bgImage="../../contact/img/contact-illu.png"
+  serviceName="validation"
+  templateSelectFields={[
+    {
+      label: "What do you want to build?",
+      name: "service",
+      options: [
         {
-          label: "What do you want to build?",
-          name: "service",
-          options: [
-            {
-              label: "Standard (From $1000)",
-              description:
-                "One-page websites, mobile apps, or presenting initial ideas to investors, stakeholders, and user-testing.",
-            },
-            {
-              label: "Advanced (From $3000)",
-              description:
-                "Small website, simple app, or presenting business ideas to investors, potential clients as an MVP/demo/prototype.",
-              default: true,
-            },
-            {
-              label: "Premium (From $6000)",
-              description:
-                "Fully-formed, complex websites, apps that showcase brand story, multiple functions & offers, optimized for future evolvement.",
-            },
-          ]
+          label: "Standard (From $1000)",
+          description:
+            "One-page websites, mobile apps, or presenting initial ideas to investors, stakeholders, and user-testing.",
         },
-      ]}
-    />
-    </Flex>
-
-  </Center>
-</Hero>
+        {
+          label: "Advanced (From $3000)",
+          description:
+            "Small website, simple app, or presenting business ideas to investors, potential clients as an MVP/demo/prototype.",
+          default: true,
+        },
+        {
+          label: "Premium (From $6000)",
+          description:
+            "Fully-formed, complex websites, apps that showcase brand story, multiple functions & offers, optimized for future evolvement.",
+        },
+      ]
+    },
+  ]}
+/>
 
 <WhatNext label="MVP Development" href="/startup/mvp" />
