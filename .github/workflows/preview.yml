@@ -76,7 +76,7 @@ jobs:
           # This is the base path for the static site, adjust as needed
           REPO_CONTENT: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NEXT_PUBLIC_PAGES_BASE_PATH: /preview.d.foundation/${{ github.ref_name }}
+          NEXT_PUBLIC_PAGES_BASE_PATH: /preview.d.foundation/${{ github.event.pull_request.head.ref }}
           NEXT_PUBLIC_GOOGLE_MAPS_API_KEY: ${{ secrets.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY }}
           NEXT_PUBLIC_EMAILER_API: ${{ secrets.NEXT_PUBLIC_EMAILER_API }}
           NEXT_PUBLIC_HUBSPOT_API: ${{ secrets.NEXT_PUBLIC_HUBSPOT_API }}
@@ -86,7 +86,7 @@ jobs:
         id: deploy
         with:
           folder: out
-          target-folder: ${{ github.ref_name }}
+          target-folder: ${{ github.event.pull_request.head.ref }}
           token: ${{ secrets.DWARVES_PAT }}
           repository-name: dwarvesf/preview.d.foundation
 
@@ -94,11 +94,11 @@ jobs:
         if: success() && steps.deploy.outputs.deployment-status == 'success'
         uses: marocchino/sticky-pull-request-comment@v2
         with:
-          header: "preview-${{ github.ref_name }}-deployed"
+          header: "preview-${{ github.event.pull_request.head.ref }}-deployed"
           message: |
             ### Preview Deployment Succeeded
 
-            Preview URL: [Live Preview](https://dwarvesf.github.io/preview.d.foundation/${{ github.ref_name }})
+            Preview URL: [Live Preview](https://dwarvesf.github.io/preview.d.foundation/${{ github.event.pull_request.head.ref }})
 
             View workflow run: [View Run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
 
@@ -106,7 +106,7 @@ jobs:
         if: success() && steps.deploy.outputs.deployment-status == 'skipped'
         uses: marocchino/sticky-pull-request-comment@v2
         with:
-          header: "preview-${{ github.ref_name }}-deployed"
+          header: "preview-${{ github.event.pull_request.head.ref }}-deployed"
           message: |
             ### Preview Deployment Skipped
 
@@ -116,7 +116,7 @@ jobs:
         if: failure() || steps.deploy.outputs.deployment-status == 'failed'
         uses: marocchino/sticky-pull-request-comment@v2
         with:
-          header: "preview-${{ github.ref_name }}-deployed"
+          header: "preview-${{ github.event.pull_request.head.ref }}-deployed"
           message: |
             ### Preview Deployment Failed
 
