@@ -115,7 +115,6 @@
                 {
                   "group": "Program",
                   "tag": "new",
-                  "href": "/program",
                   "pages": [
                     ["AI co-build", "/program/ai-co-build"],
                     ["Post vibe: Platform maintenance", "/program/post-vibe"]
