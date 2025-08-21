@@ -132,11 +132,11 @@ form-options:
           "department-wins.svg",
         ],
       ].map((item) => (
-        <HStack className="p-10 gap-4 bg-[#e7e7e7] text-[#4b4b5b]" key={item[0]}>
+        <HStack className="p-10 gap-8 border border-[#e7e7e7] text-[#4b4b5b]" key={item[0]}>
           <svg svg width="64" height="64" className="shrink-0 !flex-[unset]">
             <use href={`./assets/${item[2]}`} />
           </svg>
-          <Flex className="flex-col gap-4 flex-1">
+          <Flex className="flex-col gap-3 flex-1">
             <h4 className="text-2xl font-semibold leading-8">{item[0]}</h4>
             <Paragraph className="whitespace-pre-line mt-0">{item[1]}</Paragraph>
           </Flex>
